@@ -1,0 +1,113 @@
+.modal {
+  position: fixed;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+}
+
+@media only screen and (max-width: 767px) {
+  .modal {
+    width: 100%;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .modal {
+    width: 55%;
+    left: 22.5%;
+  }
+}
+
+/* Modal & Backdrop Animation */
+
+.modal-enter {
+  opacity: 0;
+}
+.modal-enter-active {
+  opacity: 1;
+  -webkit-animation: slide-down 300ms ease-out forwards;
+  animation: slide-down 300ms ease-out forwards;
+}
+.modal-exit {
+  opacity: 1;
+}
+.modal-exit-active {
+  opacity: 0;
+  -webkit-transition: opacity 0;
+  transition: opacity 0;
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slide-up {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+    transform: translateY(3rem);
+  }
+}
+
+.backdrop-enter {
+  opacity: 0;
+}
+.backdrop-enter-active {
+  opacity: 1;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.backdrop-exit {
+  opacity: 1;
+}
+.backdrop-exit-active {
+  opacity: 0;
+  -webkit-transition: opacity 0;
+  transition: opacity 0;
+}
+
+.content {
+  height: 100%;
+}
