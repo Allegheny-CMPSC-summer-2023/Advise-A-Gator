@@ -10,9 +10,9 @@
 .modal__header {
   padding-inline-start: 24px;
   padding-inline-end: 24px;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  height: 100px;
+  /* padding-top: 1em; */
+  /* padding-bottom: 1em; */
+  /* height: 100px; */
   display: flex;
   align-items: center;
   box-shadow: 0px 1px 0px var(--gray3);
@@ -47,7 +47,7 @@
 }
 
 .topic-description {
-  font-weight: 400;
+  font-weight: 500;
   color: var(--text-gray7);
   line-height: 1.5em;
 }

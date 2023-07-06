@@ -5,8 +5,20 @@ import ModalContext from "./modalContext";
 
 const ModalDetails = (props) => {
   const { hideModal } = useContext(ModalContext);
-  const { title, description, tools, distributionRequirements } =
-    props.topicData;
+  const {
+    title,
+    description,
+    distributionRequirements,
+    credits,
+    prerequisites,
+    unlocks,
+    technicalTopics,
+    professionalTopics,
+    tools,
+    platform,
+    learningObjectives,
+    learningOutcomes,
+  } = props.topicData;
   return (
     <div className={classes["modal__content"]}>
       <div className={classes["modal__header"]}>
@@ -18,7 +30,6 @@ const ModalDetails = (props) => {
               style={{
                 fontWeight: 400,
                 color: "#495057",
-                lineHeight: "1.5em",
                 marginTop: -15,
               }}
             >
@@ -26,6 +37,31 @@ const ModalDetails = (props) => {
               {distributionRequirements[0] + " " + distributionRequirements[1]}
             </p>
           )}
+          <p
+            style={{
+              fontWeight: 400,
+              color: "#495057",
+              marginTop: -10,
+            }}
+          >
+            Credits: {credits}
+          </p>
+          <ul style={{ fontWeight: 400, color: "#495057" }}>
+            {prerequisites.allof.map((req) => (
+              <li key={req} style={{ marginTop: -10 }}>
+                Take <span style={{ fontWeight: 800 }}>{req}</span> - Must be
+                completed prior to taking this course.{" "}
+              </li>
+            ))}
+            {prerequisites.anyof.length !== 0 && (
+              <li style={{ marginTop: -10 }}>
+                {prerequisites.anyof.join(" or ")} - Take one of these classes
+              </li>
+            )}
+          </ul>
+          <p style={{ fontWeight: 400, color: "#495057" }}>
+            This course unlocks these classes: {unlocks.join(", ")}
+          </p>
         </div>
         <button
           onClick={hideModal}
