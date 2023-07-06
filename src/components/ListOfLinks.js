@@ -12,7 +12,7 @@ export const ListOfLinks = (props) => {
       <ul>
         {tools.map((tool) => {
           return (
-            <li key={tool.href}>
+            <li key={tool.title}>
               <LinkToResource
                 icon={tool.iconType}
                 title={tool.title}
