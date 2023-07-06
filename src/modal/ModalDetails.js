@@ -94,7 +94,11 @@ const ModalDetails = (props) => {
 
       <div className={classes["modal__body"]}>
         <p className={classes["topic-description"]}>{description}</p>
-        <ListOfLinks tools={tools} />
+        <ListOfLinks
+          tools={tools}
+          professionalTopics={professionalTopics}
+          technicalTopics={technicalTopics}
+        />
       </div>
       <footer className={classes["modal__footer"]}>
         <button
