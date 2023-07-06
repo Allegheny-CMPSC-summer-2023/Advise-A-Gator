@@ -17,6 +17,30 @@ export default {
     description:
       "A study of the design and implementation of autonomous software agents and robotic systems that cooperatively complete complex tasks. In addition to examining techniques for large-scale coordination and group-based decision-making, students learn how to apply the field's technologies to address the challenges facing local and global communities. Participating in hands-on activities that often require teamwork, students develop and evaluate several multi-agent or multi-robot systems, while also reflecting on the civic issues surrounding the use of these systems. During a weekly laboratory session students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
     distributionRequirements: ["CL", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["Experiment 1", "Experiment 2"],
+      allof: ["CMPSC 101", "CMPSC 102"],
+    },
+    unlocks: ["Experiment 1", "Experiment 2", "Experiment 3"],
+    technicalTopics: [
+      "Ethical Robots",
+      "Actuating",
+      "Sensing",
+      "Locomotion",
+      "Modularity",
+      "Navigation",
+      "Robot Operating System",
+      "Manipulation",
+      "Mapping",
+      "Learning in robotics",
+    ],
+    professionalTopics: [
+      "community engagement",
+      "teamwork",
+      "code review",
+      "communication",
+    ],
     tools: [
       {
         iconType: "tool",
@@ -59,12 +83,28 @@ export default {
         title: "GitHub",
       },
     ],
+    paltform: ["https://learnroboticagents.com"],
+    learningObjectives: [
+      "Understand the field of agent-based and robotic systems",
+      "Gain exposure to multiple different robot platforms",
+      "Design and develop several robot applications",
+      "Learn about and reflect on public problems that involve robotic technology",
+      "Participate in civic engagement activities",
+    ],
+    learningOutcomes: [
+      "Able to design, implement, and test application for a wheeled robot",
+      "Able to design, implement, and test application for a drone",
+      "Able to design, implement, and test application for a robotic arm",
+      "Can develop a simple application using ROS",
+      "Can put together engaging demonstrations using robots for public events",
+    ],
   },
 
-  "Product Strategy": {
-    title: "Product Strategy",
+  "CMPSC 201": {
+    title: "Programming Languages",
     description:
-      "Product strategy involves the planning and execution of the development and management of a product or service. It includes identifying the target market, defining the features and benefits of the product, and determining the pricing, distribution, and promotion strategies that will be used to bring the product to market. Effective product strategy requires a deep understanding of the target market, the competition, and the industry landscape, as well as the ability to adapt and adjust the product as needed in response to changing market conditions and customer needs.",
+      "A study of the fundamental concepts that arise in different programming language paradigms. Students learn how programming languages are designed and implemented, and how these factors affect the overall usability, performance, and effectiveness of computer software. Participating in hands-on activities that often require teamwork, students gain experience in leveraging the styles and features of programming languages to implement and evaluate correct and efficient computer software. During a weekly laboratory session, students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["QR", "SP"],
     tools: [
       {
         iconType: "article",
