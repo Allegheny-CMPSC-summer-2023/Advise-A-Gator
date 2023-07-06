@@ -31,6 +31,7 @@ export const ListOfLinks = (props) => {
           <ul style={{ listStyleType: "circle" }}>
             {technicalTopics.map((topic) => (
               <li
+                key={topic}
                 style={{
                   marginTop: "1em",
                   marginRight: 0,
@@ -45,7 +46,7 @@ export const ListOfLinks = (props) => {
           <h3>Professional Topics</h3>
           <ul style={{ listStyleType: "circle" }}>
             {professionalTopics.map((topic) => (
-              <li>{topic}</li>
+              <li key={topic}>{topic}</li>
             ))}
           </ul>
         </div>
