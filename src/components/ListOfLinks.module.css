@@ -25,7 +25,9 @@ hr {
 }
 
 .resources {
+  display: flex;
   margin-top: 2em;
+  
 }
 
 .resources h3 {
