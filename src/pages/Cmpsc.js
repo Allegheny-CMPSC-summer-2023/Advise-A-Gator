@@ -1,6 +1,6 @@
 import React from "react";
 
-import ProductThinkingBlock from "../components/ProductThinkingBlock";
+import ComputerScienceMajorBlock from "../components/ComputerScienceMajorBlock";
 import classes from "../layout/MainContainer.module.css";
 // import Lines from "./components/Lines";
 import boxesData from "../boxesData";
@@ -60,7 +60,7 @@ const MainContainer = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <ProductThinkingBlock boxData={boxesData["csMajor"]} />
+        <ComputerScienceMajorBlock boxData={boxesData["csMajor"]} />
         <Lines />
       </svg>
     </div>
