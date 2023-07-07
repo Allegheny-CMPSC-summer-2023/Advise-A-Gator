@@ -18,7 +18,7 @@ const MainContainer = () => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <ComputerScienceMajorBlock boxData={boxesData["csMajor"]} />
-        <DataScienceMajorBlock boxData={boxesData["research"]} />
+        <DataScienceMajorBlock boxData={boxesData["dsMajor"]} />
         <UserExperienceBlock boxData={boxesData["userExperience"]} />
         <UserInterfaceBlock boxData={boxesData["userInterface"]} />
         <CommunicationBlock boxData={boxesData["communication"]} />

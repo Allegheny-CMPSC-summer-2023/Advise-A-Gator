@@ -57,7 +57,7 @@ const DataScienceMajorContainer = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <DataScienceMajorBlock boxData={boxesData["research"]} />
+        <DataScienceMajorBlock boxData={boxesData["dsMajor"]} />
         <Lines />
       </svg>
     </div>
