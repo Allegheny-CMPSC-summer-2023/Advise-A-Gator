@@ -2,11 +2,8 @@ import React from "react";
 
 import ComputerScienceMajorBlock from "../components/ComputerScienceMajorBlock";
 import classes from "../layout/MainContainer.module.css";
-// import Lines from "./components/Lines";
 import boxesData from "../boxesData";
-// import MainContainer from "./layout/MainContainer";
 import { useState, useEffect, useContext } from "react";
-import Header from "../layout/Header";
 import Modal from "../modal/Modal";
 import CartContext from "../modal/modalContext";
 import contentData from "../contentData";
@@ -52,7 +49,7 @@ const Lines = () => {
   );
 };
 
-const MainContainer = () => {
+const ComputerScienceMajorContainer = () => {
   return (
     <div className={classes["main-container"]}>
       <svg
@@ -67,7 +64,7 @@ const MainContainer = () => {
   );
 };
 
-function App() {
+function ComputerScienceMajor() {
   const { currentTopicTitle } = useContext(CartContext);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -84,11 +81,11 @@ function App() {
       <Modal topicData={topicData} />
       <main>
         {isLoading && <Loader />}
-        <MainContainer />
+        <ComputerScienceMajorContainer />
       </main>
       <Footer></Footer>
     </div>
   );
 }
 
-export default App;
+export default ComputerScienceMajor;
