@@ -37,15 +37,18 @@ const ModalDetails = (props) => {
               {distributionRequirements[0] + " " + distributionRequirements[1]}
             </p>
           )}
-          <p
-            style={{
-              fontWeight: 400,
-              color: "#495057",
-              marginTop: -10,
-            }}
-          >
-            Credits: {credits}
-          </p>
+
+          {credits.length !== 0 && (
+            <p
+              style={{
+                fontWeight: 400,
+                color: "#495057",
+                marginTop: -10,
+              }}
+            >
+              Credits: {credits}
+            </p>
+          )}
           <ul style={{ fontWeight: 400, color: "#495057" }}>
             {prerequisites.allof.map((req) => (
               <li key={req} style={{ marginTop: -10 }}>
