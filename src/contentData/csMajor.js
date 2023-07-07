@@ -133,27 +133,43 @@ export default {
       },
     ],
   },
-  "Value Proposition": {
-    title: "Value Proposition",
+  "CMPSC 529": {
+    title: "Internship",
     description:
-      "Value proposition is a statement that clearly communicates the benefits and value that a company's product or service offers to its customers. It explains how the product or service solves a problem or fulfills a need, and why it is better than other options on the market. A strong value proposition helps a company stand out from its competitors and attract potential customers by highlighting the unique value it offers.",
+      "Academic study completed in support of an internship experience with a partner institution. An Allegheny faculty member assigns and evaluates the academic work done by the student. May be repeated for credit. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "4",
+    prerequisites: {
+      anyof: ["permission from the instructor"],
+      allof: [],
+    },
+    unlocks: [],
+    technicalTopics: ["topics vary based on the assigned industry project"],
+    professionalTopics: ["teamwork", "meetings", "communication"],
     tools: [
       {
-        iconType: "video",
-        title: "Harvard i-lab | Startup Secrets: Value Proposition",
-        href: "https://www.youtube.com/watch?v=6pKW-ehL7dU",
+        iconType: "tool",
+        title: "GitHub",
       },
       {
-        iconType: "article",
-        title:
-          "How to Write a Great Value Proposition [5 Top Examples + Template]",
-        href: "https://blog.hubspot.com/marketing/write-value-proposition",
+        iconType: "tool",
+        title: "Git",
       },
-      {
-        iconType: "article",
-        title: "What Is a Value Proposition? (+ 8 Winning Examples)",
-        href: "https://www.shopify.com/blog/value-proposition",
-      },
+    ],
+    platform: ["https://github.com/CMPSC-529-Allegheny-CS-Internship"],
+    learningObjectives: [
+      "Gain hands-on experience working with an industry partner",
+      "Experiment with new technologies",
+      "Engage in appropriate industry practices related to the project",
+      "Enhance ability to write and present ideas about a technical project",
+      "Expand team working experiences",
+    ],
+    learningOutcomes: [
+      "Able to gather project requirements from an industry partner",
+      "Can follow established processes while working in a team",
+      "Able to work in an iterative manner on a project",
+      "Able to create and deploy a solution that is satisfactory to the industry partner",
+      "Can effectively and clearly communicate with team members and industry supervisors",
     ],
   },
   "Product-Market Fit": {

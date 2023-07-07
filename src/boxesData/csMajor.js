@@ -64,7 +64,7 @@ export default {
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
-      text: "Product Strategy",
+      text: "CMPSC 201",
       hoverColor: "blue1",
     },
     {
@@ -74,7 +74,7 @@ export default {
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
-      text: "Value Proposition",
+      text: "CMPSC 529",
       hoverColor: "blue1",
     },
     {
