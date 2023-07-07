@@ -27,28 +27,36 @@ export const ListOfLinks = (props) => {
           </ul>
         </div>
         <div style={{ marginLeft: "auto", marginRight: "auto" }}>
-          <h3>Technical Topics</h3>
-          <ul style={{ listStyleType: "circle" }}>
-            {technicalTopics.map((topic) => (
-              <li
-                key={topic}
-                style={{
-                  marginTop: "1em",
-                  marginRight: 0,
-                  marginBottom: "1em",
-                  marginLeft: 0,
-                }}
-              >
-                {topic}
-              </li>
-            ))}
-          </ul>
-          <h3>Professional Topics</h3>
-          <ul style={{ listStyleType: "circle" }}>
-            {professionalTopics.map((topic) => (
-              <li key={topic}>{topic}</li>
-            ))}
-          </ul>
+          {technicalTopics.length !== 0 && (
+            <div>
+              <h3>Technical Topics</h3>
+              <ul style={{ listStyleType: "circle" }}>
+                {technicalTopics.map((topic) => (
+                  <li
+                    key={topic}
+                    style={{
+                      marginTop: "1em",
+                      marginRight: 0,
+                      marginBottom: "1em",
+                      marginLeft: 0,
+                    }}
+                  >
+                    {topic}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {professionalTopics.length !== 0 && (
+            <div>
+              <h3>Professional Topics</h3>
+              <ul style={{ listStyleType: "circle" }}>
+                {professionalTopics.map((topic) => (
+                  <li key={topic}>{topic}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </div>
