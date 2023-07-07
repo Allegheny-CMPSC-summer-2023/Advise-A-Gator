@@ -19,7 +19,7 @@ export default {
         href: "https://www.cs.allegheny.edu/teaching/bulletin/#cmpsc",
       },
     ],
-    paltform: ["https://www.cs.allegheny.edu/"],
+    platform: ["https://www.cs.allegheny.edu/"],
     learningObjectives: [],
     learningOutcomes: [],
   },
@@ -94,7 +94,7 @@ export default {
         title: "GitHub",
       },
     ],
-    paltform: ["https://learnroboticagents.com"],
+    platform: ["https://learnroboticagents.com"],
     learningObjectives: [
       "Understand the field of agent-based and robotic systems",
       "Gain exposure to multiple different robot platforms",
