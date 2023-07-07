@@ -24,7 +24,6 @@ const ModalDetails = (props) => {
       <div className={classes["modal__header"]}>
         <div>
           <h2 className={classes["modal__title"]}>{title}</h2>
-          {console.log(props)}
           {distributionRequirements.length !== 0 && (
             <p
               style={{
