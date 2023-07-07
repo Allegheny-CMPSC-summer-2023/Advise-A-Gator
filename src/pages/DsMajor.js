@@ -1,8 +1,13 @@
 import React from "react";
+import { useState, useEffect, useContext } from "react";
 
 import classes from "../layout/MainContainer.module.css";
-// import Lines from "./components/Lines";
 import boxesData from "../boxesData";
+import Modal from "../modal/Modal";
+import CartContext from "../modal/modalContext";
+import contentData from "../contentData";
+import Loader from "../layout/Loader";
+import Footer from "../layout/Footer";
 import DataScienceMajorBlock from "../components/DataScienceMajorBlock";
 
 const Lines = () => {
@@ -44,7 +49,7 @@ const Lines = () => {
   );
 };
 
-const MainContainer = () => {
+const DataScienceMajorContainer = () => {
   return (
     <div className={classes["main-container"]}>
       <svg
@@ -59,4 +64,28 @@ const MainContainer = () => {
   );
 };
 
-export default MainContainer;
+function DataScienceMajor() {
+  const { currentTopicTitle } = useContext(CartContext);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 100);
+  }, []);
+
+  const topicData = contentData[currentTopicTitle];
+
+  return (
+    <div>
+      <Modal topicData={topicData} />
+      <main>
+        {isLoading && <Loader />}
+        <DataScienceMajorContainer />
+      </main>
+      <Footer></Footer>
+    </div>
+  );
+}
+
+export default DataScienceMajor;
