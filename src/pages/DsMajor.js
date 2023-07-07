@@ -1,13 +1,14 @@
 import React from "react";
+import { useState, useEffect, useContext } from "react";
 
-import ProductThinkingBlock from "../components/ProductThinkingBlock";
 import classes from "../layout/MainContainer.module.css";
-// import Lines from "./components/Lines";
 import boxesData from "../boxesData";
-import ResearchBlock from "../components/ResearchBlock";
-import UserExperienceBlock from "../components/UserExperienceBlock";
-import UserInterfaceBlock from "../components/UserInterfaceBlock";
-import CommunicationBlock from "../components/CommunicationBlock";
+import Modal from "../modal/Modal";
+import CartContext from "../modal/modalContext";
+import contentData from "../contentData";
+import Loader from "../layout/Loader";
+import Footer from "../layout/Footer";
+import DataScienceMajorBlock from "../components/DataScienceMajorBlock";
 
 const Lines = () => {
   return (
@@ -48,7 +49,7 @@ const Lines = () => {
   );
 };
 
-const MainContainer = () => {
+const DataScienceMajorContainer = () => {
   return (
     <div className={classes["main-container"]}>
       <svg
@@ -56,11 +57,35 @@ const MainContainer = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <ResearchBlock boxData={boxesData["research"]} />
+        <DataScienceMajorBlock boxData={boxesData["dsMajor"]} />
         <Lines />
       </svg>
     </div>
   );
 };
 
-export default MainContainer;
+function DataScienceMajor() {
+  const { currentTopicTitle } = useContext(CartContext);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 100);
+  }, []);
+
+  const topicData = contentData[currentTopicTitle];
+
+  return (
+    <div>
+      <Modal topicData={topicData} />
+      <main>
+        {isLoading && <Loader />}
+        <DataScienceMajorContainer />
+      </main>
+      <Footer></Footer>
+    </div>
+  );
+}
+
+export default DataScienceMajor;

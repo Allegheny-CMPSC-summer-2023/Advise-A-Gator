@@ -19,7 +19,7 @@ export default {
         href: "https://www.cs.allegheny.edu/teaching/bulletin/#cmpsc",
       },
     ],
-    paltform: ["https://www.cs.allegheny.edu/"],
+    platform: ["https://www.cs.allegheny.edu/"],
     learningObjectives: [],
     learningOutcomes: [],
      },

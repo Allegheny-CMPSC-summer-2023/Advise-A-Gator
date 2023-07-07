@@ -1,7 +1,7 @@
 import React from "react";
 import BoxSwitch from "./boxes/BoxSwitch";
 
-const ProductThinkingBlock = (props) => {
+const ComputerScienceMajorBlock = (props) => {
   const { absoluteX, absoluteY, boxes } = props.boxData;
   return (
     <React.Fragment>
@@ -19,4 +19,4 @@ const ProductThinkingBlock = (props) => {
   );
 };
 
-export default ProductThinkingBlock;
+export default ComputerScienceMajorBlock;
