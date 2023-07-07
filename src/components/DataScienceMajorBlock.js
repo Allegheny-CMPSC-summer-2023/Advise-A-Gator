@@ -1,7 +1,7 @@
 import React from "react";
 import BoxSwitch from "./boxes/BoxSwitch";
 
-const ResearchBlock = (props) => {
+const DataScienceMajorBlock = (props) => {
   const { absoluteX, absoluteY, boxes } = props.boxData;
   return (
     <React.Fragment>
@@ -19,4 +19,4 @@ const ResearchBlock = (props) => {
   );
 };
 
-export default ResearchBlock;
+export default DataScienceMajorBlock;

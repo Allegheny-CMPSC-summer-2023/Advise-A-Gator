@@ -4,7 +4,7 @@ import ComputerScienceMajorBlock from "../components/ComputerScienceMajorBlock";
 import classes from "./MainContainer.module.css";
 import Lines from "../components/Lines";
 import boxesData from "../boxesData";
-import ResearchBlock from "../components/ResearchBlock";
+import DataScienceMajorBlock from "../components/DataScienceMajorBlock";
 import UserExperienceBlock from "../components/UserExperienceBlock";
 import UserInterfaceBlock from "../components/UserInterfaceBlock";
 import CommunicationBlock from "../components/CommunicationBlock";
@@ -18,7 +18,7 @@ const MainContainer = () => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <ComputerScienceMajorBlock boxData={boxesData["csMajor"]} />
-        <ResearchBlock boxData={boxesData["research"]} />
+        <DataScienceMajorBlock boxData={boxesData["research"]} />
         <UserExperienceBlock boxData={boxesData["userExperience"]} />
         <UserInterfaceBlock boxData={boxesData["userInterface"]} />
         <CommunicationBlock boxData={boxesData["communication"]} />

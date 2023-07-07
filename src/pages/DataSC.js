@@ -3,7 +3,7 @@ import React from "react";
 import classes from "../layout/MainContainer.module.css";
 // import Lines from "./components/Lines";
 import boxesData from "../boxesData";
-import ResearchBlock from "../components/ResearchBlock";
+import DataScienceMajorBlock from "../components/DataScienceMajorBlock";
 
 const Lines = () => {
   return (
@@ -52,7 +52,7 @@ const MainContainer = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <ResearchBlock boxData={boxesData["research"]} />
+        <DataScienceMajorBlock boxData={boxesData["research"]} />
         <Lines />
       </svg>
     </div>
