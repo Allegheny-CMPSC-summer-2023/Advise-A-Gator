@@ -44,7 +44,7 @@ export default {
       width: 243,
       height: 153,
       fillColor: "blue0",
-      text: "Success Metrics",
+      text: "Project",
     },
     {
       type: "tertiaryBox",
@@ -174,7 +174,7 @@ export default {
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
-      text: "Business Metrics",
+      text: "CMPSC 580",
       hoverColor: "blue1",
     },
     {
@@ -184,7 +184,7 @@ export default {
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
-      text: "Design Metrics",
+      text: "CMPSC 600",
       hoverColor: "blue1",
     },
   ],
