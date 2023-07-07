@@ -43,7 +43,7 @@ export default {
     ],
     tools: [
       {
-        iconType: "tool",
+        iconType: "python",
         title: "Python",
       },
       {
