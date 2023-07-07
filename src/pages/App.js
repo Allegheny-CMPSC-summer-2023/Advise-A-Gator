@@ -1,12 +1,12 @@
-import MainContainer from "./layout/MainContainer";
+import MainContainer from "../layout/MainContainer";
 import { useState, useEffect, useContext } from "react";
-import Header from "./layout/Header";
-import Modal from "./modal/Modal";
-import CartContext from "./modal/modalContext";
-import contentData from "./contentData";
-import Loader from "./layout/Loader";
-import Footer from "./layout/Footer";
-import { YoutubeBanner } from "./components/YoutubeBanner";
+import Header from "../layout/Header";
+import Modal from "../modal/Modal";
+import CartContext from "../modal/modalContext";
+import contentData from "../contentData";
+import Loader from "../layout/Loader";
+import Footer from "../layout/Footer";
+import { YoutubeBanner } from "../components/YoutubeBanner";
 
 function App() {
   const { currentTopicTitle } = useContext(CartContext);

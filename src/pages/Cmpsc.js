@@ -1,17 +1,17 @@
 import React from "react";
 
-import ProductThinkingBlock from "./components/ProductThinkingBlock";
-import classes from "./layout/MainContainer.module.css";
+import ProductThinkingBlock from "../components/ProductThinkingBlock";
+import classes from "../layout/MainContainer.module.css";
 // import Lines from "./components/Lines";
-import boxesData from "./boxesData";
+import boxesData from "../boxesData";
 // import MainContainer from "./layout/MainContainer";
 import { useState, useEffect, useContext } from "react";
-import Header from "./layout/Header";
-import Modal from "./modal/Modal";
-import CartContext from "./modal/modalContext";
-import contentData from "./contentData";
-import Loader from "./layout/Loader";
-import Footer from "./layout/Footer";
+import Header from "../layout/Header";
+import Modal from "../modal/Modal";
+import CartContext from "../modal/modalContext";
+import contentData from "../contentData";
+import Loader from "../layout/Loader";
+import Footer from "../layout/Footer";
 
 const Lines = () => {
   return (
@@ -83,7 +83,6 @@ function App() {
     <div>
       <Modal topicData={topicData} />
       <main>
-        <Header></Header>
         {isLoading && <Loader />}
         <MainContainer />
       </main>

@@ -1,13 +1,13 @@
 import React from "react";
 
-import ProductThinkingBlock from "./components/ProductThinkingBlock";
-import classes from "./layout/MainContainer.module.css";
+import ProductThinkingBlock from "../components/ProductThinkingBlock";
+import classes from "../layout/MainContainer.module.css";
 // import Lines from "./components/Lines";
-import boxesData from "./boxesData";
-import ResearchBlock from "./components/ResearchBlock";
-import UserExperienceBlock from "./components/UserExperienceBlock";
-import UserInterfaceBlock from "./components/UserInterfaceBlock";
-import CommunicationBlock from "./components/CommunicationBlock";
+import boxesData from "../boxesData";
+import ResearchBlock from "../components/ResearchBlock";
+import UserExperienceBlock from "../components/UserExperienceBlock";
+import UserInterfaceBlock from "../components/UserInterfaceBlock";
+import CommunicationBlock from "../components/CommunicationBlock";
 
 const Lines = () => {
   return (
