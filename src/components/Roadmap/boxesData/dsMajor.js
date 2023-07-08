@@ -1,5 +1,5 @@
 export default {
-  absoluteY: 620,
+  absoluteY: 90,
   absoluteX: 76,
   boxes: [
     {
