@@ -8,7 +8,7 @@ export default {
       y: 155,
       strokeColor: "orange5",
       hoverColor: "orange0",
-      text: "Communication",
+      text: "Informatics Major",
     },
     {
       type: "multiBox",
@@ -213,7 +213,7 @@ export default {
       width: 150,
       fillColor: "orange0",
       strokeColor: "orange4",
-      text: "Soft Skills",
+      text: "Application Modules",
       hoverColor: "orange1",
     },
     {

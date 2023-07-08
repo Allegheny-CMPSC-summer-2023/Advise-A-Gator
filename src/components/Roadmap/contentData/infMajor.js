@@ -1,685 +1,1280 @@
 export default {
-  "User Experience": {
-    title: "User Experience",
+  "Informatics Major": {
+    title: "Informatics Major",
     description:
-      "User Experience (UX) is the process of creating interaction designs between users and products. Design decisions in UX design are driven by research, data analysis, and test results rather than aesthetic preferences and opinions. UX design encompasses all aspects of the user's perceived experience with a product or website, such as its usability, usefulness, desirability, brand perception, and overall performance.",
-    links: [
-      {
-        iconType: "article",
-        title:
-          "What is the design process? — and why every designer should know about it",
-        href: "https://medium.com/user-experience-design-1/what-is-the-design-process-and-why-every-designer-should-know-about-it-baab017eed82",
-      },
-
+      "Because this program is Interdisciplinary Studies, students who major in Informatics may complete any minor to satisfy the college requirement that the major and minor be in different areas of study. However, students who major in Informatics may not double-major or minor in Computer Science, Data Science, or Software Engineering. The Informatics major leads to the Bachelor of Arts or the Bachelor of Science degree (students may elect to receive either degree) and requires a minimum of 48 semester credit hours. At most one of the foundation courses (CMPSC 100, CMPSC 101, or CMPSC 105) may be presented for the major on the Credit/No Credit grade basis. Courses with prerequisites are marked with an asterisk (*).",
+    distributionRequirements: [],
+    credits: "",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
       {
         iconType: "book",
-        title: "Universal Principles of Design",
-        href: "https://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=sr_1_2?crid=2SUZVNW2CCA53&keywords=universal+principles+of+design&qid=1655150221&sprefix=universal+principle%2Caps%2C94&sr=8-2",
-      },
-      {
-        iconType: "book",
-        title: "The Design of Everyday Things",
-        href: "https://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654",
-      },
-      {
-        iconType: "article",
-        title: "The Best UX resources 2022",
-        href: "https://blog.uxtweak.com/best-ux-resources/",
-      },
-      {
-        iconType: "video",
-        title: "What Is UX Design? - A Full Overview",
-        href: "https://www.youtube.com/watch?v=SRec90j6lTY",
+        title: "Allegheny College Computer Science Academic Bulletin",
+        href: "https://www.cs.allegheny.edu/teaching/bulletin/#cmpsc",
       },
     ],
+    platform: ["https://www.cs.allegheny.edu/"],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-
-  "UX Benchmarking": {
-    title: "UX Benchmarking",
+  "Application Modules": {
+    title: "Application Modules",
     description:
-      "UX benchmarking is the process of evaluating a product or service’s user experience by using metrics. Benchmarking can be a useful method for generating quantitative comparisons (for example, tracking the time it takes to complete a task before and after a significant change in the user interface).",
-    links: [
-      {
-        iconType: "article",
-        title: "Benchmarking UX: Tracking Metrics",
-        href: "https://www.nngroup.com/articles/benchmarking-ux/",
-      },
-      {
-        iconType: "article",
-        title: "7 Steps to Benchmark Your Product’s UX",
-        href: "https://www.nngroup.com/articles/product-ux-benchmarks/",
-      },
-
-      {
-        iconType: "article",
-        title: "The Top 5 UX Benchmarking Tips for Designers",
-        href: "https://xd.adobe.com/ideas/process/user-testing/5-ux-benchmarking-tips-for-designers/",
-      },
-
-      {
-        iconType: "article",
-        title: "Usability benchmarking | GitLab",
-        href: "https://about.gitlab.com/handbook/engineering/ux/ux-research-training/usability-benchmarking/",
-      },
-    ],
+      "Choose a minimum of two courses (8 credits) from a minimum of one application module. Students should consult with an advisor to design their application module coursework in relation to their interests, questions, and goals, as well as their overall program of study.",
+    distributionRequirements: [],
+    credits: "",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    platform: ["https://www.cs.allegheny.edu/"],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-
-  "Design Thinking": {
-    title: "Design Thinking",
+  "CMPSC 100": {
+    title: "Computational Expression",
     description:
-      "Design thinking is the human-centered approach to innovation in which designers seek to understand users, define problems, and create innovative solutions which you can prototype and test. Design thinking was adapted for business purposes by Faste's Stanford colleague David M. Kelley, who founded the design consultancy IDEO in 1991.",
-    links: [
+      "An introduction to the principles of computer science with an emphasis on creative expression through the medium of a programming language. Participating in hands-on activities that often require teamwork, students learn the computational structures needed to solve problems and produce computational artifacts which address these problems in real-world contexts. Students also learn how to organize and document a program's source code so that it effectively communicates with the intended users and maintainers. Additionally, the introduction includes an overview of the discipline of computer science and computational thinking. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["ME", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["Knowledge of elementary algebra"],
+    },
+    unlocks: ["CMPSC 101", "CMPSC 102", "CMPSC 300"],
+    topics: [
+      "Object-oriented programming (OOP)",
+      "Teamwork",
+      "Version control systems",
+      "Integrated development environments (IDE)",
+      "Iteration",
+      "Python programming",
+      "Functions",
+      "GitHub Flow",
+      "Markdown",
+    ],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
       {
-        iconType: "article",
-        title: "What is Design Thinking?",
-        href: "https://www.ideou.com/blogs/inspiration/what-is-design-thinking",
+        iconType: "tool",
+        title: "Python",
       },
       {
-        iconType: "article",
-        title: "Design Thinking Defined",
-        href: "https://designthinking.ideo.com/",
+        iconType: "tool",
+        title: "VSCode",
       },
       {
-        iconType: "article",
-        title: "What is Design Thinking and Why Is It So Popular?",
-        href: "https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular",
+        iconType: "tool",
+        title: "Git",
       },
       {
-        iconType: "article",
-        title: "Design Thinking 101",
-        href: "https://www.nngroup.com/articles/design-thinking/",
-      },
-      {
-        iconType: "article",
-        title: "The Value of Design Thinking in Business",
-        href: "https://www.toptal.com/designers/product-design/design-thinking-business-value",
+        iconType: "tool",
+        title: "GitHub",
       },
     ],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-
-  Personas: {
-    title: "Personas",
+  "CMPSC 300": {
+    title: "Bioinformatics",
     description:
-      "Personas are the fictional characters that represent different user types. Personas are useful in considering the user's needs, goals, motivations, and behaviors and help to guide design decisions about a product and its specific features, interaction, and visual design.",
-    links: [
+      "An introduction to the development and application of methods, from the computational and information sciences, for the investigation of biological phenomena. In this interdisciplinary course, students integrate computational techniques with biological knowledge to develop and use analytical tools for extracting, organizing, and interpreting information from genetic sequence data. Often participating in team-based and hands-on activities, students implement and apply useful bioinformatics algorithms. During a weekly laboratory session students employ cutting-edge software tools and programming environments to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["QR", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["CMPSC 100", "BIO 221", "FSBIO 201"],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [
+      "Ethics",
+      "Sequence Alignment",
+      "Code Review",
+      "Philosophy of Biology",
+      "Databases",
+      "Mathematical Programming",
+      "Genetic Mutation",
+      "Bioinformatics",
+      "Gene Prediction",
+      "Data Modeling",
+    ],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
       {
-        iconType: "article",
-        title: "Personas Make Users Memorable for Product Team Members",
-        href: "https://www.nngroup.com/articles/persona/",
+        iconType: "tool",
+        title: "BLAST",
       },
       {
-        iconType: "article",
-        title: "A Closer Look At Personas: What They Are And How They Work",
-        href: "https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/",
+        iconType: "tool",
+        title: "UniProt",
       },
       {
-        iconType: "article",
-        title: "A Guide To Personas",
-        href: "https://medium.com/beakerandflint/personas-74c4e1c12ee2",
+        iconType: "tool",
+        title: "Docker",
+      },
+      {
+        iconType: "tool",
+        title: "GatorGrader",
+      },
+      {
+        iconType: "tool",
+        title: "GitHub",
       },
     ],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Empathy Map": {
-    title: "Empathy Map",
+  "CMPSC 105": {
+    title: "Data Exploration",
     description:
-      "Empathy map is the visualization tool that teams use to gain a deeper understanding of users/customers and their behaviors, attitudes, and needs.",
-    links: [
+      "An introduction to the methods of collecting, exploring, transforming and visualizing data for storytelling. Often participating in team-based and hands-on activities, students learn how to use web platforms and dashboards to acquire, explore and investigate data to generate summarized key data insights using visual techniques. Students also apply open-source programming language to discover patterns in the data, test hypotheses, and check assumptions using graphical representations. During a weekly laboratory session, students employ cutting-edge software tools to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["QR", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: ["Teamwork", "Data Structures", "Recursion"],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
       {
-        iconType: "article",
-        title: "Empathy Mapping: The First Step in Design Thinking",
-        href: "https://www.nngroup.com/articles/empathy-mapping/",
+        iconType: "tool",
+        title: "Docker",
       },
       {
-        iconType: "article",
-        title: "Empathy Mapping: A Guide to Getting Inside a User’s Head",
-        href: "https://www.uxbooth.com/articles/empathy-mapping-a-guide-to-getting-inside-a-users-head/",
+        iconType: "tool",
+        title: "GitHub",
       },
       {
-        iconType: "article",
-        title: "Empathy Map – Why and How to Use It",
-        href: "https://www.interaction-design.org/literature/article/empathy-map-why-and-how-to-use-it",
+        iconType: "tool",
+        title: "Git",
       },
     ],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Customer Journey Map": {
-    title: "Customer Journey Map",
+  "CMPSC 101": {
+    title: "Data Abstraction",
     description:
-      "Customer journey maps are used to map the relationship between the customer and the organization over time and across all channels. Design teams use them to see how customer experiences meet customers’ expectations and find areas where designs could be improved.",
-    links: [
+      "An exploration of technologies and data relationships which power modern web applications. Participating in hands-on activities which require teamwork, students build web applications that incorporate the full stack, including databases, application programming interfaces (APIs), and public-facing web pages or mobile applications. Students develop a broad knowledge of different development approaches, languages, and design paradigms to learn advantages and disadvantages of technologies and frameworks. During weekly laboratory sessions, students participate in iterative design processes and report progress and technical details through written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["QR", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["CMPSC 100", "permission of the instructor."],
+      allof: [],
+    },
+    unlocks: [
+      "CMPSC 201",
+      "CMPSC 202",
+      "CMPSC 203",
+      "CMPSC 301",
+      "CMPSC 303",
+      "CMPSC 304",
+      "CMPSC 305",
+      "CMPSC 350",
+    ],
+    topics: [
+      "Teamwork",
+      "Recursion",
+      "Time Complexity",
+      "Data Structures",
+      "Object-oriented Programming",
+      "Data Analysis",
+      "Iteration",
+      "Version Control Systems",
+      "Technical Writing",
+      "Algorithms",
+      "Statistical Analysis",
+      "Software Design",
+      "Continuous Deployment",
+      "Flow of Control",
+      "Computational Thinking",
+      "Code Review",
+    ],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
       {
-        iconType: "article",
-        title: "Customer Journey Maps",
-        href: "https://www.interaction-design.org/literature/topics/customer-journey-map",
+        iconType: "tool",
+        title: "Docker",
       },
       {
-        iconType: "article",
-        title: "How to Create a Customer Journey Map",
-        href: "https://medium.com/choice-hacking/how-to-create-a-customer-journey-map-ffbd580284d7",
+        iconType: "tool",
+        title: "Java",
       },
       {
-        iconType: "article",
-        title: "UX Mapping Methods Compared: A Cheat Sheet",
-        href: "https://www.nngroup.com/articles/ux-mapping-cheat-sheet/",
+        iconType: "tool",
+        title: "Git",
+      },
+      {
+        iconType: "tool",
+        title: "Linters",
+      },
+      {
+        iconType: "tool",
+        title: "GitHub",
+      },
+      {
+        iconType: "tool",
+        title: "Markdown",
+      },
+      {
+        iconType: "tool",
+        title: "Gradle",
+      },
+      {
+        iconType: "tool",
+        title: "Travis CI",
       },
     ],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Problem Statement": {
-    title: "Problem Statement",
+  "CMPSC 304": {
+    title: "Robotic Agents",
     description:
-      "Problem statement is the concise description of the problem that needs to be solved. A great definition of a problem statement will guide you and your team to kick-start the ideation process in the right direction.",
-    links: [
+      "A study of the design and implementation of autonomous software agents and robotic systems that cooperatively complete complex tasks. In addition to examining techniques for large-scale coordination and group-based decision-making, students learn how to apply the field's technologies to address the challenges facing local and global communities. Participating in hands-on activities that often require teamwork, students develop and evaluate several multi-agent or multi-robot systems, while also reflecting on the civic issues surrounding the use of these systems. During a weekly laboratory session students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["CL", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 101", "CMPSC 102"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [
+      "Ethical Robots",
+      "Actuating",
+      "Sensing",
+      "Locomotion",
+      "Modularity",
+      "Navigation",
+      "Robot Operating System",
+      "Manipulation",
+      "Mapping",
+      "Learning in robotics",
+    ],
+    professionalTopics: [
+      "community engagement",
+      "teamwork",
+      "code review",
+      "communication",
+    ],
+    tools: [
       {
-        iconType: "article",
-        title: "What are Problem Statements?",
-        href: "https://www.interaction-design.org/literature/topics/problem-statements",
+        iconType: "tool",
+        title: "Python",
       },
       {
-        iconType: "article",
-        title: "Problem Statements in UX Discovery",
-        href: "https://www.nngroup.com/articles/problem-statements",
+        iconType: "tool",
+        title: "ROS",
       },
       {
-        iconType: "article",
-        title:
-          "Design Problem Statements – What They Are and How to Frame Them",
-        href: "https://www.toptal.com/designers/product-design/design-problem-statement",
+        iconType: "tool",
+        title: "Arduino",
       },
       {
-        iconType: "article",
-        title: "User Need Statements: The ‘Define’ Stage in Design Thinking",
-        href: "https://www.nngroup.com/articles/user-need-statements",
+        iconType: "tool",
+        title: "Raspberri Pi",
       },
       {
-        iconType: "video",
-        title: "User Need Statements in Design Thinking",
-        href: "https://www.youtube.com/watch?v=kT0ZqwdPYRM",
+        iconType: "tool",
+        title: "Sensors",
       },
       {
-        iconType: "article",
-        title: "Using “How Might We” Questions to Ideate on the Right Problems",
-        href: "https://www.nngroup.com/articles/how-might-we-questions/",
+        iconType: "tool",
+        title: "Drones",
       },
       {
-        iconType: "article",
-        title: "What are 5 Whys?",
-        href: "https://www.interaction-design.org/literature/topics/5-whys",
+        iconType: "tool",
+        title: "GoPiGo",
+      },
+      {
+        iconType: "tool",
+        title: "Turtlebot",
+      },
+      {
+        iconType: "tool",
+        title: "Git",
+      },
+      {
+        iconType: "tool",
+        title: "GitHub",
       },
     ],
-  },
-  "User Stories": {
-    title: "User Stories",
-    description: "aa",
-    links: [
-      {
-        iconType: "video",
-        title: "UX title",
-        href: "https://uxplanet.org/product-design-methods-mind-map-f6511820a7d5",
-      },
+    lab: [],
+    learningObjectives: [
+      "Understand the field of agent-based and robotic systems",
+      "Gain exposure to multiple different robot platforms",
+      "Design and develop several robot applications",
+      "Learn about and reflect on public problems that involve robotic technology",
+      "Participate in civic engagement activities",
+    ],
+    learningOutcomes: [
+      "Able to design, implement, and test application for a wheeled robot",
+      "Able to design, implement, and test application for a drone",
+      "Able to design, implement, and test application for a robotic arm",
+      "Can develop a simple application using ROS",
+      "Can put together engaging demonstrations using robots for public events",
     ],
   },
-  "Content Strategy": {
-    title: "Content strategy",
+  "CMPSC 350": {
+    title: "Computational Narrative",
     description:
-      "Content Strategy is the process of planning, creation, delivery, and management of content. Ensuring that content is useful, usable, well structured, and easily found is vital for improving the user experience of a product.",
-    links: [
-      {
-        iconType: "article",
-        title:
-          "Why Content Is Such A Fundamental Part Of The Web Design Process",
-        href: "https://www.smashingmagazine.com/2021/04/content-fundamental-part-web-design-process/",
-      },
-      {
-        iconType: "article",
-        title: "Why We’re Moving From Content Strategy to Content Design",
-        href: "https://medium.com/designatmeta/why-were-moving-from-content-strategy-to-content-design-e288a70169b8",
-      },
-
-      {
-        iconType: "article",
-        title: "Complete Beginner’s Guide to Content Strategy",
-        href: "https://www.uxbooth.com/articles/complete-beginners-guide-to-content-strategy/",
-      },
-
-      {
-        iconType: "article",
-        title: "The top 50 UX writing resources of 2020",
-        href: "https://uxcontent.com/2020-top-50-ux-writing-resources/",
-      },
-    ],
+      "A study of the craft and deployment of procedurally-generated digital narratives, placing an emphasis on using data sources and computational methods as storytelling media. Students focus on critical, close reading of professional and student works while completing a single long-form work of their own. Topics include natural language processing (NLP), procedural illustration, computational constraint, and the development of conceptual documentary works.",
+    distributionRequirements: ["HE", "ME"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 101"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "UX Storytelling": {
-    title: "UX Storytelling",
+  "CMPSC 406": {
+    title: "Internet Of Things",
     description:
-      "Storytelling is the process of creating stories. This is a powerful tool to use for communicating UX ideas or creating a narrative around the user experience to make a product more engaging.",
-    links: [
-      {
-        iconType: "article",
-        title: "How To Use Storytelling In UX",
-        href: "https://www.smashingmagazine.com/2022/04/use-storytelling-ux/",
-      },
-      {
-        iconType: "article",
-        title: "Content Strategy & Storytelling",
-        href: "https://www.smashingmagazine.com/2012/08/content-strategy-storytelling/",
-      },
-      {
-        iconType: "book",
-        title: "Storytelling for User Experience",
-        href: "https://rosenfeldmedia.com/books/storytelling-for-user-experience/",
-      },
-      {
-        iconType: "article",
-        title: "5 Ways to Become a Better Storyteller",
-        href: "https://www.ideou.com/blogs/inspiration/5-ways-to-become-a-better-storyteller?_pos=6&_sid=73350121c&_ss=r",
-      },
-    ],
+      "An introduction to small-scale, purpose-built physical computational objects which embed sensors, integrate with networks, and process environmental signals. Exploring various industrial architectures, students develop devices that respond to physical stimuli and transmit data across networks to motivate additional device behavior and interactivity while considering human interaction design (HID) and “people-centered” principles that drive device design. During weekly laboratory sessions, students complete projects which focus on industry standards of data transmission and privacy in addition to optimizing device performance for real-time, high-availability applications. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["SP", "SB"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 200"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  Brainstorming: {
-    title: "Brainstorming",
+  "ART 187": {
+    title: "Electronic & Intermedia Art",
     description:
-      "Brainstorming is the ideation technique used by design teams or groups of people with different backgrounds for collaborating and generating ideas for solving the defined problem.",
-    links: [
-      {
-        iconType: "article",
-        title: "What is Brainstorming?",
-        href: "https://www.interaction-design.org/literature/topics/brainstorming",
-      },
-      {
-        iconType: "article",
-        title: "14 tips to help you run a successful product design workshop",
-        href: "https://www.intercom.com/blog/running-design-workshops/",
-      },
-      {
-        iconType: "article",
-        title: "IDEO: Brainstorming Resources",
-        href: "https://www.ideou.com/pages/brainstorming-resources",
-      },
-      {
-        iconType: "article",
-        title:
-          "Affinity Diagrams: How to Cluster Your Ideas and Reveal Insights",
-        href: "https://www.interaction-design.org/literature/article/affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts",
-      },
-    ],
+      "An introduction to using electronic technologies/software and digital media as art-making tools. Emphasis on awareness of the elements of 2D design/composition and the vocabulary used to describe it. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of electronic art in human experience. This course emphasizes the development of skills with a focus on technique, contemporary and historical issues, and conceptual development.",
+    distributionRequirements: ["HE", "ME"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ART 287"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Information Architecture": {
-    title: "Information Architecture",
+  "ART 287": {
+    title: "Art at the Intersection of Science and Culture",
     description:
-      "Information architecture is the discipline that focuses on organizing, structuring, and labeling content in an effective and sustainable way.  With a clearly defined architecture, users can quickly find information and complete tasks.",
-    links: [
-      {
-        iconType: "article",
-        title: "Information Architecture: Study Guide",
-        href: "https://www.nngroup.com/articles/ia-study-guide/",
-      },
-      {
-        iconType: "article",
-        title: "The Beginner’s Guide to Information Architecture in UX",
-        href: "https://xd.adobe.com/ideas/process/information-architecture/information-ux-architect/",
-      },
-      {
-        iconType: "book",
-        title: "Information Architecture: For the Web and Beyond",
-        href: "https://www.amazon.com/Information-Architecture-For-Web-Beyond/dp/1491911689",
-      },
-    ],
+      "Application of the tools and technologies of biological science and computer science to create thought provoking and socially resonant works of art that broaden scientific literacy, while creatively exploring complex philosophical and conceptual ideas of where biology ends and technologies begin. Students use emerging and established trends to articulate ideas and create effective viewer experiences. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of art in human experience.",
+    distributionRequirements: ["HE", "ME"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["ART 187"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "User Flow": {
-    title: "User Flow",
+  "COMM 376": {
+    title: "Ethnographic Methods in Media and Cultural Studies",
     description:
-      "User flows are a great method for segmenting and defining the user experience. They are helpful when a product team works on information architecture and UI design of individual screens, and also when a team wants to evaluate interfaces for identifying possible issues in the existing flow.",
-    links: [
-      {
-        iconType: "article",
-        title: "What are User Flows?",
-        href: "https://www.interaction-design.org/literature/topics/user-flows",
-      },
-      {
-        iconType: "article",
-        title: "Wireflows: A UX Deliverable for Workflows and Apps",
-        href: "https://www.nngroup.com/articles/wireflows/",
-      },
-      {
-        iconType: "article",
-        title:
-          "UX Glossary: Task Flows, User Flows, Flowcharts and some new-ish stuff",
-        href: "https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d",
-      },
-      {
-        iconType: "article",
-        title: "User flow is the new wireframe",
-        href: "https://uxdesign.cc/when-to-use-user-flows-guide-8b26ca9aa36a",
-      },
-    ],
+      "A hands-on introduction to ethnographic research in media and cultural studies. Students learn methods of interviewing, oral history, and participant observation while engaging in collaborative, community-based research. Students work together to explore the ways in which media technologies shape cultures and use digital storytelling tools (e.g., podcasting) to share their collective research with a broader public.",
+    distributionRequirements: ["CL", "HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["COMM 125", "COMM 145", "FSCOM 201"],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Mind Map": {
-    title: "Mind Map",
+  "FILM 187": {
+    title: "Filmmaking & Digital Stories 1",
     description:
-      "Mind Map is the visual thinking tool that provides a structured way to capture and organize ideas and information around a certain topic. This technique is useful when product teams need to brainstorm about users, features, or any other thoughts related to the product.",
-    links: [
-      {
-        iconType: "article",
-        title: "Everything you need to know about mind mapping creation",
-        href: "https://www.invisionapp.com/inside-design/mind-mapping-creation/",
-      },
-      {
-        iconType: "article",
-        title: "Cognitive Maps, Mind Maps, and Concept Maps: Definitions",
-        href: "https://www.nngroup.com/articles/cognitive-mind-concept/",
-      },
-
-      {
-        iconType: "video",
-        title: "3 Powerful Visual Mapping Strategies in UX Design",
-        href: "https://www.youtube.com/watch?v=X2w6O5TM7rA",
-      },
-      {
-        iconType: "article",
-        title: "Gray Matter: What Is a Mind Map in the Design Process?",
-        href: "https://www.toptal.com/designers/digital-product-design/what-is-a-mind-map",
-      },
-    ],
+      "A study of aesthetic concepts and production techniques involved in cinematic and television production. Students create works that demonstrate an understanding of the various production elements and how they can be combined for effective communication.",
+    distributionRequirements: ["HE", "ME"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["FILM 300"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  Sketching: {
-    title: "Sketching",
+  "ART 251": {
+    title: "Contemporary Art Writing",
     description:
-      "Sketching is the freehand drawing method. It is a very efficient way of communicating design while allowing designers to try out different ideas and iterate them before settling on one.",
-    links: [
-      {
-        iconType: "article",
-        title: "Everything You Need to Know About UX Sketching",
-        href: "https://www.toptal.com/designers/ux/guide-to-ux-sketching",
-      },
-      {
-        iconType: "article",
-        title: "7 reasons for sketching in UX design",
-        href: "https://www.invisionapp.com/inside-design/ux-design-sketching/",
-      },
-      {
-        iconType: "article",
-        title: "Learn How to Use Sketching as an Ideation Method",
-        href: "https://www.interaction-design.org/literature/article/etch-a-sketch-how-to-use-sketching-in-user-experience-design",
-      },
-    ],
+      "A study of modern and contemporary art through the lens of art writing. This course builds the research-based skills and visual literacy necessary for art writing--a rigorous but creative process of knowledge production. Art writers mobilize art in the service of broader cultural conversations to address social and political challenges, from race and gender equity to climate change. Students read and practice discipline-specific writing, and they also focus on interdisciplinary authors who posit art as a model of political resistance. Along with foundational writing skills, this course promotes proficiency in the visual and written language of contemporary art",
+    distributionRequirements: ["HE", "PD"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ART 287"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  Wireframing: {
-    title: "Wireframing",
+  "ART 343": {
+    title: "Feminist Art Histories",
     description:
-      "Wireframing is the process of creating low-fidelity screens, which allows teams and stakeholders to communicate which entities, components, and pages the app is going to have and how these elements will interact with each other. With wireframes, designers can generate and iterate screens faster before touching UI.",
-    links: [
-      {
-        iconType: "article",
-        title: "Sketch, Wireframe, Mockup, and Prototype: Why, When and How",
-        href: "https://uxplanet.org/sketch-wireframe-mockup-and-prototype-why-when-and-how-29a25b3157c4",
-      },
-      {
-        iconType: "article",
-        title: "Form and Function – A Guide to the Top Wireframe Tools",
-        href: "https://www.toptal.com/designers/ui/top-wireframe-tools-guide",
-      },
-      {
-        iconType: "article",
-        title: "How To Succeed In Wireframe Design",
-        href: "https://www.smashingmagazine.com/2020/04/wireframe-design-success/",
-      },
-    ],
+      "An examination of the impact of feminism and feminist theory on visual culture from the 1960s to today, with select pre-1960s material as background. Visual culture encompasses academic Art History, but also popular spaces of representation including film, music, and television. Students learn how feminist cultural producers address systemic inequalities of gender, race, and class. Recognizing that categories of gender and sexuality are constructed differently across cultures, this course takes a transnational approach. There is focus on the intersections of feminism and post-human studies and the impact of new technology and climate on contemporary feminism, queer theory, and their art.",
+    distributionRequirements: ["HE", "PD"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  Prototyping: {
-    title: "Prototyping",
+  "ENGL 110": {
+    title: "Intro to Literary Studies",
     description:
-      "Prototyping is the process in which design teams ideate, experiment with concepts, and bring them to life. At its core, a prototype is the early sample of a product that allows users to visualize or interact with it before a final product is developed. It is useful for discovering new ideas, identifying usability issues, and testing.",
-    links: [
-      {
-        iconType: "article",
-        title: "What Is Prototyping?",
-        href: "https://xd.adobe.com/ideas/process/ui-design/what-is-prototyping/",
-      },
-      {
-        iconType: "article",
-        title: "Design Thinking: Get Started with Prototyping",
-        href: "https://www.interaction-design.org/literature/article/design-thinking-get-started-with-prototyping",
-      },
-      {
-        iconType: "article",
-        title: "UX Prototypes: Low Fidelity vs. High Fidelity",
-        href: "https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/",
-      },
-    ],
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Usability Test": {
-    title: "Usability Test",
+  "ENGL 111": {
+    title: "Literature and the Arts",
     description:
-      "Usability testing is conducted to evaluate the usability, intuitiveness, and satisfaction of using a product for the end user. It's useful to conduct it iteratively during the design process because it allows the team to collect users' insights and reduce the number of issues in the user interface.",
-    links: [
-      {
-        iconType: "article",
-        title: "Checklist for Planning Usability Studies",
-        href: "https://www.nngroup.com/articles/usability-test-checklist/",
-      },
-      {
-        iconType: "article",
-        title: "A Comprehensive Guide To User Testing",
-        href: "https://www.smashingmagazine.com/2018/03/guide-user-testing/",
-      },
-      {
-        iconType: "article",
-        title: "How to Conduct Usability Testing in Six Steps",
-        href: "https://www.toptal.com/designers/ux-consultants/how-to-conduct-usability-testing-in-6-steps",
-      },
-      {
-        iconType: "article",
-        title: "A Guide to the Art of Guerrilla UX Testing",
-        href: "https://medium.springboard.com/a-guide-to-the-art-of-guerrilla-ux-testing-69a1411d34fb",
-      },
-      {
-        iconType: "article",
-        title: "All You Need to Know About Iterative Usability Testing",
-        href: "https://xd.adobe.com/ideas/process/user-testing/process-user-testing-iterative-usability-testing-best-practices/",
-      },
-      {
-        iconType: "article",
-        title:
-          "Turning Usability Testing Data into Action without Going Insane",
-        href: "https://www.toptal.com/designers/usability-testing/turning-usability-testing-data-into-action",
-      },
-    ],
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Human-Computer Interaction": {
-    title: "Human-Computer Interaction",
+  "ENGL 112": {
+    title: "Literature and the Body",
     description:
-      "Human-computer interaction (HCI) is a multidisciplinary field of study focusing on the design of computer technology and, in particular, the interaction between humans (the users) and computers.",
-    links: [
-      {
-        iconType: "article",
-        title: "Human-Computer Interaction (HCI)",
-        href: "https://www.interaction-design.org/literature/topics/human-computer-interaction",
-      },
-      {
-        iconType: "article",
-        title: "Complete Beginner’s Guide to Interaction Design",
-        href: "https://www.uxbooth.com/articles/complete-beginners-guide-to-interaction-design/",
-      },
-      {
-        iconType: "book",
-        title: "The Encyclopedia of Human-Computer Interaction, 2nd Ed.",
-        href: "https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed",
-      },
-
-      {
-        iconType: "article",
-        title: "What is Interaction Design & How Does it Compare to UX?",
-        href: "https://xd.adobe.com/ideas/principles/human-computer-interaction/what-is-interaction-design/",
-      },
-      {
-        iconType: "article",
-        title: "Interaction design is more than just user flows and clicks",
-        href: "https://uxdesign.cc/interaction-design-is-more-than-just-user-flows-and-clicks-4cc37011418c",
-      },
-    ],
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-
-  "Cognitive Psychology": {
-    title: "Cognitive Psychology",
+  "ENGL 113": {
+    title: "Literature and Race",
     description:
-      "Cognitive psychology is the scientific study of mental processes such as attention, language use, memory, perception, problem-solving, creativity, and reasoning. With knowledge of psychology, product designers keep in mind the users' behavior upfront which leads to better user interfaces.",
-    links: [
-      {
-        iconType: "article",
-        title: "What is Cognitive Psychology?",
-        href: "https://www.interaction-design.org/literature/topics/cognitive-psychology",
-      },
-
-      {
-        iconType: "book",
-        title: "Miller’s Law — Is there a magical number in UX design?",
-        href: "https://uxdesign.cc/millers-law-is-there-a-magical-number-in-ux-design-7999f92ef7b8",
-      },
-      {
-        iconType: "article",
-        title: "Laws of UX",
-        href: "https://lawsofux.com/en/",
-      },
-      {
-        iconType: "article",
-        title:
-          "5 Cognitive Psychology Theories that Contribute to the Quality of UX Design",
-        href: "https://uxmag.com/articles/5-cognitive-psychology-theories-that-contribute-to-the-quality-of-ux-design",
-      },
-      {
-        iconType: "video",
-        title: "Psychology Makes You a Better UX Designer (Hoa Loranger)",
-        href: "https://www.youtube.com/watch?v=y6fPKi9-ZG8",
-      },
-    ],
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE", "PD"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-
-  "Basics & Principles": {
-    title: "Basics & Principles",
+  "ENGL 114": {
+    title: "Literature and Business",
     description:
-      "Visual design principles focus on the aesthetics of a product and its related materials by strategically implementing colors, fonts, images, and other elements. There are 5 main principles defined: scale, visual hierarchy, balance, contrast, and Gestalt principles.",
-    links: [
-      {
-        iconType: "book",
-        title: "Universal Principles of Design",
-        href: "https://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=sr_1_2?crid=2SUZVNW2CCA53&keywords=universal+principles+of+design&qid=1655150221&sprefix=universal+principle%2Caps%2C94&sr=8-2",
-      },
-      {
-        iconType: "article",
-        title: "5 Principles of Visual Design in UX",
-        href: "https://www.nngroup.com/articles/principles-visual-design/",
-      },
-      {
-        iconType: "article",
-        title: "The Role of Visual Design In User Experience",
-        href: "https://xd.adobe.com/ideas/principles/web-design/role-visual-design-user-experience/",
-      },
-      {
-        iconType: "article",
-        title: "7 Practical Tips for Cheating at Design",
-        href: "https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886",
-      },
-    ],
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-
-  "Visual Hierarchy": {
-    title: "Visual Hierarchy",
+  "ENGL 115": {
+    title: "Literature and Sexuality",
     description:
-      "Visual hierarchy is the principle of arranging elements to show their order of importance. Designers structure visual elements and pages to influence users’ perceptions and focus their attention on the important functions and actions.",
-    links: [
-      {
-        iconType: "article",
-        title: "What is Visual Hierarchy?",
-        href: "https://www.interaction-design.org/literature/topics/visual-hierarchy",
-      },
-
-      {
-        iconType: "article",
-        title: "Visual Hierarchy in UX: Definition",
-        href: "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
-      },
-      {
-        iconType: "article",
-        title: "5 ways to establish visual hierarchy",
-        href: "https://bootcamp.uxdesign.cc/5-ways-to-establish-visual-hierarchy-54db8f783175",
-      },
-      {
-        iconType: "article",
-        title: "Key Principles of Visual Hierarchy in UX Design",
-        href: "https://xd.adobe.com/ideas/process/information-architecture/visual-hierarchy-principles-examples/",
-      },
-    ],
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Gestalt Principles": {
-    title: "Gestalt Principles",
+  "ENGL 116": {
+    title: "Literature and the Environment",
     description:
-      "Gestalt principles are principles/laws of human perception that describe how humans group similar elements, recognize patterns, and simplify complex forms when perceiving objects. Designers use these principles to organize content on websites and other interfaces so it is aesthetically pleasing and easy to understand.",
-    links: [
-      {
-        iconType: "article",
-        title: "What are Gestalt Principles?",
-        href: "https://www.interaction-design.org/literature/topics/gestalt-principles",
-      },
-      {
-        iconType: "article",
-        title:
-          "Improve Your Designs With The Principles Of Closure And Figure-Ground (Part 2)",
-        href: "https://www.smashingmagazine.com/2016/05/improve-your-designs-with-the-principles-of-closure-and-figure-ground-part-2/",
-      },
-      {
-        iconType: "article",
-        title: "Exploring the Gestalt Principles of Design",
-        href: "https://www.toptal.com/designers/ui/gestalt-principles-of-design",
-      },
-      {
-        iconType: "article",
-        title:
-          "Design Principles: Visual Perception And The Principles Of Gestalt",
-        href: "https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/",
-      },
-    ],
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
-  "Jobs-to-be-Done": {
-    title: "Jobs-to-be-Done",
-    description: `Jobs-to-be-Done framework is the approach for developing products based on understanding both the customer’s specific goal ("job") and the thought processes that would lead that customer to use ("hire") a product to achieve their goal.`,
-    links: [
-      {
-        iconType: "book",
-        title: "Jobs to be Done: Theory to Practice",
-        href: "https://www.amazon.com/gp/product/0990576744/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0990576744&linkCode=as2&tag=business901-20&linkId=2887f0858d61a35595884db7fbe898ad",
-      },
-      {
-        iconType: "article",
-        title:
-          "8 things to use in “Jobs-To-Be-Done” framework for product development",
-        href: "https://uxdesign.cc/8-things-to-use-in-jobs-to-be-done-framework-for-product-development-4ae7c6f3c30b",
-      },
-    ],
-  },
-  "User Story": {
-    title: "User Story",
+  "ENGL 117": {
+    title: "Literature and Science",
     description:
-      "User story is the tool used in Agile development to capture a description of a product's functionality from the end-user perspective. The main goal is to describe the type of user, what feature they will use and what value it will bring to them.",
-    links: [
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "ENGL 118": {
+    title: "Literature and the Mind",
+    description:
+      "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: ["ENGL 210", "ENGL 360"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "ENGL 360": {
+    title: "Language, Theory, and Practice",
+    description:
+      "A course that explores how language, reading, and writing operate as historical cultural practices, as subjects of theoretical study, and as effective contemporary communication. The emphasis of the course vary, depending on the instructor. Topics may include the cultural history of the English language, twentiethcentury literary and critical theory, and modes of communication in the digital age. May be repeated for credit",
+    distributionRequirements: ["HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [
+        "One 100-level literature course - Must be completed prior to taking this course.",
+      ],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "HIST 170": {
+    title: "Introduction to Public History",
+    description:
+      "An introduction to the theory and practice of public history, a collaborative approach to history that emphasizes inter-disciplinary methodology, oral history, and a variety of presentation formats to present historical projects that interact with audiences in the public sector. Through readings, discussions, viewing of films and documentaries, and field trips to museums and historic sites, students examine issues that confront historians working in public settings. Students work with specific archives and/or groups at Allegheny or elsewhere to create and and publish digital story-telling projects intended to connect individual experience and community needs to larger movements and ideologies.",
+    distributionRequirements: ["CL", "SB"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "PHIL 140": {
+    title: "Ethics and Community",
+    description:
+      "An examination of contemporary challenges facing democracy as an ideal for the moral life and the moral community.",
+    distributionRequirements: ["PD", "CL"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "RELST 180": {
+    title: "Religion in American Life",
+    description:
+      "A social history of Protestant, Catholic, and non-Christian groups in the U.S. context; the role of women and African Americans in various religions is included along with the emergence of sects and denominations, and the religious faiths of immigrant and ethnic populations. The course examines the inherent tension between the Protestant mainstream and the religious diversity resulting from the First Amendment guarantee of religious freedom.",
+    distributionRequirements: ["HE", "SB"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "ENVSC 285": {
+    title: "Quantitative Sustainability",
+    description:
+      "A survey of environmental issues from a quantitative perspective in order to expose students to mathematical tools used in the environmental sciences. Students are asked to make recommendations on issues surrounding climate change, pollution, ecosystem health, land use, population growth, natural resource management, and other current environmental issues. In the process of investigating these topics, students develop a mathematical toolkit for carrying out a variety of calculations, understanding uncertainty, interpreting data, and developing mathematical models to describe economic, social, and environmental systems. .",
+    distributionRequirements: ["SP", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["ENVSC 110"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "ENVSC 305 ": {
+    title: "Environmental GIS I",
+    description:
+      "An interdisciplinary examination of the theory and techniques used in the mapping and geographic analysis of environmental problems. Environmental research increasingly depends on the ability to gather, analyze, and present spatial data using geographic information systems (GIS). Students are introduced to the use of geospatial technologies through the analysis of environmental case studies. Topics include: vector and raster data models, map registration and coordinate systems, database design, data entry, and editing, GPS data collection, aerial and satellite imagery data sources, query, visualization, and spatial analysis, and cartography. The class includes a weekly three-hour laboratory..",
+    distributionRequirements: ["CL", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["permission from the instructor", "ENVSC 110"],
+      allof: [],
+    },
+    unlocks: ["ENVSC 306"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "ENVSC 306": {
+    title: "Environmental GIS II",
+    description:
+      "An interdisciplinary examination of the theory and techniques used in the advanced mapping and geographic analysis of environmental problems. Students design, execute, and present a semester-long, independent research project whose primary research tool is geographic information systems (GIS) and related technologies. Students are also exposed to advanced topics in GIS including raster-based map algebra, spatial estimation, weighted and fuzzy overlay, network and terrain analysis, modeling and scripting, and data standards and quality. The class includes a weekly three-hour laboratory.",
+    distributionRequirements: ["CL", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["permission from the instructor", "ENVSC 305"],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "GEO 110": {
+    title: "Physical Geology",
+    description:
+      "The study of Earth properties and the dynamics of geologic systems to provide a basic understanding of the resources, environments, and evolution of our planet. The course considers Earth materials, interior structure of the planet, Earth surface processes, landform development, environmental geology, and physical evolution of the Earth. Specific topics include minerals and rocks, plate tectonics, ocean basins, continents, river and groundwater systems, glaciers, volcanism and earthquakes. Laboratory or field work, one period. May be taken after successful completion of Geology 109.",
+    distributionRequirements: ["SP", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["GEO-109"],
+    },
+    unlocks: [
+      "GEO 250",
+      "GEO 380",
+      "GEO 240",
+      "GEO 310",
+      "GEO 215",
+      "GEO 120",
+      "GEO 400",
+      "GEO 410",
+    ],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "GHS 228": {
+    title: "Global Health Data ",
+    description:
+      "An exploration of publicly available quantitative data related to global health and development from individuals, families, and countries around the world. Students learn how to find, organize, and visualize publicly available data, as well as practice database management, merging, documentation, and visualization with an emphasis on data equity and on the underlying processes by which data are generated by various agencies and organizations. Students investigate the benefits and drawbacks of using publicly available data and gain skills to prepare for independent data analysis",
+    distributionRequirements: ["SP", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "GHS 235": {
+    title: "Global Health Ethics",
+    description:
+      "An introductory ethical study of global health inequalities and our responses to them. Topics include health, justice, and human rights; moral responsibility in global health contexts; power, poverty, and health; ethics and global health governance; the ethics of international medical research; global inequities in access to medical resources; and specific health injustices associated with culture, race, and gender.",
+    distributionRequirements: ["PD"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [" GHS 130"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "GHS 321": {
+    title: "Epidemiology",
+    description:
+      "An opportunity to apply epidemiological data to both global health policy and practice, focusing on the determinants of health and patterns and distributions of disease. Topics include the philosophical and ethical dimensions of epidemiology, historical origins, types of study designs, data types and interpretation, and differences between causation and association. Students may not receive credit for both GHS*321 and BIO*321. Credit: Four semester hours",
+    distributionRequirements: ["SP", "QR"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["GHS 130 ", "FSGHS 201"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "GHS 354": {
+    title: " Medical Anthro/Health in Asia",
+    description:
+      "Medical Anthropology and Perspectives of Health in Asia-Pacific -- An examination of ethnographic research on health and illness in Asia and the Pacific. Students consider non-western perspectives of health, illness, and bodies through reading medical anthropology works. Topics include infectious disease, chronic disease, addiction, commodification of bodily processes and components, illness related to food and water, and mental health in cultural context. Students learn to draw connections between the health of individuals, population health, and policies created by governing bodies while also developing a sense of how medical anthropological data are interpreted and written.",
+    distributionRequirements: ["IP"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "HIST 380": {
+    title: "Disease/Medicine:Modern History",
+    description:
+      "An introduction to small-scale, purpose-built physical computational objects which embed sensors, integrate with networks, and process environmental signals. Exploring various industrial architectures, students develop devices that respond to physical stimuli and transmit data across networks to motivate additional device behavior and interactivity while considering human interaction design (HID) and “people-centered” principles that drive device design. During weekly laboratory sessions, students complete projects which focus on industry standards of data transmission and privacy in addition to optimizing device performance for real-time, high-availability applications. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["PD", "HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [
+        "permission of the instructor",
+        "One course in US or European history",
+      ],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "PHIL 385": {
+    title: "Medical Ethics",
+    description:
+      "A study of the principles of medical ethics as applied to case studies. After studying the nature and foundations of the principles of medical ethics, students present oral and written analyses of medical cases that pose significant ethical issues.",
+    distributionRequirements: [],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "COMM 342": {
+    title: "Digital Media and Technology",
+    description:
+      "An examination of the impacts of digital and social media on online and material cultures. Students explore the role of media technologies in everyday life, focusing particularly on how they shape identities, cultures, and practices. Topics include but are not limited to: the power of media technology industries, built-in biases and privacy issues in artificial intelligence and big data, the normalizing of surveillance, technological innovation and creative activism, and technology as a tool for liberation and oppression. Prerequisite: One 100-level or 200-level COMM course; or permission of the instructor.",
+    distributionRequirements: ["PD", "SB"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "DOUBL 600": {
+    title: "Sr Project I: Double Major",
+    description:
+      "Continuation of independent research in software engineering culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "1 to 4",
+    prerequisites: {
+      anyof: ["Instructor-approved 580 equivalent", "CMPSC 580"],
+      allof: [],
+    },
+    unlocks: ["DOUBL 600"],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "DOUBL 610": {
+    title: "Sr Project II: Double Major",
+    description:
+      "Independent research in software engineering culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "1 to 4",
+    prerequisites: {
+      anyof: [],
+      allof: ["DOUBL 600"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "CMPSC 580": {
+    title: "Junior Seminar",
+    description:
+      "An investigation of select topics in computer and information science that prepares students for the completion of a senior project with the purpose of identifying knowledge gaps in the discipline. Students learn how to read scholarly papers, state and motivate research questions, create a software prototype or develop scholarly artifacts to address their findings, and collect and organize evidence for evaluating the outcome of their project. During a weekly laboratory session students use industry-grade technology to gain practical skills in technical writing, the presentation of technical concepts, and the production of an artifact. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [
+      "Planning",
+      "Idea Development",
+      "Professional Development",
+      "Literature Review",
+      "User Studies",
+    ],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
       {
-        iconType: "article",
-        title: "What are User Stories?",
-        href: "https://www.interaction-design.org/literature/topics/user-stories",
+        iconType: "tool",
+        title: "Docker",
       },
       {
-        iconType: "article",
-        title: "User stories with examples and a template",
-        href: "https://www.atlassian.com/agile/project-management/user-stories",
+        iconType: "tool",
+        title: "Latex",
       },
       {
-        iconType: "video",
-        title: "Introduction on how to write User Stories",
-        href: "https://www.youtube.com/watch?v=Pn-QMvDTuEY",
+        iconType: "tool",
+        title: "GatorGrader",
       },
       {
-        iconType: "article",
-        title: "A Guide To Writing Effective User Stories",
-        href: "https://medium.com/@george_wilde/a-guide-to-writing-effective-user-stories-658823dec2e0",
+        iconType: "tool",
+        title: "Python",
+      },
+      {
+        iconType: "tool",
+        title: "GitHub",
+      },
+      {
+        iconType: "tool",
+        title: "R",
       },
     ],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "CMPSC 305": {
+    title: "Database Systems",
+    description:
+      "A study of the application and evaluation of database management systems. Participating in hands-on activities that often require teamwork, students design, implement, and deploy database systems that store interdisciplinary data sets. In addition to learning how to develop and assess interfaces for databases, students study the efficiency and effectiveness of alternative data management systems. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["QR", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 101"],
+    },
+    unlocks: [],
+    topics: [
+      "Teamwork",
+      "Queries",
+      "Version Control Systems",
+      "Databases",
+      "Ethics",
+      "Data Modeling",
+      "Data Storage",
+      "Code Review",
+    ],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
+      {
+        iconType: "tool",
+        title: "Apache Cassandra",
+      },
+      {
+        iconType: "tool",
+        title: "GitHub",
+      },
+      {
+        iconType: "tool",
+        title: "SQL",
+      },
+      {
+        iconType: "tool",
+        title: "Django",
+      },
+      {
+        iconType: "tool",
+        title: "MongoDB",
+      },
+      {
+        iconType: "tool",
+        title: "SQLite",
+      },
+      {
+        iconType: "tool",
+        title: "Docker",
+      },
+      {
+        iconType: "tool",
+        title: "Neo4j",
+      },
+      {
+        iconType: "tool",
+        title: "GatorGrader",
+      },
+      {
+        iconType: "tool",
+        title: "Python",
+      },
+    ],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "CMPSC 302": {
+    title: "Web Design",
+    description:
+      "An exploration of technologies and data relationships which power modern web applications. Participating in hands-on activities which require teamwork, students build web applications that incorporate the “full stack,” including databases, application programming interfaces (APIs), and public-facing web pages or mobile applications. Students develop a broad knowledge of different development approaches, languages, and design paradigms to learn advantages and disadvantages of technologies and frameworks. During weekly laboratory sessions, students participate in iterative design processes and report progress and technical details through written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["IP", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 104"],
+    },
+    unlocks: ["CMPSC 404"],
+    topics: [
+      "Teamwork",
+      "Responsive Design",
+      "Iterative Design",
+      "Computer Graphics",
+      "Networking",
+      "User Studies",
+      "Version Control Systems",
+      "Professional Communication",
+      "UI/UX",
+      "Design Thinking",
+    ],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [
+      {
+        iconType: "tool",
+        title: "React",
+      },
+      {
+        iconType: "tool",
+        title: "GitHub",
+      },
+      {
+        iconType: "tool",
+        title: "11ty",
+      },
+      {
+        iconType: "tool",
+        title: "CSS",
+      },
+      {
+        iconType: "tool",
+        title: "HTML",
+      },
+      {
+        iconType: "tool",
+        title: "Figma",
+      },
+      {
+        iconType: "tool",
+        title: "Netlify",
+      },
+      {
+        iconType: "tool",
+        title: "JavaScript",
+      },
+      {
+        iconType: "tool",
+        title: "Markdown",
+      },
+    ],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "CMPSC 529": {
+    title: "Internship",
+    description:
+      "Academic study completed in support of an internship experience with a partner institution. An Allegheny faculty member assigns and evaluates the academic work done by the student. May be repeated for credit. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "1-4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "CMPSC 600": {
+    title: "Senior Thesis I",
+    description:
+      "Individual research under the guidance of a member of the Department's faculty. A project proposal must be submitted to the Department and approved in the semester prior to the semester in which the student intends to register for the course. May be repeated for credit. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "2",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 580"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "CMPSC 610": {
+    title: "Senior Project II",
+    description:
+      "Continuation of independent research in computer science culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "2",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 600"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "INFM 600": {
+    title: "Senior Project I",
+    description:
+      "Independent research in informatics culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 580", "Instructor-approved 580 equivalent"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "INFM 610": {
+    title: "Senior Project II",
+    description:
+      "Independent research in informatics culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: [],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["INFM 600"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
   },
 };
