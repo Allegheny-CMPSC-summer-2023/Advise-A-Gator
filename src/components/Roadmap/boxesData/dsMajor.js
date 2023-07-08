@@ -35,7 +35,7 @@ export default {
       width: 243,
       height: 243,
       fillColor: "violet0",
-      text: "Electives",
+      text: "Ethics",
     },
     {
       type: "multiBox",
@@ -44,7 +44,7 @@ export default {
       width: 243,
       height: 198,
       fillColor: "violet0",
-      text: "Projects",
+      text: "Electives",
     },
     {
       type: "tertiaryBox",
@@ -84,7 +84,7 @@ export default {
       fillColor: "violet0",
       strokeColor: "violet3",
       text: "Contextual Inquiry",
-      hoverColor: "violet1", it
+      hoverColor: "violet1",
     },
     {
       type: "tertiaryBox",
