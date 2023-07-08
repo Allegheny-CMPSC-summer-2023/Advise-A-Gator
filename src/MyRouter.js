@@ -14,10 +14,10 @@ export default function MyRouter() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="cmpsc" element={<CsMajor />} />
-        <Route path="datasc" element={<DsMajor />} />
-        <Route path="software" element={<Software />} />
-        <Route path="informatics" element={<InfMajor />} />
+        <Route path="computersciencemajor" element={<CsMajor />} />
+        <Route path="datasciencemajor" element={<DsMajor />} />
+        <Route path="softwaremajor" element={<Software />} />
+        <Route path="informaticsmajor" element={<InfMajor />} />
       </Route>
     </Routes>
   );

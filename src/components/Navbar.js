@@ -8,9 +8,9 @@ export default function Navbar() {
         GatorAdvisor
       </Link>
       <ul>
-        <Link to="/cmpsc">Computer Science</Link>
-        <Link to="/datasc">Data Science</Link>
-        <Link to="/informatics">Informatics</Link>
+        <Link to="/computersciencemajor">Computer Science</Link>
+        <Link to="/datasciencemajor">Data Science</Link>
+        <Link to="/informaticsmajor">Informatics</Link>
       </ul>
     </nav>
   );
