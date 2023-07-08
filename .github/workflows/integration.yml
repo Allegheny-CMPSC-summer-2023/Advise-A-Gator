@@ -25,7 +25,7 @@ jobs:
     - name: Lint JSON files
       run: |
         npm install -g jsonlint
-        jsonlint src/courseData/old_data.json
+        jsonlint src/curriculumData/current_data.json
   ajv:
     name: AJV JS file Validation
     runs-on: ubuntu-latest
@@ -59,4 +59,4 @@ jobs:
       run: pip install check-jsonschema
     
     - name: Run check-jsonschema
-      run: check-jsonschema --schemafile src/curriculumData/config_schema.json /src/curriculumData/current_data.json
+      run: check-jsonschema --schemafile src/curriculumData/config_schema.json src/curriculumData/current_data.json
