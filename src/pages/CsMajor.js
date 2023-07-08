@@ -14,7 +14,7 @@ const Lines = () => {
     <React.Fragment>
       <svg
         width="1280"
-        height="3452"
+        height="520"
         viewBox="0 0 1280 3452"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
