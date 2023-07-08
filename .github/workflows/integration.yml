@@ -42,7 +42,7 @@ jobs:
         run: npm install -g ajv-cli
     
       - name: Run AJV validation
-        run: ajv validate -s src/curriculumData/config_schema.json -d jsonlint src/curriculumData/current_data.json
+        run: ajv validate -s src/curriculumData/config_schema.json -d src/curriculumData/current_data.json
 
   check-schema:
     runs-on: ubuntu-latest
