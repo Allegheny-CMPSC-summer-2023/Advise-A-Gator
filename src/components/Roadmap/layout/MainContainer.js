@@ -5,7 +5,7 @@ import classes from "./MainContainer.module.css";
 import Lines from "../components/Lines";
 import boxesData from "../boxesData";
 import DataScienceMajorBlock from "../components/DataScienceMajorBlock";
-import UserExperienceBlock from "../components/UserExperienceBlock";
+import InformaticsMajorBlock from "../components/InformaticsMajorBlock";
 import UserInterfaceBlock from "../components/UserInterfaceBlock";
 import CommunicationBlock from "../components/CommunicationBlock";
 
@@ -19,7 +19,7 @@ const MainContainer = () => {
       >
         <ComputerScienceMajorBlock boxData={boxesData["csMajor"]} />
         <DataScienceMajorBlock boxData={boxesData["dsMajor"]} />
-        <UserExperienceBlock boxData={boxesData["userExperience"]} />
+        <InformaticsMajorBlock boxData={boxesData["userExperience"]} />
         <UserInterfaceBlock boxData={boxesData["userInterface"]} />
         <CommunicationBlock boxData={boxesData["communication"]} />
         <Lines />

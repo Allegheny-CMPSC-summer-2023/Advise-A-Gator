@@ -1,7 +1,7 @@
 import React from "react";
 import BoxSwitch from "./boxes/BoxSwitch";
 
-const UserExperienceBlock = (props) => {
+const InformaticsMajorBlock = (props) => {
   const { absoluteX, absoluteY, boxes } = props.boxData;
   return (
     <React.Fragment>
@@ -19,4 +19,4 @@ const UserExperienceBlock = (props) => {
   );
 };
 
-export default UserExperienceBlock;
+export default InformaticsMajorBlock;

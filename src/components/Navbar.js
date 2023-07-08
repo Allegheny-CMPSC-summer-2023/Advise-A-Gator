@@ -10,7 +10,7 @@ export default function Navbar() {
       <ul>
         <Link to="/cmpsc">Computer Science</Link>
         <Link to="/datasc">Data Science</Link>
-        <Link to="/software">Software Engineering</Link>
+        <Link to="/informatics">Informatics</Link>
       </ul>
     </nav>
   );

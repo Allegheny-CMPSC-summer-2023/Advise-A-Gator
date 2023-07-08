@@ -8,7 +8,7 @@ import CartContext from "../components/Roadmap/modal/modalContext";
 import contentData from "../components/Roadmap/contentData";
 import Loader from "../components/Roadmap/layout/Loader";
 import Footer from "../components/Roadmap/layout/Footer";
-import ComputerScienceMajorBlock from "../components/Roadmap/components/ComputerScienceMajorBlock";
+import InformaticsMajorBlock from "../components/Roadmap/components/InformaticsMajorBlock";
 
 const Lines = () => {
   return (
@@ -16,30 +16,60 @@ const Lines = () => {
       <svg
         width="1280"
         height="3452"
-        viewBox="0 0 1280 3452"
+        viewBox="0 2559 1280 3452"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M957 165.5H858.75C852.537 165.5 847.5 170.537 847.5 176.75V176.75C847.5 182.963 842.463 188 836.25 188H738"
+          d="M927 2761.5H933C946.255 2761.5 957 2772.25 957 2785.5V3051.5C957 3064.75 967.745 3075.5 981 3075.5H993"
           stroke="#CED4DA"
           strokeWidth="2.5"
           strokeLinecap="round"
         />
         <path
-          d="M465.5 318V212C465.5 198.745 476.245 188 489.5 188H543"
+          d="M738 2831H824C837.255 2831 848 2820.25 848 2807V2786"
           stroke="#CED4DA"
           strokeWidth="2.5"
           strokeLinecap="round"
         />
         <path
-          d="M323 255.5H409C422.255 255.5 433 244.755 433 231.5V212C433 198.745 443.745 188 457 188H543"
+          d="M927 2761.5H933C946.255 2761.5 957 2772.25 957 2785.5V2876.5C957 2889.75 967.745 2900.5 981 2900.5H993"
           stroke="#CED4DA"
           strokeWidth="2.5"
           strokeLinecap="round"
         />
         <path
-          d="M813.5 318V212C813.5 198.745 802.755 188 789.5 188H738"
+          d="M543 2831H474C460.745 2831 450 2841.75 450 2855V2877"
+          stroke="#CED4DA"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+        <path
+          d="M371 2901H323"
+          stroke="#CED4DA"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+        <path
+          d="M371 2901H366C352.745 2901 342 2911.75 342 2925V3056.5C342 3066.99 333.493 3075.5 323 3075.5V3075.5"
+          stroke="#CED4DA"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+        <path
+          d="M450 2925V2936.75C450 2949.59 460.409 2960 473.25 2960V2960C486.091 2960 496.5 2970.41 496.5 2983.25V2995"
+          stroke="#CED4DA"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+        <path
+          d="M927 2761.5H942C951.941 2761.5 960 2753.44 960 2743.5V2743.5C960 2733.56 968.059 2725.5 978 2725.5H993"
+          stroke="#CED4DA"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+        <path
+          d="M371 2901H364C350.745 2901 340 2890.25 340 2877V2742.5C340 2733.11 332.389 2725.5 323 2725.5V2725.5"
           stroke="#CED4DA"
           strokeWidth="2.5"
           strokeLinecap="round"
@@ -49,7 +79,7 @@ const Lines = () => {
   );
 };
 
-const ComputerScienceMajorContainer = () => {
+const InformaticsMajorContainer = () => {
   return (
     <div className={classes["main-container"]}>
       <svg
@@ -57,14 +87,14 @@ const ComputerScienceMajorContainer = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <ComputerScienceMajorBlock boxData={boxesData["csMajor"]} />
+        <InformaticsMajorBlock boxData={boxesData["infMajor"]} />
         <Lines />
       </svg>
     </div>
   );
 };
 
-function ComputerScienceMajor() {
+function InformaticsMajor() {
   const { currentTopicTitle } = useContext(CartContext);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -81,11 +111,11 @@ function ComputerScienceMajor() {
       <Modal topicData={topicData} />
       <main>
         {isLoading && <Loader />}
-        <ComputerScienceMajorContainer />
+        <InformaticsMajorContainer />
       </main>
       <Footer></Footer>
     </div>
   );
 }
 
-export default ComputerScienceMajor;
+export default InformaticsMajor;

@@ -1,7 +1,8 @@
 import React from "react";
+import { useState, useEffect, useContext } from "react";
+
 import classes from "../components/Roadmap/layout/MainContainer.module.css";
 import boxesData from "../components/Roadmap/boxesData";
-import { useState, useEffect, useContext } from "react";
 import Modal from "../components/Roadmap/modal/Modal";
 import CartContext from "../components/Roadmap/modal/modalContext";
 import contentData from "../components/Roadmap/contentData";
@@ -52,7 +53,7 @@ const DataScienceMajorContainer = () => {
   return (
     <div className={classes["main-container"]}>
       <svg
-        viewBox="0 0 1280 3392"
+        viewBox="0 0 1280 800"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
