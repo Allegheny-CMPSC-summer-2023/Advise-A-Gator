@@ -53,7 +53,7 @@ const ComputerScienceMajorContainer = () => {
   return (
     <div className={classes["main-container"]}>
       <svg
-        viewBox="0 0 1280 3392"
+        viewBox="0 0 1280 800"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
