@@ -1,5 +1,4 @@
 import React from "react";
-
 import ComputerScienceMajorBlock from "../components/Roadmap/components/ComputerScienceMajorBlock";
 import classes from "../components/Roadmap/layout/MainContainer.module.css";
 import boxesData from "../components/Roadmap/boxesData";

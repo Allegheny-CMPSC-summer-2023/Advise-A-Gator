@@ -1,4 +1,4 @@
-const data = require("./old_data.json");
+const data = require("./current_data.json");
 const fs = require('fs');
 
 
