@@ -55,11 +55,12 @@ const ModalDetails = (props) => {
                 completed prior to taking this course.{" "}
               </li>
             ))}
-            {prerequisites.allof.length !== 0 && (
-              <li style={{ marginTop: -10 }}>
-                {prerequisites.anyof.join(" or ")} - Take one of these classes
-              </li>
-            )}
+            {prerequisites.allof.length !== 0 &&
+              prerequisites.anyof.length !== 0 && (
+                <li style={{ marginTop: -10 }}>
+                  {prerequisites.anyof.join(" or ")} - Take one of these classes
+                </li>
+              )}
           </ul>
           {unlocks.length !== 0 && (
             <p style={{ fontWeight: 400, color: "#495057" }}>
