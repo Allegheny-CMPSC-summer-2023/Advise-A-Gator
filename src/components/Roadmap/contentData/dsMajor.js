@@ -1,6 +1,6 @@
 export default {
-  "Design Research": {
-    title: "Design Research",
+  "Data Science": {
+    title: "Data Science Major",
     description:
       "Design Research is the customer-focused approach that helps to better understand the underlying and sometimes hidden desires, needs, and challenges of end users.",
     tools: [
