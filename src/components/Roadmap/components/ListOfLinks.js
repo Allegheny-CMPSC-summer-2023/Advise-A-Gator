@@ -10,22 +10,25 @@ export const ListOfLinks = (props) => {
     <div>
       <hr></hr>
       <div className={classes.resources}>
-        <div>
-          <h3>Tools</h3>
-          <ul>
-            {tools.map((tool) => {
-              return (
-                <li key={tool.title}>
-                  <LinkToResource
-                    icon={tool.iconType}
-                    title={tool.title}
-                    href={tool.href}
-                  />
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+        {tools.length !== 0 && (
+          <div>
+            <h3>Tools</h3>
+            <ul>
+              {tools.map((tool) => {
+                return (
+                  <li key={tool.title}>
+                    <LinkToResource
+                      icon={tool.iconType}
+                      title={tool.title}
+                      href={tool.href}
+                    />
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
+
         <div style={{ marginLeft: "auto", marginRight: "auto" }}>
           {technicalTopics.length !== 0 && (
             <div>
