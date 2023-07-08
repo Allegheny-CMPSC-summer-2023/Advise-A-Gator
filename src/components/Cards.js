@@ -73,9 +73,8 @@ function FieldCard2(props) {
       </p>
       <h2 class="card__title">Data Science Major</h2>
       <p class="card__apply">
-        <a class="card__link" href="#">
-          See Courses <i class="fas fa-arrow-right"></i>
-        </a>
+      <Link to="/" class="card__link"> See Courses <i class="fas fa-arrow-right"></i></Link>
+
       </p>
     </div>
   );
