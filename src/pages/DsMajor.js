@@ -1,7 +1,8 @@
 import React from "react";
+import { useState, useEffect, useContext } from "react";
+
 import classes from "../components/Roadmap/layout/MainContainer.module.css";
 import boxesData from "../components/Roadmap/boxesData";
-import { useState, useEffect, useContext } from "react";
 import Modal from "../components/Roadmap/modal/Modal";
 import CartContext from "../components/Roadmap/modal/modalContext";
 import contentData from "../components/Roadmap/contentData";
