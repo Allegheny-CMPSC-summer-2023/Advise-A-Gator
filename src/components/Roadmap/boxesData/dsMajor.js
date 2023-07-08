@@ -8,7 +8,7 @@ export default {
       y: 140,
       strokeColor: "violet5",
       hoverColor: "violet0",
-      text: "Design Research",
+      text: "Data Science",
     },
     {
       type: "multiBox",
@@ -17,7 +17,7 @@ export default {
       width: 243,
       height: 288,
       fillColor: "violet0",
-      text: "Discover (Primary Research)",
+      text: "Foundation",
     },
     {
       type: "multiBox",
@@ -26,7 +26,7 @@ export default {
       width: 243,
       height: 153,
       fillColor: "violet0",
-      text: "Types",
+      text: "Core",
     },
     {
       type: "multiBox",
@@ -35,7 +35,7 @@ export default {
       width: 243,
       height: 243,
       fillColor: "violet0",
-      text: "Explore and Experiment",
+      text: "Ethics",
     },
     {
       type: "multiBox",
@@ -44,7 +44,7 @@ export default {
       width: 243,
       height: 198,
       fillColor: "violet0",
-      text: "Planning and Analysis",
+      text: "Electives",
     },
     {
       type: "tertiaryBox",
@@ -53,7 +53,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Interviews",
+      text: "CMPSC 100",
       hoverColor: "violet1",
     },
     {
@@ -73,7 +73,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Surveys",
+      text: "CMPSC 300",
       hoverColor: "violet1",
     },
     {
