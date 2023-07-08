@@ -830,5 +830,98 @@ export default {
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
+    },
+    "CMPSC 304": {
+      "title": "Robotic Agents",
+      "description": "A study of the design and implementation of autonomous software agents and robotic systems that cooperatively complete complex tasks. In addition to examining techniques for large-scale coordination and group-based decision-making, students learn how to apply the field's technologies to address the challenges facing local and global communities. Participating in hands-on activities that often require teamwork, students develop and evaluate several multi-agent or multi-robot systems, while also reflecting on the civic issues surrounding the use of these systems. During a weekly laboratory session students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+      "distributionRequirements": [
+        "CL",
+        "QR"
+      ],
+      "credits": "4",
+      "prerequisites": {
+        "anyof": [],
+        "allof": [
+          "CMPSC 101",
+          "CMPSC 102"
+        ]
+      },
+      "unlocks": [],
+      "topics": [],
+      "technicalTopics": [
+        "Ethical Robots",
+        "Actuating",
+        "Sensing",
+        "Locomotion",
+        "Modularity",
+        "Navigation",
+        "Robot Operating System",
+        "Manipulation",
+        "Mapping",
+        "Learning in robotics"
+      ],
+      "professionalTopics": [
+        "community engagement",
+        "teamwork",
+        "code review",
+        "communication"
+      ],
+      "tools": [
+        {
+          "iconType": "tool",
+          "title": "Python"
+        },
+        {
+          "iconType": "tool",
+          "title": "ROS"
+        },
+        {
+          "iconType": "tool",
+          "title": "Arduino"
+        },
+        {
+          "iconType": "tool",
+          "title": "Raspberri Pi"
+        },
+        {
+          "iconType": "tool",
+          "title": "Sensors"
+        },
+        {
+          "iconType": "tool",
+          "title": "Drones"
+        },
+        {
+          "iconType": "tool",
+          "title": "GoPiGo"
+        },
+        {
+          "iconType": "tool",
+          "title": "Turtlebot"
+        },
+        {
+          "iconType": "tool",
+          "title": "Git"
+        },
+        {
+          "iconType": "tool",
+          "title": "GitHub"
+        }
+      ],
+      "lab": [],
+      "learningObjectives": [
+        "Understand the field of agent-based and robotic systems",
+        "Gain exposure to multiple different robot platforms",
+        "Design and develop several robot applications",
+        "Learn about and reflect on public problems that involve robotic technology",
+        "Participate in civic engagement activities"
+      ],
+      "learningOutcomes": [
+        "Able to design, implement, and test application for a wheeled robot",
+        "Able to design, implement, and test application for a drone",
+        "Able to design, implement, and test application for a robotic arm",
+        "Can develop a simple application using ROS",
+        "Can put together engaging demonstrations using robots for public events"
+      ]
     }
   };

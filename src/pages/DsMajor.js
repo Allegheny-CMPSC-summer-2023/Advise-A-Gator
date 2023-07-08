@@ -1,14 +1,13 @@
 import React from "react";
+import classes from "../components/Roadmap/layout/MainContainer.module.css";
+import boxesData from "../components/Roadmap/boxesData";
 import { useState, useEffect, useContext } from "react";
-
-import classes from "../layout/MainContainer.module.css";
-import boxesData from "../boxesData";
-import Modal from "../modal/Modal";
-import CartContext from "../modal/modalContext";
-import contentData from "../contentData";
-import Loader from "../layout/Loader";
-import Footer from "../layout/Footer";
-import DataScienceMajorBlock from "../components/DataScienceMajorBlock";
+import Modal from "../components/Roadmap/modal/Modal";
+import CartContext from "../components/Roadmap/modal/modalContext";
+import contentData from "../components/Roadmap/contentData";
+import Loader from "../components/Roadmap/layout/Loader";
+import Footer from "../components/Roadmap/layout/Footer";
+import DataScienceMajorBlock from "../components/Roadmap/components/DataScienceMajorBlock";
 
 const Lines = () => {
   return (

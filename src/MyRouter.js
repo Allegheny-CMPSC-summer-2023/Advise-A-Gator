@@ -5,6 +5,7 @@ import CsMajor from "./pages/CsMajor";
 import DsMajor from "./pages/DsMajor";
 import Software from "./pages/Software";
 import Home from "./pages/homepage/Home";
+import DataScienceMajor from "./pages/DsMajor";
 
 import App from "./pages/App";
 

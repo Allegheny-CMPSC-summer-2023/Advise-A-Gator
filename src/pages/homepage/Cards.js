@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
 const cardContainer = {
   display: "flex",
@@ -55,9 +56,7 @@ function FieldCard1(props) {
       </p>
       <h2 class="card__title">Computer Science Major</h2>
       <p class="card__apply">
-        <a class="card__link" href="#">
-          See Courses <i class="fas fa-arrow-right"></i>
-        </a>
+        <Link to="/cmpsc" class="card__link"> See Courses <i class="fas fa-arrow-right"></i></Link>
       </p>
     </div>
   );

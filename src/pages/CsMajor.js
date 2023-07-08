@@ -1,14 +1,14 @@
 import React from "react";
 
-import ComputerScienceMajorBlock from "../components/ComputerScienceMajorBlock";
-import classes from "../layout/MainContainer.module.css";
-import boxesData from "../boxesData";
+import ComputerScienceMajorBlock from "../components/Roadmap/components/ComputerScienceMajorBlock";
+import classes from "../components/Roadmap/layout/MainContainer.module.css";
+import boxesData from "../components/Roadmap/boxesData";
 import { useState, useEffect, useContext } from "react";
-import Modal from "../modal/Modal";
-import CartContext from "../modal/modalContext";
-import contentData from "../contentData";
-import Loader from "../layout/Loader";
-import Footer from "../layout/Footer";
+import Modal from "../components/Roadmap/modal/Modal";
+import CartContext from "../components/Roadmap/modal/modalContext";
+import contentData from "../components/Roadmap/contentData";
+import Loader from "../components/Roadmap/layout/Loader";
+import Footer from "../components/Roadmap/layout/Footer";
 
 const Lines = () => {
   return (
