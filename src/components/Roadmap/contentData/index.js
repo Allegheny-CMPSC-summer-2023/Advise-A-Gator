@@ -1,4 +1,4 @@
-import userExperience from "./userExperience";
+import infMajor from "./infMajor";
 import csMajor from "./csMajor";
 import dsMajor from "./dsMajor";
 import userInterface from "./userInterface";
@@ -6,7 +6,7 @@ import communication from "./communication";
 
 export default {
   ...csMajor,
-  ...userExperience,
+  ...infMajor,
   ...dsMajor,
   ...userInterface,
   ...communication,
