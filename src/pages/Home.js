@@ -1,9 +1,7 @@
 import React from "react";
-import * as Card from "./Cards";
-import Layout from "./Layout";
-// import "../styles/global.css"
-import "./styles.css";
-import App from "../App";
+import * as Card from "../components/Cards";
+import Layout from "../components/Layout";
+import "../styles/styles.css";
 
 export default function Home() {
   return (

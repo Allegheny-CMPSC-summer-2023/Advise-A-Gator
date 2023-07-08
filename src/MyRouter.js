@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Layout from "./pages/homepage/Layout";
+import Layout from "./components/Layout";
 import CsMajor from "./pages/CsMajor";
 import DsMajor from "./pages/DsMajor";
 import Software from "./pages/Software";
-import Home from "./pages/homepage/Home";
+import Home from "./pages/Home";
 import DataScienceMajor from "./pages/DsMajor";
 
-import App from "./pages/App";
+import App from "./App";
 
 export default function MyRouter() {
   return (
