@@ -206,6 +206,6 @@ export default {
       strokeColor: "blue3",
       text: "CMPSC 610",
       hoverColor: "blue1",
-    }
-  ]
+    },
+  ],
 };
