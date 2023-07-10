@@ -185,7 +185,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "CMPSC 105 ",
+      text: "CMPSC 105",
       hoverColor: "violet1",
     },
   ],
