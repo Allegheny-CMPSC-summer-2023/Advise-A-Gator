@@ -129,7 +129,7 @@ export default {
     {
       type: "tertiaryBox",
       x: 901,
-      y: 60,
+      y: 65,
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
@@ -140,7 +140,7 @@ export default {
     {
       type: "tertiaryBox",
       x: 901,
-      y: 87,
+      y: 127,
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
