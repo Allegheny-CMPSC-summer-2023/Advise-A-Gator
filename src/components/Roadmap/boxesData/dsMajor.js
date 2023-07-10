@@ -17,7 +17,7 @@ export default {
       width: 243,
       height: 288,
       fillColor: "violet0",
-      text: "Foundation",
+      text: "Electives",
     },
     {
       type: "multiBox",
@@ -35,7 +35,7 @@ export default {
       width: 243,
       height: 243,
       fillColor: "violet0",
-      text: "Ethics",
+      text: "Project",
     },
     {
       type: "multiBox",
@@ -44,7 +44,7 @@ export default {
       width: 243,
       height: 198,
       fillColor: "violet0",
-      text: "Electives",
+      text: "Foundation",
     },
     {
       type: "tertiaryBox",
@@ -53,7 +53,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "CMPSC 100",
+      text: "ECON 203",
       hoverColor: "violet1",
     },
     {
@@ -73,7 +73,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "CMPSC 300",
+      text: "ECON 241",
       hoverColor: "violet1",
     },
     {
@@ -83,7 +83,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Contextual Inquiry",
+      text: "GHS 223 ",
       hoverColor: "violet1",
     },
     {
@@ -93,7 +93,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Competitive Research",
+      text: "MATH 320 ",
       hoverColor: "violet1",
     },
     {
@@ -103,7 +103,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "SWOT Analysis",
+      text: "CMPSC 300",
       hoverColor: "violet1",
     },
     {
@@ -143,7 +143,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Analytics",
+      text: "CMPSC 580",
       hoverColor: "violet1",
     },
     {
@@ -153,7 +153,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "A/B Testing",
+      text: "DS 600",
       hoverColor: "violet1",
     },
     {
@@ -163,7 +163,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Card Sorting",
+      text: "DS 610",
       hoverColor: "violet1",
     },
 
@@ -174,7 +174,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Research Planning",
+      text: "CMPSC 100 ",
       hoverColor: "violet1",
     },
     {
@@ -184,7 +184,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Analysis of Findings",
+      text: "CMPSC 101",
       hoverColor: "violet1",
     },
     {
@@ -194,7 +194,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "Research Repository",
+      text: "CMPSC 105 ",
       hoverColor: "violet1",
     },
   ],
