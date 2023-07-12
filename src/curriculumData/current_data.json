@@ -2352,7 +2352,7 @@
         "courseNumber": "MATH 320",
         "courseName": "Linear Algebra",
         "Major": [
-          "Computer Science Major"
+          "Computer Science Major", "Data Science Major"
         ],
         "Minor": [
           "Computer Science Minor"
@@ -2427,8 +2427,8 @@
       },
       {
         "courseNumber": "GHS 223",
-        "courseName": "People & Poisons",
-        "Major": [],
+        "courseName": "People & Poisons: Foundations of Public Health Toxicology",
+        "Major": ["Data Science Major"],
         "Minor": [],
         "distributionRequirements": [
           "SP"
@@ -3143,7 +3143,7 @@
       {
         "courseNumber": "FILM 300",
         "courseName": "Filmmaking & Digital Stories 2",
-        "Major": [],
+        "Major": ["Informatics Major"],
         "Minor": [],
         "distributionRequirements": [
           "HE",
