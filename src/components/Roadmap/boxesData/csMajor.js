@@ -8,7 +8,7 @@ export default {
       y: 72,
       strokeColor: "blue5",
       hoverColor: "blue0",
-      text: "CMPSC Major",
+      text: "CS Major",
     },
     {
       type: "multiBox",

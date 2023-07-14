@@ -1294,6 +1294,29 @@ module.exports = {
     "learningObjectives": [],
     "learningOutcomes": []
   },
+  "FILM 300": {
+    "title": "Filmmaking & Digital Stories 2",
+    "description": "An intermediate-level production course that develops a student's abilities to communicate in narrative, nonfiction and experimental forms of cinema. Students study key elements of scriptwriting and concept design and expand their technical skill base in lighting, sound design, cinematography and editing. Technical skills are developed in service to artistic, narrative and conceptual forms of expression.",
+    "distributionRequirements": [
+      "HE",
+      "ME"
+    ],
+    "credits": "4",
+    "prerequisites": {
+      "anyof": [
+        "FILM 171"
+      ],
+      "allof": []
+    },
+    "unlocks": [],
+    "topics": [],
+    "technicalTopics": [],
+    "professionalTopics": [],
+    "tools": [],
+    "lab": [],
+    "learningObjectives": [],
+    "learningOutcomes": []
+  },
   "CMPSC 529": {
     "title": "Internship",
     "description": "Academic study completed in support of an internship experience with a partner institution. An Allegheny faculty member assigns and evaluates the academic work done by the student. May be repeated for credit. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",

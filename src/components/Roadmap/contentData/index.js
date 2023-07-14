@@ -1,6 +1,6 @@
 import infMajor from "./infMajor";
-import csMajor from "./csMajor";
-import dsMajor from "./dsMajor";
+import * as csMajor from "./csMajor";
+import * as dsMajor from "./dsMajor";
 import userInterface from "./userInterface";
 import communication from "./communication";
 

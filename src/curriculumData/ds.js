@@ -609,6 +609,52 @@ module.exports = {
     "learningObjectives": [],
     "learningOutcomes": []
   },
+  "MATH 320": {
+    "title": "Linear Algebra",
+    "description": "A study of vector spaces, linear transformations, matrices, determinants, systems of linear equations, similarity, and characteristic values and vectors. This course may be applied toward the mathematics requirement for a Computer Science major. This course is one of the possible mathematics courses that may be substituted for one of the required 300-level CMPSC courses in the Computer Science major.",
+    "distributionRequirements": [
+      "SP"
+    ],
+    "credits": "4",
+    "prerequisites": {
+      "anyof": [
+        "MATH 205",
+        "MATH 210",
+        "MATH 211",
+        "MATH 270",
+        "MATH 280"
+      ],
+      "allof": []
+    },
+    "unlocks": [],
+    "topics": [],
+    "technicalTopics": [],
+    "professionalTopics": [],
+    "tools": [],
+    "lab": [],
+    "learningObjectives": [],
+    "learningOutcomes": []
+  },
+  "GHS 223": {
+    "title": "People & Poisons: Foundations of Public Health Toxicology",
+    "description": "An interdisciplinary introduction to the science of toxicology and its application to the study of human health. This course traces the biologic processes involved in the absorption, distribution, biotransformation, and excretion of toxic substances within the human body. Toxicology is an essential component of a wide array of efforts to improve health, informing everything from environmental policy, to risk assessments for particular communities, to industry and legal guidelines for determining thresholds of exposure for hazardous substances–whether those substances are found in our food, water, construction materials, or even toys.",
+    "distributionRequirements": [
+      "SP"
+    ],
+    "credits": "4",
+    "prerequisites": {
+      "anyof": [],
+      "allof": []
+    },
+    "unlocks": [],
+    "topics": [],
+    "technicalTopics": [],
+    "professionalTopics": [],
+    "tools": [],
+    "lab": [],
+    "learningObjectives": [],
+    "learningOutcomes": []
+  },
   "DOUBL 600": {
     "title": "Sr Project I: Double Major",
     "description": "Continuation of independent research in software engineering culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -1093,26 +1139,6 @@ module.exports = {
     "learningObjectives": [],
     "learningOutcomes": []
   },
-  "GHS 223": {
-    "title": "People & Poisons: Foundations of Public Health Toxicology",
-    "description": "An interdisciplinary introduction to the science of toxicology and its application to the study of human health. This course traces the biologic processes involved in the absorption, distribution, biotransformation, and excretion of toxic substances within the human body. Toxicology is an essential component of a wide array of efforts to improve health, informing everything from environmental policy, to risk assessments for particular communities, to industry and legal guidelines for determining thresholds of exposure for hazardous substances–whether those substances are found in our food, water, construction materials, or even toys.",
-    "distributionRequirements": [
-      "SP"
-    ],
-    "credits": "4",
-    "prerequisites": {
-      "anyof": [],
-      "allof": []
-    },
-    "unlocks": [],
-    "topics": [],
-    "technicalTopics": [],
-    "professionalTopics": [],
-    "tools": [],
-    "lab": [],
-    "learningObjectives": [],
-    "learningOutcomes": []
-  },
   "BIO 321": {
     "title": "Epidemiology",
     "description": "A study of the determinants and distributions of disease that will culminate in the design and application of an epidemiological study. This course will also provide students with an introduction to the science of epidemiology, including its historical origins, main concepts, and methodological approaches. Topics to be covered include data types and interpretation, differences in study design approaches, and the differences between association and causation.",
@@ -1130,32 +1156,6 @@ module.exports = {
         "BIO 221",
         "FSBIO 201"
       ]
-    },
-    "unlocks": [],
-    "topics": [],
-    "technicalTopics": [],
-    "professionalTopics": [],
-    "tools": [],
-    "lab": [],
-    "learningObjectives": [],
-    "learningOutcomes": []
-  },
-  "MATH 320": {
-    "title": "Linear Algebra",
-    "description": "A study of vector spaces, linear transformations, matrices, determinants, systems of linear equations, similarity, and characteristic values and vectors. This course may be applied toward the mathematics requirement for a Computer Science major. This course is one of the possible mathematics courses that may be substituted for one of the required 300-level CMPSC courses in the Computer Science major.",
-    "distributionRequirements": [
-      "SP"
-    ],
-    "credits": "4",
-    "prerequisites": {
-      "anyof": [
-        "MATH 205",
-        "MATH 210",
-        "MATH 211",
-        "MATH 270",
-        "MATH 280"
-      ],
-      "allof": []
     },
     "unlocks": [],
     "topics": [],
