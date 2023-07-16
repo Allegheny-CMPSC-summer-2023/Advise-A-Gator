@@ -8,7 +8,7 @@ export default {
       y: 140,
       strokeColor: "violet5",
       hoverColor: "violet0",
-      text: "Data Science Major",
+      text: "Data Science",
     },
     {
       type: "multiBox",
@@ -83,7 +83,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "GHS 223",
+      text: "GHS 223 ",
       hoverColor: "violet1",
     },
     {
@@ -93,7 +93,7 @@ export default {
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
-      text: "MATH 320",
+      text: "MATH 320 ",
       hoverColor: "violet1",
     },
     {
@@ -178,6 +178,7 @@ export default {
       text: "CMPSC 101",
       hoverColor: "violet1",
     },
+
     {
       type: "tertiaryBox",
       x: 901,
