@@ -2444,6 +2444,44 @@
       "learningOutcomes": []
     },
     {
+      "courseNumber": "ECON 202",
+      "courseName": "Economic Statistics",
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "credits": "4",
+      "distributionRequirements": [
+        "QR"
+      ],
+      "prerequisites": {
+        "anyof": [
+          "MATH 141",
+          "MATH 151"
+        ],
+        "allof": [
+          "ECON 100",
+          "ECON 102",
+          "MATH 140"
+        ]
+      },
+      "unlocks": [],
+      "courseDescription": "An introduction to the basic components of statistical analysis necessary for applied economic research. Basic concepts of probability, probability distributions, random sampling, point estimation, internal estimation and hypothesis testing are covered. Special attention is focused on the development of multiple regression analysis.",
+      "cslevel": "",
+      "dslevel": "Core",
+      "dsSub": "Statistics",
+      "inflevel": "",
+      "infSub": "",
+      "selevel": "",
+      "topics": [],
+      "tools": [],
+      "lab": [],
+      "learningObjectives": [],
+      "learningOutcomes": []
+    },
+    {
       "courseNumber": "ECON 203",
       "courseName": "Economic Statistics II",
       "Major": [
@@ -2703,7 +2741,9 @@
       "Major": [
         "Data Science Major"
       ],
-      "Minor": [],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "distributionRequirements": [
         "SP"
       ],
@@ -2801,10 +2841,10 @@
       "courseNumber": "PSYCH 207",
       "courseName": "Statistical Methods in Psychology",
       "Major": [
-        ""
+        "Data Science Major"
       ],
       "Minor": [
-        ""
+        "Data Science Minor"
       ],
       "distributionRequirements": [
         "QR",
@@ -3026,6 +3066,98 @@
       },
       "unlocks": [
         "CMPSC 600"
+      ],
+      "courseDescription": "An investigation of select topics in computer and information science that prepares students for the completion of a senior project with the purpose of identifying knowledge gaps in the discipline. Students learn how to read scholarly papers, state and motivate research questions, create a software prototype or develop scholarly artifacts to address their findings, and collect and organize evidence for evaluating the outcome of their project. During a weekly laboratory session students use industry-grade technology to gain practical skills in technical writing, the presentation of technical concepts, and the production of an artifact. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+      "cslevel": "Project",
+      "dslevel": "Project",
+      "dsSub": "",
+      "inflevel": "Project",
+      "infSub": "",
+      "selevel": "Project",
+      "topics": [
+        "Planning",
+        "Idea Development",
+        "Professional Development",
+        "Literature Review",
+        "User Studies"
+      ],
+      "tools": [
+        "Docker",
+        "Latex",
+        "GatorGrader",
+        "Python",
+        "GitHub",
+        "R"
+      ],
+      "lab": [],
+      "learningObjectives": [],
+      "learningOutcomes": []
+    },
+    {
+      "courseNumber": "DS 610 ",
+      "courseName": "Senior Thesis II ",
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [],
+      "credits": "4",
+      "distributionRequirements": [
+        ""
+      ],
+      "prerequisites": {
+        "anyof": [
+          "DS 600"
+        ],
+        "allof": [
+          "Permission of the instructor"
+        ]
+      },
+      "unlocks": [],
+      "courseDescription": "An investigation of select topics in computer and information science that prepares students for the completion of a senior project with the purpose of identifying knowledge gaps in the discipline. Students learn how to read scholarly papers, state and motivate research questions, create a software prototype or develop scholarly artifacts to address their findings, and collect and organize evidence for evaluating the outcome of their project. During a weekly laboratory session students use industry-grade technology to gain practical skills in technical writing, the presentation of technical concepts, and the production of an artifact. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+      "cslevel": "",
+      "dslevel": "Project",
+      "dsSub": "",
+      "inflevel": "",
+      "infSub": "",
+      "selevel": "",
+      "topics": [
+        "Planning",
+        "Idea Development",
+        "Professional Development",
+        "Literature Review",
+        "User Studies"
+      ],
+      "tools": [
+        "Docker",
+        "Latex",
+        "GatorGrader",
+        "Python",
+        "GitHub",
+        "R"
+      ],
+      "lab": [],
+      "learningObjectives": [],
+      "learningOutcomes": []
+    },
+    {
+      "courseNumber": "DS 600 ",
+      "courseName": "Senior Thesis I ",
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [],
+      "credits": "4",
+      "distributionRequirements": [
+        ""
+      ],
+      "prerequisites": {
+        "anyof": [],
+        "allof": [
+          "Permission of the instructor"
+        ]
+      },
+      "unlocks": [
+        "CMPSC 610"
       ],
       "courseDescription": "An investigation of select topics in computer and information science that prepares students for the completion of a senior project with the purpose of identifying knowledge gaps in the discipline. Students learn how to read scholarly papers, state and motivate research questions, create a software prototype or develop scholarly artifacts to address their findings, and collect and organize evidence for evaluating the outcome of their project. During a weekly laboratory session students use industry-grade technology to gain practical skills in technical writing, the presentation of technical concepts, and the production of an artifact. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "Project",
