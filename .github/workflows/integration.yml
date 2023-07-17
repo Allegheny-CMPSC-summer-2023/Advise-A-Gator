@@ -62,7 +62,8 @@ jobs:
       run: check-jsonschema --schemafile src/curriculumData/config_schema.json src/curriculumData/current_data.json 
   prettier:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
