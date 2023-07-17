@@ -15,13 +15,22 @@
         "Informatics Minor",
         "Software Engineering Minor"
       ],
-      "distributionRequirements": ["ME", "SP"],
+      "distributionRequirements": [
+        "ME",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["Knowledge of elementary algebra"]
+        "allof": [
+          "Knowledge of elementary algebra"
+        ]
       },
-      "unlocks": ["CMPSC 101", "CMPSC 102", "CMPSC 300"],
+      "unlocks": [
+        "CMPSC 101",
+        "CMPSC 102",
+        "CMPSC 300"
+      ],
       "courseDescription": "An introduction to the principles of computer science with an emphasis on creative expression through the medium of a programming language. Participating in hands-on activities that often require teamwork, students learn the computational structures needed to solve problems and produce computational artifacts which address these problems in real-world contexts. Students also learn how to organize and document a program's source code so that it effectively communicates with the intended users and maintainers. Additionally, the introduction includes an overview of the discipline of computer science and computational thinking. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "foundation",
       "dslevel": "foundation",
@@ -40,7 +49,12 @@
         "GitHub Flow",
         "Markdown"
       ],
-      "tools": ["Python", "VSCode", "Git", "GitHub"],
+      "tools": [
+        "Python",
+        "VSCode",
+        "Git",
+        "GitHub"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -48,13 +62,22 @@
     {
       "courseNumber": "CMPSC 102",
       "courseName": "Discrete Structures",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 100"]
+        "allof": [
+          "CMPSC 100"
+        ]
       },
       "unlocks": [
         "CMPSC 200",
@@ -99,15 +122,28 @@
     {
       "courseNumber": "CMPSC 200",
       "courseName": "Computer Organization",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 102"]
+        "allof": [
+          "CMPSC 102"
+        ]
       },
-      "unlocks": ["CMPSC 400", "CMPSC 403", "CMPSC 406"],
+      "unlocks": [
+        "CMPSC 400",
+        "CMPSC 403",
+        "CMPSC 406"
+      ],
       "courseDescription": "A study of the low-level operation of computer systems. Participating in hands-on activities that often require teamwork, students investigate how computers process instructions in modern computers as information is encoded, stored, and executed in a machine’s physical structures. In addition to learning how to program in assembly and machine languages, students investigate the design and logical operation of processors and the mathematics of machine computation. During a weekly laboratory session, students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "core",
       "dslevel": "",
@@ -124,7 +160,12 @@
         "Digital circuits",
         "Low-level languages"
       ],
-      "tools": ["Docker", "Verilog", "C++", "Assembly"],
+      "tools": [
+        "Docker",
+        "Verilog",
+        "C++",
+        "Assembly"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -132,15 +173,22 @@
     {
       "courseNumber": "CMPSC 104",
       "courseName": "Document Engineering",
-      "Major": ["Software Engineering Major"],
+      "Major": [
+        "Software Engineering Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["HE", "SP"],
+      "distributionRequirements": [
+        "HE",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["CMPSC 302"],
+      "unlocks": [
+        "CMPSC 302"
+      ],
       "courseDescription": "An introduction to creation of effective documents and documentation using industry-standard approaches to creating and treating 'documentation as code.' Participating in project-based and hands-on activities, students create purpose-driven digital writing with special attention to forms, formats, and conventions expected of contemporary technical communication. Students also gain experience with creating collaborative and ethically-consistent content working in a team-based setting. During a weekly laboratory session students employ contemporary software tools to complete technical documentation projects, reporting on their results through both written reflections and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "",
       "dslevel": "",
@@ -157,15 +205,27 @@
     {
       "courseNumber": "CMPSC 202",
       "courseName": "Algorithm Analysis",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["CMPSC 101", "CMPSC 102"],
+        "anyof": [
+          "CMPSC 101",
+          "CMPSC 102"
+        ],
         "allof": []
       },
-      "unlocks": [""],
+      "unlocks": [
+        ""
+      ],
       "courseDescription": "A study of fundamental methods for designing and implementing algorithms and analyzing their efficiency. While developing expertise in select models of computation and the key mathematical and experimental approaches to studying algorithm efficiency, students investigate different types of algorithms through hands-on activities that often require teamwork. Students also learn how to determine whether a problem can be efficiently solved by an algorithm that is implemented as a computer program. During a weekly laboratory session, students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "Core",
       "dslevel": "",
@@ -200,15 +260,26 @@
     {
       "courseNumber": "CMPSC 203",
       "courseName": "Software Engineering",
-      "Major": ["Software Engineering Major"],
-      "Minor": ["Software Engineering Major"],
-      "distributionRequirements": ["SB", "SP"],
+      "Major": [
+        "Software Engineering Major"
+      ],
+      "Minor": [
+        "Software Engineering Major"
+      ],
+      "distributionRequirements": [
+        "SB",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 101"]
+        "allof": [
+          "CMPSC 101"
+        ]
       },
-      "unlocks": ["CMPSC 404"],
+      "unlocks": [
+        "CMPSC 404"
+      ],
       "courseDescription": "A human-centric study of the principles used during the engineering of high-quality software systems. In addition to examining the human behaviors and social processes undergirding software development methodologies, students participate in teams tasked with designing, developing, and delivering a significant software application for a customer. During a weekly laboratory session, students use state-of-the-art software engineering, management, and communication tools to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "",
       "dslevel": "",
@@ -241,7 +312,13 @@
         "Requirements Gathering",
         "Mutation Testing"
       ],
-      "tools": ["Git", "GitHub", "Markdown", "pytest", "Python"],
+      "tools": [
+        "Git",
+        "GitHub",
+        "Markdown",
+        "pytest",
+        "Python"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -249,13 +326,22 @@
     {
       "courseNumber": "CMPSC 204",
       "courseName": "Theoretical Machines",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 102"]
+        "allof": [
+          "CMPSC 102"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of theoretical computer science concepts that addresses both the fundamental nature and limitations of computation and the ways in which to practically apply these insights. While using a machine-centered abstraction of computation implemented in a general-purpose programming language, students investigate what is computable and explore the categories and complexity of computational problems. Participating in hands-on activities that often require teamwork, students gain experience in the use of a programming language to characterize a problem solving strategy. During a weekly laboratory session, students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -279,11 +365,20 @@
         "Data Science Major",
         "Informatics Major"
       ],
-      "Minor": ["Informatics Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Minor": [
+        "Informatics Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["CMPSC 100", "BIO 221", "FSBIO 201"],
+        "anyof": [
+          "CMPSC 100",
+          "BIO 221",
+          "FSBIO 201"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -306,7 +401,13 @@
         "Gene Prediction",
         "Data Modeling"
       ],
-      "tools": ["BLAST", "UniProt", "Docker", "GatorGrader", "GitHub"],
+      "tools": [
+        "BLAST",
+        "UniProt",
+        "Docker",
+        "GatorGrader",
+        "GitHub"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -314,10 +415,18 @@
     {
       "courseNumber": "CMPSC 105",
       "courseName": "Data Exploration",
-      "Major": ["Informatics Major", "Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Informatics Major",
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -330,8 +439,16 @@
       "inflevel": "Foundation",
       "infSub": "",
       "selevel": "Foundation",
-      "topics": ["Teamwork", "Data Structures", "Recursion"],
-      "tools": ["Docker", "GitHub", "Git"],
+      "topics": [
+        "Teamwork",
+        "Data Structures",
+        "Recursion"
+      ],
+      "tools": [
+        "Docker",
+        "GitHub",
+        "Git"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -339,15 +456,28 @@
     {
       "courseNumber": "CMPSC 201",
       "courseName": "Programming Languages",
-      "Major": ["Software Engineering Major"],
-      "Minor": ["Software Engineering Minor"],
+      "Major": [
+        "Software Engineering Major"
+      ],
+      "Minor": [
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
-        "anyof": ["CMPSC 101", "CMPSC 102"],
+        "anyof": [
+          "CMPSC 101",
+          "CMPSC 102"
+        ],
         "allof": []
       },
-      "unlocks": ["CMPSC 400", "CMPSC 403"],
+      "unlocks": [
+        "CMPSC 400",
+        "CMPSC 403"
+      ],
       "courseDescription": "A study of the fundamental concepts that arise in different programming language paradigms. Students learn how programming languages are designed and implemented, and how these factors affect the overall usability, performance, and effectiveness of computer software. Participating in hands-on activities that often require teamwork, students gain experience in leveraging the styles and features of programming languages to implement and evaluate correct and efficient computer software. During a weekly laboratory session, students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "",
       "dslevel": "",
@@ -372,7 +502,11 @@
         "Language Paradigms",
         "Language Security"
       ],
-      "professionalTopics": ["teamwork", "code review", "communication"],
+      "professionalTopics": [
+        "teamwork",
+        "code review",
+        "communication"
+      ],
       "tools": [
         "C",
         "C++",
@@ -385,7 +519,9 @@
         "JavaScript",
         "Python"
       ],
-      "platform": ["https://github.com/CMPSC-201-Spring2023"],
+      "platform": [
+        "https://github.com/CMPSC-201-Spring2023"
+      ],
       "learningObjectives": [
         "Understand fundamental concepts that underlie programming language syntax and semantics",
         "Gain exposure to different languages and language paradigms",
@@ -404,15 +540,27 @@
     {
       "courseNumber": "CMPSC 301",
       "courseName": "Data Science",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "PD"],
+      "distributionRequirements": [
+        "QR",
+        "PD"
+      ],
       "prerequisites": {
-        "anyof": ["CMPSC 101", "CMPSC 102"],
+        "anyof": [
+          "CMPSC 101",
+          "CMPSC 102"
+        ],
         "allof": []
       },
-      "unlocks": ["CMPSC 405"],
+      "unlocks": [
+        "CMPSC 405"
+      ],
       "courseDescription": "A study of computational methods of data analysis with an emphasis on understanding and reflecting on the social, cultural, and political issues surrounding data and its interrogation. Participating in hands-on activities that often require teamwork, students study, design, and implement analytics software and learn how to build predictive models with foundational machine learning algorithms to extract knowledge from various sources of data. Students also investigate the biases, discriminatory views, and stereotypes that may be present during the collection and analysis of data, reflecting on the ethical implications of using the resulting machine learning techniques. During a weekly laboratory session, students use industry-grade open source statistical software to complete projects, reporting on their findings through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "",
       "dslevel": "Core",
@@ -420,8 +568,16 @@
       "inflevel": "",
       "infSub": "",
       "selevel": "",
-      "topics": ["Statistical Analysis", "Plotting", "Ethics"],
-      "tools": ["Docker", "R", "ggplot"],
+      "topics": [
+        "Statistical Analysis",
+        "Plotting",
+        "Ethics"
+      ],
+      "tools": [
+        "Docker",
+        "R",
+        "ggplot"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -429,15 +585,26 @@
     {
       "courseNumber": "CMPSC 405",
       "courseName": "Deep Learning",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
-        "anyof": ["CMPSC 301"],
+        "anyof": [
+          "CMPSC 301"
+        ],
         "allof": []
       },
-      "unlocks": ["CMPSC 529"],
+      "unlocks": [
+        "CMPSC 529"
+      ],
       "courseDescription": "An interrogation of foundational capabilities, challenges and consequences of deep learning algorithms. Participating in hands-on activities that often require teamwork, students master theoretical concepts to build and train neural network architectures and learn how to improve them. Leveraging insights and tools from an industry partner, students also investigate real-world cases such as speech recognition, machine translation, computer vision, and natural language processing. During a weekly laboratory session students use advanced operating systems software to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "",
       "dslevel": "Core",
@@ -445,8 +612,16 @@
       "inflevel": "",
       "infSub": "",
       "selevel": "",
-      "topics": ["Statistical Analysis", "Plotting", "Ethics"],
-      "tools": ["Docker", "R", "ggplot"],
+      "topics": [
+        "Statistical Analysis",
+        "Plotting",
+        "Ethics"
+      ],
+      "tools": [
+        "Docker",
+        "R",
+        "ggplot"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -454,10 +629,17 @@
     {
       "courseNumber": "PHIL 210 ",
       "courseName": "Oppression and Liberation",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "PD"],
+      "distributionRequirements": [
+        "CL",
+        "PD"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -480,12 +662,21 @@
     {
       "courseNumber": "ENGL 210",
       "courseName": "Writing Creative Nonfiction",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
-        "anyof": ["One 100-level literature course"],
+        "anyof": [
+          "One 100-level literature course"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -506,12 +697,18 @@
     {
       "courseNumber": "CMPSC 529",
       "courseName": "Internship",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "1-4",
       "distributionRequirements": [],
       "prerequisites": {
-        "anyof": ["permission from the instructor"],
+        "anyof": [
+          "permission from the instructor"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -522,10 +719,21 @@
       "inflevel": "",
       "infSub": "",
       "selevel": "",
-      "technicalTopics": ["topics vary based on the assigned industry project"],
-      "professionalTopics": ["teamwork", "meetings", "communication"],
-      "tools": ["GitHub", "Git"],
-      "platform": ["https://github.com/CMPSC-529-Allegheny-CS-Internship"],
+      "technicalTopics": [
+        "topics vary based on the assigned industry project"
+      ],
+      "professionalTopics": [
+        "teamwork",
+        "meetings",
+        "communication"
+      ],
+      "tools": [
+        "GitHub",
+        "Git"
+      ],
+      "platform": [
+        "https://github.com/CMPSC-529-Allegheny-CS-Internship"
+      ],
       "learningObjectives": [
         "Gain hands-on experience working with an industry partner",
         "Experiment with new technologies",
@@ -550,11 +758,20 @@
         "Informatics Major",
         "Software Engineering Major"
       ],
-      "Minor": ["Informatics Minor", "Software Engineering Minor"],
+      "Minor": [
+        "Informatics Minor",
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
-        "anyof": ["CMPSC 100", "permission of the instructor."],
+        "anyof": [
+          "CMPSC 100",
+          "permission of the instructor."
+        ],
         "allof": []
       },
       "unlocks": [
@@ -609,13 +826,24 @@
     {
       "courseNumber": "CMPSC 304",
       "courseName": "Robotic Agents",
-      "Major": ["Informatics Major", "Computer Science Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major",
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "QR"],
+      "distributionRequirements": [
+        "CL",
+        "QR"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 101", "CMPSC 102"]
+        "allof": [
+          "CMPSC 101",
+          "CMPSC 102"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of the design and implementation of autonomous software agents and robotic systems that cooperatively complete complex tasks. In addition to examining techniques for large-scale coordination and group-based decision-making, students learn how to apply the field's technologies to address the challenges facing local and global communities. Participating in hands-on activities that often require teamwork, students develop and evaluate several multi-agent or multi-robot systems, while also reflecting on the civic issues surrounding the use of these systems. During a weekly laboratory session students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -655,7 +883,9 @@
         "Git",
         "GitHub"
       ],
-      "platform": ["https://learnroboticagents.com"],
+      "platform": [
+        "https://learnroboticagents.com"
+      ],
       "learningObjectives": [
         "Understand the field of agent-based and robotic systems",
         "Gain exposure to multiple different robot platforms",
@@ -674,13 +904,22 @@
     {
       "courseNumber": "CMPSC 350",
       "courseName": "Computational Narrative",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 101"]
+        "allof": [
+          "CMPSC 101"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of the craft and deployment of procedurally-generated digital narratives, placing an emphasis on using data sources and computational methods as storytelling media. Students focus on critical, close reading of professional and student works while completing a single long-form work of their own. Topics include natural language processing (NLP), procedural illustration, computational constraint, and the development of conceptual documentary works.",
@@ -699,12 +938,24 @@
     {
       "courseNumber": "CMPSC 400",
       "courseName": "Operating Systems",
-      "Major": ["Computer Science Major", "Software Engineering Major"],
-      "Minor": ["Computer Science Minor", "Software Engineering Minor"],
+      "Major": [
+        "Computer Science Major",
+        "Software Engineering Major"
+      ],
+      "Minor": [
+        "Computer Science Minor",
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
-        "anyof": ["CMPSC 200", "CMPSC 201"],
+        "anyof": [
+          "CMPSC 200",
+          "CMPSC 201"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -733,7 +984,13 @@
         "Semaphores",
         "Low-level Languages"
       ],
-      "tools": ["Docker", "GCC", "Github", "GatorGrader", "Discord"],
+      "tools": [
+        "Docker",
+        "GCC",
+        "Github",
+        "GatorGrader",
+        "Discord"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -741,13 +998,22 @@
     {
       "courseNumber": "CMPSC 406",
       "courseName": "Internet Of Things",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SP", "SB"],
+      "distributionRequirements": [
+        "SP",
+        "SB"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 200"]
+        "allof": [
+          "CMPSC 200"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An introduction to small-scale, purpose-built physical computational objects which embed sensors, integrate with networks, and process environmental signals. Exploring various industrial architectures, students develop devices that respond to physical stimuli and transmit data across networks to motivate additional device behavior and interactivity while considering human interaction design (HID) and “people-centered” principles that drive device design. During weekly laboratory sessions, students complete projects which focus on industry standards of data transmission and privacy in addition to optimizing device performance for real-time, high-availability applications. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -766,15 +1032,22 @@
     {
       "courseNumber": "ART 187",
       "courseName": "Electronic & Intermedia Art",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ART 287"],
+      "unlocks": [
+        "ART 287"
+      ],
       "courseDescription": "An introduction to using electronic technologies/software and digital media as art-making tools. Emphasis on awareness of the elements of 2D design/composition and the vocabulary used to describe it. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of electronic art in human experience. This course emphasizes the development of skills with a focus on technique, contemporary and historical issues, and conceptual development.",
       "cslevel": "",
       "dslevel": "",
@@ -791,15 +1064,24 @@
     {
       "courseNumber": "ART 287",
       "courseName": "Electronic & Intermedia Art",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["ART 187"]
+        "allof": [
+          "ART 187"
+        ]
       },
-      "unlocks": ["ART 287"],
+      "unlocks": [
+        "ART 287"
+      ],
       "courseDescription": "Application of the tools and technologies of biological science and computer science to create thought provoking and socially resonant works of art that broaden scientific literacy, while creatively exploring complex philosophical and conceptual ideas of where biology ends and technologies begin. Students use emerging and established trends to articulate ideas and create effective viewer experiences. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of art in human experience.",
       "cslevel": "",
       "dslevel": "",
@@ -816,13 +1098,20 @@
     {
       "courseNumber": "ART 287",
       "courseName": "Art at the Intersection of Science and Culture",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["ART 187"]
+        "allof": [
+          "ART 187"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Application of the tools and technologies of biological science and computer science to create thought provoking and socially resonant works of art that broaden scientific literacy, while creatively exploring complex philosophical and conceptual ideas of where biology ends and technologies begin. Students use emerging and established trends to articulate ideas and create effective viewer experiences. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of art in human experience.",
@@ -841,12 +1130,21 @@
     {
       "courseNumber": "COMM 376",
       "courseName": "Ethnographic Methods in Media and Cultural Studies",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": ["CL", "HE"],
+      "distributionRequirements": [
+        "CL",
+        "HE"
+      ],
       "prerequisites": {
-        "anyof": ["COMM 125", "COMM 145", "FSCOM 201"],
+        "anyof": [
+          "COMM 125",
+          "COMM 145",
+          "FSCOM 201"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -866,15 +1164,22 @@
     {
       "courseNumber": "FILM 187",
       "courseName": "Filmmaking & Digital Stories 1",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["FILM 300"],
+      "unlocks": [
+        "FILM 300"
+      ],
       "courseDescription": "A study of aesthetic concepts and production techniques involved in cinematic and television production. Students create works that demonstrate an understanding of the various production elements and how they can be combined for effective communication.",
       "cslevel": "",
       "dslevel": "",
@@ -891,15 +1196,24 @@
     {
       "courseNumber": "ART 251",
       "courseName": "Contemporary Art Writing",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "PD"],
+      "distributionRequirements": [
+        "HE",
+        "PD"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ART 287"],
+      "unlocks": [
+        "ART 287"
+      ],
       "courseDescription": "A study of modern and contemporary art through the lens of art writing. This course builds the research-based skills and visual literacy necessary for art writing--a rigorous but creative process of knowledge production. Art writers mobilize art in the service of broader cultural conversations to address social and political challenges, from race and gender equity to climate change. Students read and practice discipline-specific writing, and they also focus on interdisciplinary authors who posit art as a model of political resistance. Along with foundational writing skills, this course promotes proficiency in the visual and written language of contemporary art",
       "cslevel": "",
       "dslevel": "",
@@ -916,10 +1230,17 @@
     {
       "courseNumber": "ART 343",
       "courseName": "Feminist Art Histories",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "PD"],
+      "distributionRequirements": [
+        "HE",
+        "PD"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -941,15 +1262,24 @@
     {
       "courseNumber": "ENGL 110",
       "courseName": "Intro to Literary Studies",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -966,15 +1296,24 @@
     {
       "courseNumber": "ENGL 111",
       "courseName": "Literature and the Arts",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -991,15 +1330,24 @@
     {
       "courseNumber": "ENGL 112",
       "courseName": "Literature and the Body",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -1016,15 +1364,25 @@
     {
       "courseNumber": "ENGL 113",
       "courseName": "Literature and Race",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "PD"],
+      "distributionRequirements": [
+        "HE",
+        "PD"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -1041,15 +1399,24 @@
     {
       "courseNumber": "ENGL 114",
       "courseName": "Literature and Business",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -1066,15 +1433,24 @@
     {
       "courseNumber": "ENGL 115",
       "courseName": "Literature and Sexuality",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -1091,15 +1467,24 @@
     {
       "courseNumber": "ENGL 116",
       "courseName": "Literature and the Environment",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -1116,15 +1501,24 @@
     {
       "courseNumber": "ENGL 117",
       "courseName": "Literature and Science",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -1141,15 +1535,24 @@
     {
       "courseNumber": "ENGL 118",
       "courseName": "Literature and the Mind",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ENGL 210", "ENGL 360"],
+      "unlocks": [
+        "ENGL 210",
+        "ENGL 360"
+      ],
       "courseDescription": "A course in the close reading of literary texts. Through the study of multiple genres of literary works, students develop their ability to read carefully and to understand the relationship between literary texts and a range of historical and/or literary contexts. The course also introduces students to some of the terms and critical approaches necessary for further literary study.",
       "cslevel": "",
       "dslevel": "",
@@ -1166,10 +1569,16 @@
     {
       "courseNumber": "ENGL 360",
       "courseName": "Language, Theory, and Practice",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE"],
+      "distributionRequirements": [
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": [
@@ -1193,10 +1602,17 @@
     {
       "courseNumber": "HIST 170",
       "courseName": "Introduction to Public History",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "SB"],
+      "distributionRequirements": [
+        "CL",
+        "SB"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1218,10 +1634,19 @@
     {
       "courseNumber": "PHIL 140",
       "courseName": "Ethics and Community",
-      "Major": ["Data Science Major", "Informatics Major"],
-      "Minor": ["Data Science Minor", "Informatics Minor"],
+      "Major": [
+        "Data Science Major",
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Data Science Minor",
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["PD", "CL"],
+      "distributionRequirements": [
+        "PD",
+        "CL"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1243,10 +1668,17 @@
     {
       "courseNumber": "RELST 180",
       "courseName": "Religion in American Life",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "SB"],
+      "distributionRequirements": [
+        "HE",
+        "SB"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1268,13 +1700,22 @@
     {
       "courseNumber": "RELST 200",
       "courseName": "Christian Ethics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["PD", "HE"],
+      "distributionRequirements": [
+        "PD",
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 200"]
+        "allof": [
+          "CMPSC 200"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An introduction to the study of Christian ethics considered within an ecumenical framework and across the broad span of the history of theology. Focusing on the primary issues that arise for any ethic that is identifiably Christian, this inquiry also involves learning to analyze and construct moral arguments. This course counts toward the VESA and Science, Health, and Society minors.",
@@ -1293,12 +1734,21 @@
     {
       "courseNumber": "RELST 341",
       "courseName": "Jewish Ethics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["PD", "HE"],
+      "distributionRequirements": [
+        "PD",
+        "HE"
+      ],
       "prerequisites": {
-        "anyof": ["RELST 147"],
+        "anyof": [
+          "RELST 147"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -1318,13 +1768,22 @@
     {
       "courseNumber": "ENVSC 285",
       "courseName": "Quantitative Sustainability",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SP", "QR"],
+      "distributionRequirements": [
+        "SP",
+        "QR"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["ENVSC 110"]
+        "allof": [
+          "ENVSC 110"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A survey of environmental issues from a quantitative perspective in order to expose students to mathematical tools used in the environmental sciences. Students are asked to make recommendations on issues surrounding climate change, pollution, ecosystem health, land use, population growth, natural resource management, and other current environmental issues. In the process of investigating these topics, students develop a mathematical toolkit for carrying out a variety of calculations, understanding uncertainty, interpreting data, and developing mathematical models to describe economic, social, and environmental systems. .",
@@ -1343,15 +1802,27 @@
     {
       "courseNumber": "ENVSC 305 ",
       "courseName": "Environmental GIS I",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "QR"],
+      "distributionRequirements": [
+        "CL",
+        "QR"
+      ],
       "prerequisites": {
-        "anyof": ["permission from the instructor", "ENVSC 110"],
+        "anyof": [
+          "permission from the instructor",
+          "ENVSC 110"
+        ],
         "allof": []
       },
-      "unlocks": ["ENVSC 306"],
+      "unlocks": [
+        "ENVSC 306"
+      ],
       "courseDescription": "An interdisciplinary examination of the theory and techniques used in the mapping and geographic analysis of environmental problems. Environmental research increasingly depends on the ability to gather, analyze, and present spatial data using geographic information systems (GIS). Students are introduced to the use of geospatial technologies through the analysis of environmental case studies. Topics include: vector and raster data models, map registration and coordinate systems, database design, data entry, and editing, GPS data collection, aerial and satellite imagery data sources, query, visualization, and spatial analysis, and cartography. The class includes a weekly three-hour laboratory..",
       "cslevel": "",
       "dslevel": "",
@@ -1368,12 +1839,22 @@
     {
       "courseNumber": "ENVSC 306",
       "courseName": "Environmental GIS II",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "QR"],
+      "distributionRequirements": [
+        "CL",
+        "QR"
+      ],
       "prerequisites": {
-        "anyof": ["permission from the instructor", "ENVSC 305"],
+        "anyof": [
+          "permission from the instructor",
+          "ENVSC 305"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -1393,13 +1874,22 @@
     {
       "courseNumber": "GEO 110",
       "courseName": "Physical Geology",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SP", "QR"],
+      "distributionRequirements": [
+        "SP",
+        "QR"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["GEO-109"]
+        "allof": [
+          "GEO-109"
+        ]
       },
       "unlocks": [
         "GEO 250",
@@ -1427,10 +1917,17 @@
     {
       "courseNumber": "GHS 228",
       "courseName": "Global Health Data ",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SP", "QR"],
+      "distributionRequirements": [
+        "SP",
+        "QR"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1452,13 +1949,21 @@
     {
       "courseNumber": "GHS 235",
       "courseName": "Global Health Ethics",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["PD"],
+      "distributionRequirements": [
+        "PD"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": [" GHS 130"]
+        "allof": [
+          " GHS 130"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An introductory ethical study of global health inequalities and our responses to them. Topics include health, justice, and human rights; moral responsibility in global health contexts; power, poverty, and health; ethics and global health governance; the ethics of international medical research; global inequities in access to medical resources; and specific health injustices associated with culture, race, and gender.",
@@ -1477,13 +1982,23 @@
     {
       "courseNumber": "GHS 321",
       "courseName": "Epidemiology",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SP", "QR"],
+      "distributionRequirements": [
+        "SP",
+        "QR"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["GHS 130 ", "FSGHS 201"]
+        "allof": [
+          "GHS 130 ",
+          "FSGHS 201"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An opportunity to apply epidemiological data to both global health policy and practice, focusing on the determinants of health and patterns and distributions of disease. Topics include the philosophical and ethical dimensions of epidemiology, historical origins, types of study designs, data types and interpretation, and differences between causation and association. Students may not receive credit for both GHS*321 and BIO*321. Credit: Four semester hours",
@@ -1502,10 +2017,16 @@
     {
       "courseNumber": "GHS 354",
       "courseName": " Medical Anthro/Health in Asia",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["IP"],
+      "distributionRequirements": [
+        "IP"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1527,10 +2048,17 @@
     {
       "courseNumber": "HIST 380",
       "courseName": "Disease/Medicine:Modern History",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["PD", "HE"],
+      "distributionRequirements": [
+        "PD",
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": [
@@ -1555,13 +2083,22 @@
     {
       "courseNumber": "PHIL 385",
       "courseName": "Medical Ethics",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SP", "CL"],
+      "distributionRequirements": [
+        "SP",
+        "CL"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["Not open to first-year students."]
+        "allof": [
+          "Not open to first-year students."
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of the principles of medical ethics as applied to case studies. After studying the nature and foundations of the principles of medical ethics, students present oral and written analyses of medical cases that pose significant ethical issues.",
@@ -1580,10 +2117,17 @@
     {
       "courseNumber": "COMM 342",
       "courseName": "Digital Media and Technology ",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["PD", "SB"],
+      "distributionRequirements": [
+        "PD",
+        "SB"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1605,10 +2149,17 @@
     {
       "courseNumber": "ENGL 210",
       "courseName": "Writing Creative Nonfiction",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1630,10 +2181,17 @@
     {
       "courseNumber": "ENGL 208",
       "courseName": "Professional Communication",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1655,10 +2213,17 @@
     {
       "courseNumber": "PHIL 130",
       "courseName": "Values and Knowledge",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "SP"],
+      "distributionRequirements": [
+        "CL",
+        "SP"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1680,10 +2245,17 @@
     {
       "courseNumber": "POLSC 140",
       "courseName": "Introduction to Political Theory",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "SB"],
+      "distributionRequirements": [
+        "CL",
+        "SB"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1705,10 +2277,17 @@
     {
       "courseNumber": "PSYCH 162",
       "courseName": "Human Social Behavior",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SB", "SP"],
+      "distributionRequirements": [
+        "SB",
+        "SP"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1730,10 +2309,17 @@
     {
       "courseNumber": "RELST 200 ",
       "courseName": "Christian Ethics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["HE", "PD"],
+      "distributionRequirements": [
+        "HE",
+        "PD"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1755,12 +2341,22 @@
     {
       "courseNumber": "BIO 385",
       "courseName": "Biostatistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
-        "anyof": ["MATH 141", "MATH 151"],
+        "anyof": [
+          "MATH 141",
+          "MATH 151"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -1780,15 +2376,28 @@
     {
       "courseNumber": "ECON 202",
       "courseName": "Economic Statistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR"],
+      "distributionRequirements": [
+        "QR"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["ECON 100", "ECON 101"]
+        "allof": [
+          "ECON 100",
+          "ECON 101"
+        ]
       },
-      "unlocks": ["MATH 151", "MATH 140", "ECON 203"],
+      "unlocks": [
+        "MATH 151",
+        "MATH 140",
+        "ECON 203"
+      ],
       "courseDescription": "An introduction to the basic components of statistical analysis necessary for applied economic research. Basic concepts of probability, probability distributions, random sampling, point estimation, internal estimation and hypothesis testing are covered. Special attention is focused on the development of multiple regression analysis.",
       "cslevel": "",
       "dslevel": "Core",
@@ -1805,10 +2414,17 @@
     {
       "courseNumber": "FILM 375",
       "courseName": "Documentary Traditions",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["CL", "HE"],
+      "distributionRequirements": [
+        "CL",
+        "HE"
+      ],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -1830,13 +2446,26 @@
     {
       "courseNumber": "ECON 202",
       "courseName": "Economic Statistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR"],
+      "distributionRequirements": [
+        "QR"
+      ],
       "prerequisites": {
-        "anyof": ["MATH 141", "MATH 151"],
-        "allof": ["ECON 100", "ECON 102", "MATH 140"]
+        "anyof": [
+          "MATH 141",
+          "MATH 151"
+        ],
+        "allof": [
+          "ECON 100",
+          "ECON 102",
+          "MATH 140"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An introduction to the basic components of statistical analysis necessary for applied economic research. Basic concepts of probability, probability distributions, random sampling, point estimation, internal estimation and hypothesis testing are covered. Special attention is focused on the development of multiple regression analysis.",
@@ -1855,12 +2484,20 @@
     {
       "courseNumber": "ECON 203",
       "courseName": "Economic Statistics II",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR"],
+      "distributionRequirements": [
+        "QR"
+      ],
       "prerequisites": {
-        "anyof": ["ECON 202"],
+        "anyof": [
+          "ECON 202"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -1880,12 +2517,20 @@
     {
       "courseNumber": "POLSC 489",
       "courseName": "Statistics and Data Analysis",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR"],
+      "distributionRequirements": [
+        "QR"
+      ],
       "prerequisites": {
-        "anyof": ["MATH 110"],
+        "anyof": [
+          "MATH 110"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -1905,10 +2550,16 @@
     {
       "courseNumber": "MATH 345",
       "courseName": "Probability and Statistical Inference I",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["SP"],
+      "distributionRequirements": [
+        "SP"
+      ],
       "prerequisites": {
         "anyof": [
           "MATH 152",
@@ -1917,7 +2568,9 @@
         ],
         "allof": []
       },
-      "unlocks": ["MATH 346"],
+      "unlocks": [
+        "MATH 346"
+      ],
       "courseDescription": "A study of mathematical models, sample space probabilities, random variables, expectation, empirical and theoretical frequency distributions, moment generating functions, sampling theory, correlation and regression",
       "cslevel": "",
       "dslevel": "Core",
@@ -1934,17 +2587,29 @@
     {
       "courseNumber": "MATH 205",
       "courseName": "Foundations of Mathematics",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["ME", "SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "ME",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 152", "MATH 160"],
+        "anyof": [
+          "MATH 152",
+          "MATH 160"
+        ],
         "allof": [
           "This course may substitute for the combination of CMPSC*480 and CMPSC*481 in the computer science major."
         ]
       },
-      "unlocks": ["MATH 320"],
+      "unlocks": [
+        "MATH 320"
+      ],
       "courseDescription": "An introduction to concepts encountered in the study of abstract mathematics. Topics covered include logic, mathematical proofs, set theory, relations, functions, mathematical induction, and introductory number theory. The concepts of injectivity, surjectivity, and inverses will be discussed as well as elementary computional tools such as the Division Algorithm and Euclid's algorithm for the greatest common divisor. Additional topics may include cardinality, combinatorics, graph theory, algebraic structure, the real number system, and concepts of mathematical analysis.",
       "cslevel": "foundation",
       "dslevel": "",
@@ -1961,13 +2626,24 @@
     {
       "courseNumber": "MATH 346",
       "courseName": "Probability and Statistical Inference II",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 210", "MATH 211"],
-        "allof": ["MATH 345"]
+        "anyof": [
+          "MATH 210",
+          "MATH 211"
+        ],
+        "allof": [
+          "MATH 345"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A continuation of MATH*345 treating the testing of hypotheses and goodness of fit, small sample techniques, statistical design, non-parametric methods and sequential analysis. ",
@@ -1986,12 +2662,25 @@
     {
       "courseNumber": "MATH 320",
       "courseName": "Linear Algebra",
-      "Major": ["Computer Science Major", "Data Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["SP"],
+      "Major": [
+        "Computer Science Major",
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH*205", " MATH 210", "MATH*211", "MATH 270", " MATH 280"],
+        "anyof": [
+          "MATH*205",
+          " MATH 210",
+          "MATH*211",
+          "MATH 270",
+          " MATH 280"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -2011,13 +2700,26 @@
     {
       "courseNumber": "BIO 321",
       "courseName": "Epidemiology",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["BIO 219", "BIO 220"],
-        "allof": ["BIO 221", "FSBIO 201"]
+        "anyof": [
+          "BIO 219",
+          "BIO 220"
+        ],
+        "allof": [
+          "BIO 221",
+          "FSBIO 201"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of the determinants and distributions of disease that will culminate in the design and application of an epidemiological study. This course will also provide students with an introduction to the science of epidemiology, including its historical origins, main concepts, and methodological approaches. Topics to be covered include data types and interpretation, differences in study design approaches, and the differences between association and causation.",
@@ -2036,9 +2738,15 @@
     {
       "courseNumber": "GHS 223",
       "courseName": "People & Poisons: Foundations of Public Health Toxicology",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["SP"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2061,13 +2769,22 @@
     {
       "courseNumber": "ECON 241",
       "courseName": "Behavioral Economics",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["QR", "SB"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["ECON 100"]
+        "allof": [
+          "ECON 100"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An introduction to behavioral economics, which uses insights from psychology, political science, anthropology, management and experimental data to improve understanding of traditional economic models of behavior. Behavioral economics considers the ways that people are more social, more impulsive, less adept at using information, and more susceptible to biases than the standard economic models assume. The course gives an overview of key insights from behavioral science and identifies ways in which these findings have been used to advance policies on education, health, energy, taxation, and more. A major goal is to understand how predictions of economic models change when phenomena such as altruism, loss aversion, and self-control problems are considered. Classroom games and experiments will be used to explain observed behaviors, in addition to standard and behavioral models..",
@@ -2086,12 +2803,24 @@
     {
       "courseNumber": "PSYCH 307",
       "courseName": "Intermediate Statistics",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["PSYCH 207", "ECON 202", "BIO 385", "MATH 345"],
+        "anyof": [
+          "PSYCH 207",
+          "ECON 202",
+          "BIO 385",
+          "MATH 345"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -2111,9 +2840,16 @@
     {
       "courseNumber": "PSYCH 207",
       "courseName": "Statistical Methods in Psychology",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2146,10 +2882,15 @@
       "credits": "1 to 4",
       "distributionRequirements": [],
       "prerequisites": {
-        "anyof": ["Instructor-approved 580 equivalent", "CMPSC 580"],
+        "anyof": [
+          "Instructor-approved 580 equivalent",
+          "CMPSC 580"
+        ],
         "allof": []
       },
-      "unlocks": ["DOUBL 600"],
+      "unlocks": [
+        "DOUBL 600"
+      ],
       "courseDescription": "Continuation of independent research in software engineering culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "Project",
       "dslevel": "Project",
@@ -2177,7 +2918,9 @@
       "distributionRequirements": [],
       "prerequisites": {
         "anyof": [],
-        "allof": ["DOUBL 600"]
+        "allof": [
+          "DOUBL 600"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Independent research in software engineering culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -2196,15 +2939,21 @@
     {
       "courseNumber": "SE 600",
       "courseName": "Senior Thesis I",
-      "Major": ["Software Engineering Major"],
+      "Major": [
+        "Software Engineering Major"
+      ],
       "Minor": [],
       "credits": "4",
       "distributionRequirements": [],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 580"]
+        "allof": [
+          "CMPSC 580"
+        ]
       },
-      "unlocks": ["SE 610"],
+      "unlocks": [
+        "SE 610"
+      ],
       "courseDescription": "",
       "cslevel": "",
       "dslevel": "",
@@ -2221,13 +2970,17 @@
     {
       "courseNumber": "SE 610",
       "courseName": "Senior Thesis II",
-      "Major": ["Software Engineering Major"],
+      "Major": [
+        "Software Engineering Major"
+      ],
       "Minor": [],
       "credits": "4",
       "distributionRequirements": [],
       "prerequisites": {
         "anyof": [],
-        "allof": ["SE 600"]
+        "allof": [
+          "SE 600"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Continuation of independent research in software engineering culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -2246,13 +2999,23 @@
     {
       "courseNumber": "CMPSC 404",
       "courseName": "Web Applications",
-      "Major": ["Software Engineering Major"],
-      "Minor": ["Software Engineering Minor"],
+      "Major": [
+        "Software Engineering Major"
+      ],
+      "Minor": [
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 203", "CMPSC 302"]
+        "allof": [
+          "CMPSC 203",
+          "CMPSC 302"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An exploration of technologies and data relationships which power modern web applications. Participating in hands-on activities which require teamwork, students build web applications that incorporate the full stack, including databases, application programming interfaces (APIs), and public-facing web pages or mobile applications. Students develop a broad knowledge of different development approaches, languages, and design paradigms to learn advantages and disadvantages of technologies and frameworks. During weekly laboratory sessions, students participate in iterative design processes and report progress and technical details through written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -2262,8 +3025,21 @@
       "inflevel": "",
       "infSub": "",
       "selevel": "Core",
-      "topics": ["APIs", "HTTP/S", "SSL", "Databases", "TCP/IP"],
-      "tools": ["PHP", "React", "Javascript", "Nodejs", "HTML", "CSS"],
+      "topics": [
+        "APIs",
+        "HTTP/S",
+        "SSL",
+        "Databases",
+        "TCP/IP"
+      ],
+      "tools": [
+        "PHP",
+        "React",
+        "Javascript",
+        "Nodejs",
+        "HTML",
+        "CSS"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -2279,12 +3055,18 @@
       ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": [""],
+      "distributionRequirements": [
+        ""
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["Permission of the instructor"]
+        "allof": [
+          "Permission of the instructor"
+        ]
       },
-      "unlocks": ["CMPSC 600"],
+      "unlocks": [
+        "CMPSC 600"
+      ],
       "courseDescription": "An investigation of select topics in computer and information science that prepares students for the completion of a senior project with the purpose of identifying knowledge gaps in the discipline. Students learn how to read scholarly papers, state and motivate research questions, create a software prototype or develop scholarly artifacts to address their findings, and collect and organize evidence for evaluating the outcome of their project. During a weekly laboratory session students use industry-grade technology to gain practical skills in technical writing, the presentation of technical concepts, and the production of an artifact. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "Project",
       "dslevel": "Project",
@@ -2299,7 +3081,14 @@
         "Literature Review",
         "User Studies"
       ],
-      "tools": ["Docker", "Latex", "GatorGrader", "Python", "GitHub", "R"],
+      "tools": [
+        "Docker",
+        "Latex",
+        "GatorGrader",
+        "Python",
+        "GitHub",
+        "R"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -2307,13 +3096,21 @@
     {
       "courseNumber": "DS 610 ",
       "courseName": "Senior Thesis II ",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": [""],
+      "distributionRequirements": [
+        ""
+      ],
       "prerequisites": {
-        "anyof": ["DS 600"],
-        "allof": ["Permission of the instructor"]
+        "anyof": [
+          "DS 600"
+        ],
+        "allof": [
+          "Permission of the instructor"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An investigation of select topics in computer and information science that prepares students for the completion of a senior project with the purpose of identifying knowledge gaps in the discipline. Students learn how to read scholarly papers, state and motivate research questions, create a software prototype or develop scholarly artifacts to address their findings, and collect and organize evidence for evaluating the outcome of their project. During a weekly laboratory session students use industry-grade technology to gain practical skills in technical writing, the presentation of technical concepts, and the production of an artifact. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -2330,7 +3127,14 @@
         "Literature Review",
         "User Studies"
       ],
-      "tools": ["Docker", "Latex", "GatorGrader", "Python", "GitHub", "R"],
+      "tools": [
+        "Docker",
+        "Latex",
+        "GatorGrader",
+        "Python",
+        "GitHub",
+        "R"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -2338,15 +3142,23 @@
     {
       "courseNumber": "DS 600 ",
       "courseName": "Senior Thesis I ",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
       "credits": "4",
-      "distributionRequirements": [""],
+      "distributionRequirements": [
+        ""
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["Permission of the instructor"]
+        "allof": [
+          "Permission of the instructor"
+        ]
       },
-      "unlocks": ["CMPSC 610"],
+      "unlocks": [
+        "CMPSC 610"
+      ],
       "courseDescription": "An investigation of select topics in computer and information science that prepares students for the completion of a senior project with the purpose of identifying knowledge gaps in the discipline. Students learn how to read scholarly papers, state and motivate research questions, create a software prototype or develop scholarly artifacts to address their findings, and collect and organize evidence for evaluating the outcome of their project. During a weekly laboratory session students use industry-grade technology to gain practical skills in technical writing, the presentation of technical concepts, and the production of an artifact. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "Project",
       "dslevel": "Project",
@@ -2361,7 +3173,14 @@
         "Literature Review",
         "User Studies"
       ],
-      "tools": ["Docker", "Latex", "GatorGrader", "Python", "GitHub", "R"],
+      "tools": [
+        "Docker",
+        "Latex",
+        "GatorGrader",
+        "Python",
+        "GitHub",
+        "R"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -2369,12 +3188,24 @@
     {
       "courseNumber": "CMPSC 403",
       "courseName": "Computer Security",
-      "Major": ["Computer Science Major", "Software Engineering Major"],
-      "Minor": ["Computer Science Minor", "Software Engineering Minor"],
+      "Major": [
+        "Computer Science Major",
+        "Software Engineering Major"
+      ],
+      "Minor": [
+        "Computer Science Minor",
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
-        "anyof": ["CMPSC 200", "CMPSC 201"],
+        "anyof": [
+          "CMPSC 200",
+          "CMPSC 201"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -2403,7 +3234,13 @@
         "Authentication",
         "Ethical Hacking"
       ],
-      "tools": ["C", "GO", "HTML", "Rust", "JavaScript"],
+      "tools": [
+        "C",
+        "GO",
+        "HTML",
+        "Rust",
+        "JavaScript"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -2416,12 +3253,20 @@
         "Informatics Major",
         "Software Engineering Major"
       ],
-      "Minor": ["Informatics Minor", "Software Engineering Minor"],
+      "Minor": [
+        "Informatics Minor",
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 101"]
+        "allof": [
+          "CMPSC 101"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of the application and evaluation of database management systems. Participating in hands-on activities that often require teamwork, students design, implement, and deploy database systems that store interdisciplinary data sets. In addition to learning how to develop and assess interfaces for databases, students study the efficiency and effectiveness of alternative data management systems. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -2465,14 +3310,23 @@
         "Informatics Major",
         "Software Engineering Major"
       ],
-      "Minor": ["Software Engineering Minor"],
+      "Minor": [
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["IP", "SP"],
+      "distributionRequirements": [
+        "IP",
+        "SP"
+      ],
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 104"]
+        "allof": [
+          "CMPSC 104"
+        ]
       },
-      "unlocks": ["CMPSC 404"],
+      "unlocks": [
+        "CMPSC 404"
+      ],
       "courseDescription": "An exploration of technologies and data relationships which power modern web applications. Participating in hands-on activities which require teamwork, students build web applications that incorporate the “full stack,” including databases, application programming interfaces (APIs), and public-facing web pages or mobile applications. Students develop a broad knowledge of different development approaches, languages, and design paradigms to learn advantages and disadvantages of technologies and frameworks. During weekly laboratory sessions, students participate in iterative design processes and report progress and technical details through written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
       "cslevel": "",
       "dslevel": "Electives",
@@ -2510,12 +3364,23 @@
     {
       "courseNumber": "CMPSC 303",
       "courseName": "Artificial Intelligence",
-      "Major": ["Data Science Major", "Software Engineering Major"],
-      "Minor": ["Software Engineering Minor"],
+      "Major": [
+        "Data Science Major",
+        "Software Engineering Major"
+      ],
+      "Minor": [
+        "Software Engineering Minor"
+      ],
       "credits": "4",
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "prerequisites": {
-        "anyof": ["CMPSC 101", "CMPSC 102"],
+        "anyof": [
+          "CMPSC 101",
+          "CMPSC 102"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -2539,7 +3404,11 @@
         "Transformers",
         "Prompt Engineering"
       ],
-      "professionalTopics": ["teamwork", "code review", "communication"],
+      "professionalTopics": [
+        "teamwork",
+        "code review",
+        "communication"
+      ],
       "tools": [
         "Arduino",
         "GitHub",
@@ -2552,7 +3421,9 @@
         "OpenCV",
         "NLTK"
       ],
-      "platform": ["https://github.com/CMPSC-310-AI-Spring2023"],
+      "platform": [
+        "https://github.com/CMPSC-310-AI-Spring2023"
+      ],
       "learningObjectives": [
         "Understand foundational principles that drive the field of artificial intelligence",
         "Practice implementing intelligent applications",
@@ -2573,13 +3444,18 @@
       "courseName": "Politics and Communication",
       "Major": [],
       "Minor": [],
-      "distributionRequirements": ["CL", "SB"],
+      "distributionRequirements": [
+        "CL",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["COMM 360"],
+      "unlocks": [
+        "COMM 360"
+      ],
       "courseDescription": "An inquiry into the relationship between communication and politics. Emphasis is placed on the potential of language to create, perpetuate, and alter patterns of political and cultural behavior. Students consider the influence of contemporary political discourse on our understandings of public policy, political and cultural institutions, social controversies, and everyday life.",
       "cslevel": "",
       "dslevel": "",
@@ -2596,13 +3472,26 @@
     {
       "courseNumber": "COMM 360",
       "courseName": "Rhetoric and Civic Engagement",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["HE", "CL"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "HE",
+        "CL"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["COMM 120", "COMM 145"],
-        "allof": ["COMM 256", "Permission of the instructor"]
+        "anyof": [
+          "COMM 120",
+          "COMM 145"
+        ],
+        "allof": [
+          "COMM 256",
+          "Permission of the instructor"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An exploration of the ways communication enhances civic engagement in an ever-changing society. Students critically engage with models of civic engagement to better understand how they legitimize forms of communicative interaction, authorize who can and cannot speak, and set standards for what can be said and how. Students consider how they can affect change in their own communities and/or personal lives.",
@@ -2621,9 +3510,16 @@
     {
       "courseNumber": "PHIL 130",
       "courseName": "Values and Knowledge ",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["SP", "CL"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "SP",
+        "CL"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2646,9 +3542,16 @@
     {
       "courseNumber": "PHIL 130",
       "courseName": "Values and Knowledge ",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["SP", "CL"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "SP",
+        "CL"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2671,15 +3574,24 @@
     {
       "courseNumber": "POLSC 120",
       "courseName": "Comparative Gov/Politics",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["IP", "CL"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "IP",
+        "CL"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["POLSC 330"],
+      "unlocks": [
+        "POLSC 330"
+      ],
       "courseDescription": "An introduction to the development of political institutions and the distribution and exercise of political power in selected western, communist and Third World countries. Special attention will be devoted to the impact of institutional and cultural patterns upon the quality of life in those countries.",
       "cslevel": "",
       "dslevel": "",
@@ -2696,15 +3608,24 @@
     {
       "courseNumber": "POLSC 215",
       "courseName": "Politics in Popular Culture",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["CL", "SB"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "CL",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
         "allof": []
       },
-      "unlocks": ["ART 287"],
+      "unlocks": [
+        "ART 287"
+      ],
       "courseDescription": "An examination of how American popular culture intersects with American politics. We focus on the processes through which common forms of entertainment, advertising, and material consumption influence our political perceptions, values, and actions. Special emphasis is placed on how experiences with products of popular culture influence our understandings of and (in)actions toward others. Through class discussion and analytical papers, students identify, explain, and evaluate how the content of popular culture influences their political conduct and the political conduct of others.",
       "cslevel": "",
       "dslevel": "",
@@ -2723,7 +3644,10 @@
       "courseName": "Politics and the Media",
       "Major": [],
       "Minor": [],
-      "distributionRequirements": ["SB", "CL"],
+      "distributionRequirements": [
+        "SB",
+        "CL"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2746,9 +3670,16 @@
     {
       "courseNumber": "POLSC 321",
       "courseName": "Urban Government and Politics",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["CL", "SB"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "CL",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2771,9 +3702,16 @@
     {
       "courseNumber": "POLSC 424",
       "courseName": "Inequality and Social Policy",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["IP", "PD"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "IP",
+        "PD"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2796,9 +3734,16 @@
     {
       "courseNumber": "PHIL 210",
       "courseName": "Oppression and Liberation",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["CL", "PD"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "CL",
+        "PD"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2821,15 +3766,29 @@
     {
       "courseNumber": "COMM 331",
       "courseName": "Disease and Disability",
-      "Major": [""],
-      "Minor": [""],
-      "distributionRequirements": ["PD", "SB"],
+      "Major": [
+        ""
+      ],
+      "Minor": [
+        ""
+      ],
+      "distributionRequirements": [
+        "PD",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["Permission of the instructor"],
-        "allof": ["COMM 120", "COMM 256"]
+        "anyof": [
+          "Permission of the instructor"
+        ],
+        "allof": [
+          "COMM 120",
+          "COMM 256"
+        ]
       },
-      "unlocks": ["ART 287"],
+      "unlocks": [
+        "ART 287"
+      ],
       "courseDescription": "Disease, Disability, and Difference in Popular Culture: An exploration of how American popular culture defines what it means to be healthy or normal in today's world. Students learn to analyze films, television, news, and other digital media to understand how such media sets expectations for dealing with illness, disability, or other divergences from social norms in a variety of ways. Prerequisite: One 100-level or 200-level COMM course; or permission of instructor.",
       "cslevel": "",
       "dslevel": "",
@@ -2846,12 +3805,19 @@
     {
       "courseNumber": "FILM 300",
       "courseName": "Filmmaking & Digital Stories 2",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["HE", "ME"],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["FILM 171"],
+        "anyof": [
+          "FILM 171"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -2934,7 +3900,14 @@
         "Literature Review",
         "User Studies"
       ],
-      "tools": ["Docker", "Latex", "GatorGrader", "Python", "GitHub", "R"],
+      "tools": [
+        "Docker",
+        "Latex",
+        "GatorGrader",
+        "Python",
+        "GitHub",
+        "R"
+      ],
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
@@ -2978,7 +3951,9 @@
       "credits": "2",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 580"]
+        "allof": [
+          "CMPSC 580"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Individual research under the guidance of a member of the Department's faculty. A project proposal must be submitted to the Department and approved in the semester prior to the semester in which the student intends to register for the course. May be repeated for credit. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3008,7 +3983,9 @@
       "credits": "2",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 600"]
+        "allof": [
+          "CMPSC 600"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Continuation of independent research in computer science culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3027,13 +4004,18 @@
     {
       "courseNumber": "DS 600",
       "courseName": "Senior Project I",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
       "distributionRequirements": [],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 580", "Instructor-approved 580 equivalent"]
+        "allof": [
+          "CMPSC 580",
+          "Instructor-approved 580 equivalent"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Independent research in data science culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3052,13 +4034,17 @@
     {
       "courseNumber": "DS 610",
       "courseName": "Senior Project II",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
       "distributionRequirements": [],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["DS 600"]
+        "allof": [
+          "DS 600"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Continuation of independent research in data science culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3077,13 +4063,18 @@
     {
       "courseNumber": "INFM 600",
       "courseName": "Senior Project I",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
       "distributionRequirements": [],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 580", "Instructor-approved 580 equivalent"]
+        "allof": [
+          "CMPSC 580",
+          "Instructor-approved 580 equivalent"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Independent research in informatics culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3102,13 +4093,17 @@
     {
       "courseNumber": "INFM 610",
       "courseName": "Senior Project II",
-      "Major": ["Informatics Major"],
+      "Major": [
+        "Informatics Major"
+      ],
       "Minor": [],
       "distributionRequirements": [],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["INFM 600"]
+        "allof": [
+          "INFM 600"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Independent research in informatics culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3127,13 +4122,17 @@
     {
       "courseNumber": "SE 600",
       "courseName": "Senior Project I",
-      "Major": ["Software Engineering Major"],
+      "Major": [
+        "Software Engineering Major"
+      ],
       "Minor": [],
       "distributionRequirements": [],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["CMPSC 580"]
+        "allof": [
+          "CMPSC 580"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Independent research in software engineering culminating in the development of a prototype or early draft of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3152,13 +4151,17 @@
     {
       "courseNumber": "SE 610",
       "courseName": "Senior Project II",
-      "Major": ["Software Engineering Major"],
+      "Major": [
+        "Software Engineering Major"
+      ],
       "Minor": [],
       "distributionRequirements": [],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["SE 600"]
+        "allof": [
+          "SE 600"
+        ]
       },
       "unlocks": [],
       "courseDescription": "Continuation of independent research in software engineering culminating in the development of and release of a computational artifact. Must be taken on the letter-grade basis. Must be taken on the letter-grade basis. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
@@ -3177,8 +4180,12 @@
     {
       "courseNumber": "PHIL 385",
       "courseName": "Medical Ethics",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
       "distributionRequirements": [],
       "credits": "4",
       "prerequisites": {
@@ -3202,9 +4209,16 @@
     {
       "courseNumber": "COMM 342",
       "courseName": "Digital Media and Technology",
-      "Major": ["Informatics Major"],
-      "Minor": ["Informatics Minor"],
-      "distributionRequirements": ["PD", "SB"],
+      "Major": [
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
+      "distributionRequirements": [
+        "PD",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -3227,13 +4241,22 @@
     {
       "courseNumber": "ENGL 210",
       "courseName": "Writing Creative Nonfiction",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["HE", "ME"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["One 100-level literature course"]
+        "allof": [
+          "One 100-level literature course"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of the craft of creative nonfiction through reading and writing of creative nonfiction and through critical examination of both professional and student work. Areas within creative nonfiction that may be considered include: the personal essay, environmental writing, travel writing, food writing, and memoir. Emphasis is on the creative process through the exploration of structure, language, narrative devices, and quality of observation.",
@@ -3252,9 +4275,16 @@
     {
       "courseNumber": "ENGL 208",
       "courseName": "Professional Communication",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["HE", "ME"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "HE",
+        "ME"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -3277,9 +4307,16 @@
     {
       "courseNumber": "PHIL 130",
       "courseName": "Values and Knowledge",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["CL", "SP"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "CL",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -3302,9 +4339,16 @@
     {
       "courseNumber": "POLSC 140",
       "courseName": "Introduction to Political Theory",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["CL", "SB"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "CL",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -3327,9 +4371,16 @@
     {
       "courseNumber": "PSYCH 162",
       "courseName": "Human Social Behavior",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["SB", "SP"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "SB",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -3352,12 +4403,22 @@
     {
       "courseNumber": "BIO 385",
       "courseName": "Biostatistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 141", "MATH 151"],
+        "anyof": [
+          "MATH 141",
+          "MATH 151"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -3377,15 +4438,30 @@
     {
       "courseNumber": "ECON 202",
       "courseName": "Economic Statistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["QR"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 140", "MATH 141", "MATH 151"],
-        "allof": ["ECON 100", "ECON 101"]
+        "anyof": [
+          "MATH 140",
+          "MATH 141",
+          "MATH 151"
+        ],
+        "allof": [
+          "ECON 100",
+          "ECON 101"
+        ]
       },
-      "unlocks": ["ECON 203"],
+      "unlocks": [
+        "ECON 203"
+      ],
       "courseDescription": "An introduction to the basic components of statistical analysis necessary for applied economic research. Basic concepts of probability, probability distributions, random sampling, point estimation, internal estimation and hypothesis testing are covered. Special attention is focused on the development of multiple regression analysis.",
       "cslevel": "",
       "dslevel": "Core",
@@ -3402,15 +4478,25 @@
     {
       "courseNumber": "POLSC 489",
       "courseName": "Economic Statistics and Data Analysis",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["QR"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["MATH 110"]
+        "allof": [
+          "MATH 110"
+        ]
       },
-      "unlocks": ["ECON 203"],
+      "unlocks": [
+        "ECON 203"
+      ],
       "courseDescription": "Techniques of quantitative analysis of social and political data. Topics include measurement, scaling, description, sampling, inference, and research design. Emphasis is on measures appropriate to nominal and ordinal variables and non-parametric techniques. Students will use the Statistical Package for the Social Sciences for computer analysis of archival data.",
       "cslevel": "",
       "dslevel": "Core",
@@ -3427,15 +4513,27 @@
     {
       "courseNumber": "MATH 345",
       "courseName": "Probability and Statistical Inference I",
-      "Major": ["Data Science Major", "Computer Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["SP"],
+      "Major": [
+        "Data Science Major",
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 152", "MATH 210"],
+        "anyof": [
+          "MATH 152",
+          "MATH 210"
+        ],
         "allof": []
       },
-      "unlocks": ["MATH 346"],
+      "unlocks": [
+        "MATH 346"
+      ],
       "courseDescription": "A study of mathematical models, sample space probabilities, random variables, expectation, empirical and theoretical frequency distributions, moment generating functions, sampling theory, correlation and regression. This is one of the possible mathematics courses that may be substituted for one of the required 300-level CMPSC courses in the Computer Science major.",
       "cslevel": "Substitute",
       "dslevel": "Core",
@@ -3452,13 +4550,22 @@
     {
       "courseNumber": "PSYCH 207",
       "courseName": "Statistical Methods in Psychology",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": ["PSYCH 206"]
+        "allof": [
+          "PSYCH 206"
+        ]
       },
       "unlocks": [],
       "courseDescription": "An introduction to using electronic technologies/software and digital media as art-making tools. Emphasis on awareness of the elements of 2D design/composition and the vocabulary used to describe it. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of electronic art in human experience. This course emphasizes the development of skills with a focus on technique, contemporary and historical issues, and conceptual development.",
@@ -3477,12 +4584,22 @@
     {
       "courseNumber": "PSYCH 307",
       "courseName": "Intermediate Statistics",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["PSYCH 207", "ECON 202", "BIO 385", "MATH*345"],
+        "anyof": [
+          "PSYCH 207",
+          "ECON 202",
+          "BIO 385",
+          "MATH*345"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -3502,12 +4619,19 @@
     {
       "courseNumber": "ECON 241",
       "courseName": "Behavioral Economics",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["QR", "SB"],
+      "distributionRequirements": [
+        "QR",
+        "SB"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["ECON 100"],
+        "anyof": [
+          "ECON 100"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -3527,9 +4651,13 @@
     {
       "courseNumber": "GHS 223",
       "courseName": "People & Poisons: Foundations of Public Health Toxicology",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["SP"],
+      "distributionRequirements": [
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -3552,13 +4680,24 @@
     {
       "courseNumber": "BIO 321",
       "courseName": "Epidemiology",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["QR", "SP"],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["BIO 219", "BIO 220"],
-        "allof": ["BIO 221", "FSBIO 201"]
+        "anyof": [
+          "BIO 219",
+          "BIO 220"
+        ],
+        "allof": [
+          "BIO 221",
+          "FSBIO 201"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A study of the determinants and distributions of disease that will culminate in the design and application of an epidemiological study. This course will also provide students with an introduction to the science of epidemiology, including its historical origins, main concepts, and methodological approaches. Topics to be covered include data types and interpretation, differences in study design approaches, and the differences between association and causation.",
@@ -3577,12 +4716,23 @@
     {
       "courseNumber": "MATH 320",
       "courseName": "Linear Algebra",
-      "Major": ["Computer Science Major", "Data Science Major"],
+      "Major": [
+        "Computer Science Major",
+        "Data Science Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["SP"],
+      "distributionRequirements": [
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 205", "MATH 210", "MATH 211", "MATH 270", "MATH 280"],
+        "anyof": [
+          "MATH 205",
+          "MATH 210",
+          "MATH 211",
+          "MATH 270",
+          "MATH 280"
+        ],
         "allof": []
       },
       "unlocks": [],
@@ -3602,15 +4752,27 @@
     {
       "courseNumber": "MATH 205",
       "courseName": "Foundations of Mathematics",
-      "Major": ["Computer Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["ME", "SP"],
+      "Major": [
+        "Computer Science Major"
+      ],
+      "Minor": [
+        "Computer Science Minor"
+      ],
+      "distributionRequirements": [
+        "ME",
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 152", "MATH 160"],
+        "anyof": [
+          "MATH 152",
+          "MATH 160"
+        ],
         "allof": []
       },
-      "unlocks": ["MATH 320"],
+      "unlocks": [
+        "MATH 320"
+      ],
       "courseDescription": "An introduction to concepts encountered in the study of abstract mathematics. Topics covered include logic, mathematical proofs, set theory, relations, functions, mathematical induction, and introductory number theory. The concepts of injectivity, surjectivity, and inverses are discussed as well as elementary computational tools such as the Division Algorithm and Euclid’s algorithm for the greatest common divisor. Additional topics may include cardinality, combinatorics, graph theory, algebraic structure, the real number system, and concepts of mathematical analysis.",
       "cslevel": "Substitute",
       "dslevel": "",
@@ -3627,13 +4789,22 @@
     {
       "courseNumber": "MATH 346",
       "courseName": "Probability and Statistical Inference II",
-      "Major": ["Data Science Major"],
+      "Major": [
+        "Data Science Major"
+      ],
       "Minor": [],
-      "distributionRequirements": ["SP"],
+      "distributionRequirements": [
+        "SP"
+      ],
       "credits": "4",
       "prerequisites": {
-        "anyof": ["MATH 210", "MATH 211"],
-        "allof": ["MATH 345"]
+        "anyof": [
+          "MATH 210",
+          "MATH 211"
+        ],
+        "allof": [
+          "MATH 345"
+        ]
       },
       "unlocks": [],
       "courseDescription": "A continuation of MATH 345 treating the testing of hypotheses and goodness of fit, small sample techniques, statistical design, non-parametric methods and sequential analysis.",
