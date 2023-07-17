@@ -1,132 +1,141 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "courseNumber": {
-      "type": "string"
-    },
-    "courseName": {
-      "type": "string"
-    },
-    "Major": {
-      "type": "array",
-      "items": [
-        {
-          "type": "string"
-        }
-      ]
-    },
-    "Minor": {
-      "type": "array",
-      "items": [
-        {
-          "type": "string"
-        }
-      ]
-    },
-    "credits": {
-      "type": "string"
-    },
-    "distributionRequirements": {
-      "type": "array",
-      "items": [
-        {
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome2",
+  "definitions": {
+    "Welcome2": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "courseNumber": {
           "type": "string"
         },
-        {
+        "courseName": {
           "type": "string"
+        },
+        "Major": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Minor": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "credits": {
+          "type": "string",
+          "format": "integer"
+        },
+        "distributionRequirements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prerequisites": {
+          "$ref": "#/definitions/Prerequisites"
+        },
+        "unlocks": {
+          "type": "array",
+          "items": {}
+        },
+        "courseDescription": {
+          "type": "string"
+        },
+        "cslevel": {
+          "type": "string"
+        },
+        "dslevel": {
+          "type": "string"
+        },
+        "dsSub": {
+          "type": "string"
+        },
+        "inflevel": {
+          "type": "string"
+        },
+        "infSub": {
+          "type": "string"
+        },
+        "selevel": {
+          "type": "string"
+        },
+        "technicalTopics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "professionalTopics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "platform": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri",
+            "qt-uri-protocols": ["https"]
+          }
+        },
+        "learningObjectives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
-      ]
+      },
+      "required": [
+        "Major",
+        "Minor",
+        "courseDescription",
+        "courseName",
+        "courseNumber",
+        "credits",
+        "cslevel",
+        "distributionRequirements",
+        "dsSub",
+        "dslevel",
+        "infSub",
+        "inflevel",
+        "learningObjectives",
+        "platform",
+        "prerequisites",
+        "professionalTopics",
+        "selevel",
+        "technicalTopics",
+        "tools",
+        "unlocks"
+      ],
+      "title": "Welcome2"
     },
-    "prerequisites": {
+    "Prerequisites": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "anyof": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            }
-          ]
+          "items": {
+            "type": "string"
+          }
         },
         "allof": {
           "type": "array",
           "items": {}
         }
       },
-      "required": ["anyof", "allof"]
-    },
-    "unlocks": {
-      "type": "array",
-      "items": {}
-    },
-    "courseDescription": {
-      "type": "string"
-    },
-    "cslevel": {
-      "type": "string"
-    },
-    "dslevel": {
-      "type": "string"
-    },
-    "dsSub": {
-      "type": "string"
-    },
-    "inflevel": {
-      "type": "string"
-    },
-    "infSub": {
-      "type": "string"
-    },
-    "selevel": {
-      "type": "string"
-    },
-    "technicalTopics": {
-      "type": "array",
-      "items": {}
-    },
-    "professionalTopics": {
-      "type": "array",
-      "items": {}
-    },
-    "tools": {
-      "type": "array",
-      "items": {}
-    },
-    "platform": {
-      "type": "array",
-      "items": {}
-    },
-    "learningObjectives": {
-      "type": "array",
-      "items": {}
-    },
-    "learningOutcomes": {
-      "type": "array",
-      "items": {}
+      "required": ["allof", "anyof"],
+      "title": "Prerequisites"
     }
-  },
-  "required": [
-    "courseNumber",
-    "courseName",
-    "Major",
-    "Minor",
-    "credits",
-    "distributionRequirements",
-    "prerequisites",
-    "unlocks",
-    "courseDescription",
-    "cslevel",
-    "dslevel",
-    "dsSub",
-    "inflevel",
-    "infSub",
-    "selevel",
-    "technicalTopics",
-    "professionalTopics",
-    "tools",
-    "platform",
-    "learningObjectives",
-    "learningOutcomes"
-  ]
+  }
 }
