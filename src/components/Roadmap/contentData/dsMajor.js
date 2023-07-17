@@ -1,4 +1,4 @@
-const initialDataScienceMajor = require('../../../curriculumData/ds');
+const initialDataScienceMajor = require('../../../curriculumData/dsMajor');
 
 initialDataScienceMajor["Data Science Major"] = {
     title: "Data Science Major",

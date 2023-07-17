@@ -8,7 +8,7 @@ export default {
       y: 140,
       strokeColor: "violet5",
       hoverColor: "violet0",
-      text: "Data Science",
+      text: "Data Science Major",
     },
     {
       type: "multiBox",

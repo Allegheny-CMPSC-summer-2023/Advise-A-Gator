@@ -1,1 +1,1 @@
-const initialSoftwareEngineeringMajor = require('../../../curriculumData/se');
+const initialSoftwareEngineeringMajor = require('../../../curriculumData/seMajor');

@@ -86,10 +86,10 @@ function converter(field) {
     const dsData = converter(dsMajor);
     const seData = converter(seMajor);
 
-    writeToFile(infData, 'inf.js');
-    writeToFile(csData, 'cs.js');
-    writeToFile(dsData, 'ds.js');
-    writeToFile(seData, 'se.js');
+    writeToFile(infData, 'infMajor.js');
+    writeToFile(csData, 'csMajor.js');
+    writeToFile(dsData, 'dsMajor.js');
+    writeToFile(seData, 'seMajor.js');
 
 
   

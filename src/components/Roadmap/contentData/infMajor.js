@@ -1,4 +1,4 @@
-const initialInformaticsMajor = require('../../../curriculumData/inf');
+const initialInformaticsMajor = require('../../../curriculumData/infMajor');
 
 
 initialInformaticsMajor["Informatics Major"] = {

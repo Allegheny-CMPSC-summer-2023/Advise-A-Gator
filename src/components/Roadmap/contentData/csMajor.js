@@ -1,4 +1,4 @@
-const initialComputerScienceMajor = require('../../../curriculumData/cs');
+const initialComputerScienceMajor = require('../../../curriculumData/csMajor');
 
 
 initialComputerScienceMajor["CS Major"] = {
