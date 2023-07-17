@@ -12,5 +12,5 @@ root.render(
     <ModalContextProvider>
       <MyRouter />
     </ModalContextProvider>
-  </BrowserRouter>
+  </BrowserRouter>,
 );

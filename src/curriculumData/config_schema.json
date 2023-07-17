@@ -54,10 +54,7 @@
           "items": {}
         }
       },
-      "required": [
-        "anyof",
-        "allof"
-      ]
+      "required": ["anyof", "allof"]
     },
     "unlocks": {
       "type": "array",

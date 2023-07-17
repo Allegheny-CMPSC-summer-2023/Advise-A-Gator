@@ -1,5 +1,4 @@
-const initialComputerScienceMajor = require('../../../curriculumData/csMajor');
-
+const initialComputerScienceMajor = require("../../../curriculumData/csMajor");
 
 initialComputerScienceMajor["CS Major"] = {
   title: "CS Major",
@@ -23,8 +22,7 @@ initialComputerScienceMajor["CS Major"] = {
   ],
   platform: ["https://www.cs.allegheny.edu/"],
   learningObjectives: [],
-  learningOutcomes: []
-}
-
+  learningOutcomes: [],
+};
 
 module.exports = initialComputerScienceMajor;
