@@ -59,8 +59,7 @@ jobs:
       run: pip install check-jsonschema
     
     - name: Run check-jsonschema
-      run: check-jsonschema --schemafile src/curriculumData/config_schema.json src/curriculumData/current_data.jsonname: Continuous Integration
-
+      run: check-jsonschema --schemafile src/curriculumData/config_schema.json src/curriculumData/current_data.json 
   prettier:
     runs-on: ubuntu-latest
 
