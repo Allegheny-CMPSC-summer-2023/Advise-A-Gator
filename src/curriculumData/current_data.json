@@ -344,18 +344,10 @@
     {
       "courseNumber": "CMPSC 105",
       "courseName": "Data Exploration",
-      "Major": [
-        "Informatics Major",
-        "Data Science Major"
-      ],
-      "Minor": [
-        "Data Science Minor"
-      ],
+      "Major": ["Informatics Major", "Data Science Major"],
+      "Minor": ["Data Science Minor"],
       "credits": "4",
-      "distributionRequirements": [
-        "QR",
-        "SP"
-      ],
+      "distributionRequirements": ["QR", "SP"],
       "prerequisites": {
         "anyof": [],
         "allof": []
@@ -386,7 +378,7 @@
         "presentations",
         "analysis",
         "programming"
-      ],      
+      ],
       "tools": [
         "RStudio",
         "Jupyter Notebook",
@@ -398,7 +390,7 @@
         "Matplotlib",
         "VScode",
         "CSV",
-        "Markdown"        
+        "Markdown"
       ],
       "platform": ["TBA"],
       "learningObjectives": [
@@ -408,7 +400,7 @@
         "To understand which data is necessary for specific applications of analysis",
         "To implement mathematical structure in programming",
         "To use industry-standard tools such as GitHub to maintain code",
-        "To write clean and readable Python and R-programming code that is convenient for others to understand.",
+        "To write clean and readable Python and R-programming code that is convenient for others to understand."
       ],
       "learningOutcomes": [
         "To determine appropriate solutions and tool-types for task.",
