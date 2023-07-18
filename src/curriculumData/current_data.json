@@ -48,22 +48,13 @@
     {
       "courseNumber": "CMPSC 102",
       "courseName": "Discrete Structures",
-      "Major": [
-        "Computer Science Major"
-      ],
-      "Minor": [
-        "Computer Science Minor"
-      ],
-      "distributionRequirements": [
-        "QR",
-        "SP"
-      ],
+      "Major": ["Computer Science Major"],
+      "Minor": ["Computer Science Minor"],
+      "distributionRequirements": ["QR", "SP"],
       "credits": "4",
       "prerequisites": {
         "anyof": [],
-        "allof": [
-          "CMPSC 100"
-        ]
+        "allof": ["CMPSC 100"]
       },
       "unlocks": [
         "CMPSC 200",
@@ -103,7 +94,7 @@
         "analysis",
         "programming"
       ],
-    
+
       "tools": [
         "Poetry",
         "typer",
@@ -119,14 +110,13 @@
         "CSV",
         "Markdown"
       ],
-      "platform": ["https://github.com/CMPSC-102-Allegheny-College-Fall-2022"
-      ],
+      "platform": ["https://github.com/CMPSC-102-Allegheny-College-Fall-2022"],
       "learningObjectives": [
         "To understand programming and mathematical constructs",
         "To master skills of technical communication",
         "To implement mathematical structure in programming",
         "To use industry-standard tools such as GitHub to maintain code",
-        "To write clean and readable Python code that is convenient for others to understand.",
+        "To write clean and readable Python code that is convenient for others to understand."
       ],
       "learningOutcomes": [
         "To test programs thoroughly before submission.",
