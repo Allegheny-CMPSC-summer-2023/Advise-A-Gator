@@ -31,7 +31,6 @@
       "selevel": "foundation",
       "topics": [
         "Object-oriented programming (OOP)",
-        "Teamwork",
         "Version control systems (VCS)",
         "Integrated development environments (IDE)",
         "Iteration",
@@ -42,6 +41,13 @@
         "Markdown"
       ],
       "tools": ["Python", "VSCode", "Git", "GitHub"],
+      "professionalSkills": [
+        "Communication",
+        "Teamwork",
+        "Collaborative/pair programming",
+        "Computational ethics",
+        "Design thinking"
+      ],
       "platform": [],
       "learningObjectives": [
         "Apply Python programming language primitives to describe and develop computer programs that solve computational problems",
