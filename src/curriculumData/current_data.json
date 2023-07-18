@@ -674,8 +674,18 @@
     {
       "courseNumber": "CMPSC 350",
       "courseName": "Computational Narrative",
+<<<<<<< Updated upstream
       "Major": ["Informatics Major"],
       "Minor": ["Informatics Minor"],
+=======
+      "Major": [
+        "Informatics Major",
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
+>>>>>>> Stashed changes
       "credits": "4",
       "distributionRequirements": ["HE", "ME"],
       "prerequisites": {
@@ -685,7 +695,7 @@
       "unlocks": [],
       "courseDescription": "A study of the craft and deployment of procedurally-generated digital narratives, placing an emphasis on using data sources and computational methods as storytelling media. Students focus on critical, close reading of professional and student works while completing a single long-form work of their own. Topics include natural language processing (NLP), procedural illustration, computational constraint, and the development of conceptual documentary works.",
       "cslevel": "",
-      "dslevel": "",
+      "dslevel": "Electives",
       "dsSub": "",
       "inflevel": "Core",
       "infSub": "",
@@ -741,8 +751,18 @@
     {
       "courseNumber": "CMPSC 406",
       "courseName": "Internet Of Things",
+<<<<<<< Updated upstream
       "Major": ["Informatics Major"],
       "Minor": ["Informatics Minor"],
+=======
+      "Major": [
+        "Informatics Major",
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Informatics Minor"
+      ],
+>>>>>>> Stashed changes
       "credits": "4",
       "distributionRequirements": ["SP", "SB"],
       "prerequisites": {
@@ -841,8 +861,18 @@
     {
       "courseNumber": "COMM 376",
       "courseName": "Ethnographic Methods in Media and Cultural Studies",
+<<<<<<< Updated upstream
       "Major": ["Informatics Major"],
       "Minor": [],
+=======
+      "Major": [
+        "Informatics Major",
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+>>>>>>> Stashed changes
       "credits": "4",
       "distributionRequirements": ["CL", "HE"],
       "prerequisites": {
@@ -2061,9 +2091,22 @@
     {
       "courseNumber": "ECON 241",
       "courseName": "Behavioral Economics",
+<<<<<<< Updated upstream
       "Major": [""],
       "Minor": [""],
       "distributionRequirements": ["QR", "SB"],
+=======
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SB"
+      ],
+>>>>>>> Stashed changes
       "credits": "4",
       "prerequisites": {
         "anyof": [],
@@ -2086,9 +2129,22 @@
     {
       "courseNumber": "PSYCH 307",
       "courseName": "Intermediate Statistics",
+<<<<<<< Updated upstream
       "Major": [""],
       "Minor": [""],
       "distributionRequirements": ["QR", "SP"],
+=======
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
+>>>>>>> Stashed changes
       "credits": "4",
       "prerequisites": {
         "anyof": ["PSYCH 207", "ECON 202", "BIO 385", "MATH 345"],
@@ -2459,7 +2515,7 @@
     },
     {
       "courseNumber": "CMPSC 302",
-      "courseName": "Web Design",
+      "courseName": "Web Development",
       "Major": [
         "Data Science Major",
         "Informatics Major",
@@ -3552,9 +3608,22 @@
     {
       "courseNumber": "BIO 321",
       "courseName": "Epidemiology",
+<<<<<<< Updated upstream
       "Major": ["Data Science Major"],
       "Minor": [],
       "distributionRequirements": ["QR", "SP"],
+=======
+      "Major": [
+        "Data Science Major"
+      ],
+      "Minor": [
+        "Data Science Minor"
+      ],
+      "distributionRequirements": [
+        "QR",
+        "SP"
+      ],
+>>>>>>> Stashed changes
       "credits": "4",
       "prerequisites": {
         "anyof": ["BIO 219", "BIO 220"],
