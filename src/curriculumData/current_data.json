@@ -32,18 +32,24 @@
       "topics": [
         "Object-oriented programming (OOP)",
         "Teamwork",
-        "Version control systems",
+        "Version control systems (VCS)",
         "Integrated development environments (IDE)",
         "Iteration",
-        "Python programming",
+        "Conditional logic",
+        "Variables",
         "Functions",
         "GitHub Flow",
         "Markdown"
       ],
       "tools": ["Python", "VSCode", "Git", "GitHub"],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
+      "platform": [],
+      "learningObjectives": [
+        "Apply Python programming language primitives to describe and develop computer programs that solve computational problems",
+        "Use VSCode, git, and GitHub to develop, version, and release code consistent with industry-standard practices",
+        "Analyze and suggest revisions to existing Python language code to improve or add functionality",
+        "Evaluate the practical and ethical implications of computer programs written to solve computational problems",
+        "Design, describe, and implement original projects incorporating standard practices and Python language principles "
+      ],
     },
     {
       "courseNumber": "CMPSC 102",
