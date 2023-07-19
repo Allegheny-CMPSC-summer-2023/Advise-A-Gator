@@ -4,27 +4,27 @@ export default {
   boxes: [
     {
       type: "primaryBox",
-      x: 300,
-      y: 200,
+      x: 471,
+      y: 140,
       strokeColor: "violet5",
       hoverColor: "violet0",
       text: "Data Science Major",
     },
     {
       type: "multiBox",
-      x: 0,
-      y: 200,
-      width: 200,
-      height: 400,
+      x: -5,
+      y: 0,
+      width: 243,
+      height: 288,
       fillColor: "violet0",
       text: "Electives",
     },
     {
       type: "multiBox",
-      x: 250,
-      y: 150,
-      width: 300,
-      height: 200,
+      x: 270,
+      y: 341,
+      width: 243,
+      height: 153,
       fillColor: "violet0",
       text: "Core",
     },
@@ -37,6 +37,7 @@ export default {
       fillColor: "violet0",
       text: "Project",
     },
+
     {
       type: "multiBox",
       x: 885,
@@ -229,7 +230,7 @@ export default {
     {
       type: "tertiaryBox",
       x: 298,
-      y: 538,
+      y: 58,
       width: 211,
       fillColor: "violet0",
       strokeColor: "violet3",
@@ -256,6 +257,7 @@ export default {
       text: "CMPSC 580",
       hoverColor: "violet1",
     },
+
     {
       type: "tertiaryBox",
       x: 901,
@@ -276,6 +278,7 @@ export default {
       text: "DS 610",
       hoverColor: "violet1",
     },
+
     {
       type: "tertiaryBox",
       x: 901,
@@ -296,6 +299,7 @@ export default {
       text: "CMPSC 101",
       hoverColor: "violet1",
     },
+
     {
       type: "tertiaryBox",
       x: 901,
