@@ -4,27 +4,27 @@ export default {
   boxes: [
     {
       type: "primaryBox",
-      x: 471,
-      y: 140,
+      x: 300,
+      y: 200,
       strokeColor: "violet5",
       hoverColor: "violet0",
       text: "Data Science Major",
     },
     {
       type: "multiBox",
-      x: -5,
-      y: 0,
-      width: 243,
-      height: 288,
+      x: 0,
+      y: 200,
+      width: 200,
+      height: 400,
       fillColor: "violet0",
       text: "Electives",
     },
     {
       type: "multiBox",
-      x: 270,
-      y: 341,
-      width: 243,
-      height: 153,
+      x: 250,
+      y: 150,
+      width: 300,
+      height: 200,
       fillColor: "violet0",
       text: "Core",
     },
@@ -209,6 +209,36 @@ export default {
     {
       type: "tertiaryBox",
       x: 298,
+      y: 598,
+      width: 211,
+      fillColor: "violet0",
+      strokeColor: "violet3",
+      text: "Effective Communication",
+      hoverColor: "violet1",
+    },
+    {
+      type: "tertiaryBox",
+      x: 298,
+      y: 498,
+      width: 211,
+      fillColor: "violet0",
+      strokeColor: "violet3",
+      text: "Ethics",
+      hoverColor: "violet1",
+    },
+    {
+      type: "tertiaryBox",
+      x: 298,
+      y: 538,
+      width: 211,
+      fillColor: "violet0",
+      strokeColor: "violet3",
+      text: "Statistics",
+      hoverColor: "violet1",
+    },
+    {
+      type: "tertiaryBox",
+      x: 298,
       y: 443,
       width: 211,
       fillColor: "violet0",
@@ -226,7 +256,6 @@ export default {
       text: "CMPSC 580",
       hoverColor: "violet1",
     },
-
     {
       type: "tertiaryBox",
       x: 901,
@@ -247,7 +276,6 @@ export default {
       text: "DS 610",
       hoverColor: "violet1",
     },
-
     {
       type: "tertiaryBox",
       x: 901,
@@ -268,7 +296,6 @@ export default {
       text: "CMPSC 101",
       hoverColor: "violet1",
     },
-
     {
       type: "tertiaryBox",
       x: 901,
