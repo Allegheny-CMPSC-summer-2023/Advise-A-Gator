@@ -37,12 +37,12 @@ const ModalOverlay = (props) => {
         }}
         unmountOnExit
       >
-        <div className={classes.modal}>
+        <div className={classes.modal} id="ModalOverlayParent">
           <div className={classes.content}>{props.children}</div>
         </div>
       </CSSTransition>
     </React.Fragment>,
-    portalElement,
+    portalElement
   );
 };
 
