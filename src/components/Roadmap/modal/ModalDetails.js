@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { ListOfLinks } from "../components/ListOfLinks";
 import classes from "./ModalDetails.module.css";
+import overlayClasses from "./ModalOverlay.module.css";
 import ModalContext from "./modalContext";
 
 const ModalDetails = (props) => {
-  const { hideModal } = useContext(ModalContext);
   const {
     title,
     description,
@@ -19,6 +19,26 @@ const ModalDetails = (props) => {
     learningObjectives,
     learningOutcomes,
   } = props.topicData;
+
+  const showListOfLinks =
+    tools.length !== 0 ||
+    technicalTopics.length !== 0 ||
+    professionalTopics.length !== 0;
+
+  const { hideModal } = useContext(ModalContext);
+  // This becomes true when there's no tools, tehcnicalTopics, and professionalTopics are present in the course modal.
+  const modalLess = showListOfLinks ? false : true;
+
+  useEffect(() => {
+    const modalOverlayParent = document.getElementById("ModalOverlayParent");
+
+    // Change the modalOverlay parent class to display the modal differently with courses that doesn't have any of
+    // tools, technicalTopics, and professionalTopics.
+    if (modalLess && modalOverlayParent) {
+      modalOverlayParent.classList.remove(overlayClasses.modal);
+      modalOverlayParent.classList.add(overlayClasses.modalLess);
+    }
+  }, [modalLess]);
   return (
     <div className={classes["modal__content"]}>
       <div className={classes["modal__header"]}>
@@ -99,11 +119,14 @@ const ModalDetails = (props) => {
 
       <div className={classes["modal__body"]}>
         <p className={classes["topic-description"]}>{description}</p>
-        <ListOfLinks
-          tools={tools}
-          professionalTopics={professionalTopics}
-          technicalTopics={technicalTopics}
-        />
+        {/* Only show the bottom section when tools, technicalTopics, and professionalTopics are present */}
+        {showListOfLinks && (
+          <ListOfLinks
+            tools={tools}
+            professionalTopics={professionalTopics}
+            technicalTopics={technicalTopics}
+          />
+        )}
       </div>
       <footer className={classes["modal__footer"]}>
         <button
