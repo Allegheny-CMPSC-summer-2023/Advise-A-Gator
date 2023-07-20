@@ -785,33 +785,7 @@
       "topics": [],
       "tools": [],
       "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "ART 287",
-      "courseName": "Electronic & Intermedia Art",
-      "Major": ["Informatics Major"],
-      "Minor": [],
-      "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
-      "prerequisites": {
-        "anyof": [],
-        "allof": ["ART 187"]
-      },
-      "unlocks": ["ART 287"],
-      "courseDescription": "Application of the tools and technologies of biological science and computer science to create thought provoking and socially resonant works of art that broaden scientific literacy, while creatively exploring complex philosophical and conceptual ideas of where biology ends and technologies begin. Students use emerging and established trends to articulate ideas and create effective viewer experiences. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of art in human experience.",
-      "cslevel": "",
-      "dslevel": "",
-      "dsSub": "",
-      "inflevel": "Core",
-      "infSub": "Methods",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
+      "learningObjectives": []
     },
     {
       "courseNumber": "ART 287",
@@ -2571,8 +2545,8 @@
     {
       "courseNumber": "COMM 256",
       "courseName": "Politics and Communication",
-      "Major": [],
-      "Minor": [],
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["CL", "SB"],
       "credits": "4",
       "prerequisites": {
@@ -2671,8 +2645,8 @@
     {
       "courseNumber": "POLSC 120",
       "courseName": "Comparative Gov/Politics",
-      "Major": [""],
-      "Minor": [""],
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["IP", "CL"],
       "credits": "4",
       "prerequisites": {
@@ -2696,8 +2670,8 @@
     {
       "courseNumber": "POLSC 215",
       "courseName": "Politics in Popular Culture",
-      "Major": [""],
-      "Minor": [""],
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["CL", "SB"],
       "credits": "4",
       "prerequisites": {
@@ -2721,8 +2695,8 @@
     {
       "courseNumber": "POLSC 318",
       "courseName": "Politics and the Media",
-      "Major": [],
-      "Minor": [],
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["SB", "CL"],
       "credits": "4",
       "prerequisites": {
@@ -2746,8 +2720,8 @@
     {
       "courseNumber": "POLSC 321",
       "courseName": "Urban Government and Politics",
-      "Major": [""],
-      "Minor": [""],
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["CL", "SB"],
       "credits": "4",
       "prerequisites": {
@@ -2771,8 +2745,8 @@
     {
       "courseNumber": "POLSC 424",
       "courseName": "Inequality and Social Policy",
-      "Major": [""],
-      "Minor": [""],
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["IP", "PD"],
       "credits": "4",
       "prerequisites": {
@@ -2796,8 +2770,8 @@
     {
       "courseNumber": "PHIL 210",
       "courseName": "Oppression and Liberation",
-      "Major": [""],
-      "Minor": [""],
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["CL", "PD"],
       "credits": "4",
       "prerequisites": {
@@ -2829,7 +2803,7 @@
         "anyof": ["Permission of the instructor"],
         "allof": ["COMM 120", "COMM 256"]
       },
-      "unlocks": ["ART 287"],
+      "unlocks": [""],
       "courseDescription": "Disease, Disability, and Difference in Popular Culture: An exploration of how American popular culture defines what it means to be healthy or normal in today's world. Students learn to analyze films, television, news, and other digital media to understand how such media sets expectations for dealing with illness, disability, or other divergences from social norms in a variety of ways. Prerequisite: One 100-level or 200-level COMM course; or permission of instructor.",
       "cslevel": "",
       "dslevel": "",
@@ -2867,6 +2841,30 @@
       "lab": [],
       "learningObjectives": [],
       "learningOutcomes": []
+    },
+    {
+      "courseNumber": "FILM 171",
+      "courseName": "Filmmaking & Digital Stories 1",
+      "Major": ["Informatics Major"],
+      "Minor": [],
+      "distributionRequirements": ["HE", "ME"],
+      "credits": "4",
+      "prerequisites": {
+        "anyof": [],
+        "allof": []
+      },
+      "unlocks": [],
+      "courseDescription": "A study of aesthetic concepts and production techniques involved in cinematic and television production. Students create works that demonstrate an understanding of the various production elements and how they can be combined for effective communication.",
+      "cslevel": "",
+      "dslevel": "",
+      "dsSub": "",
+      "inflevel": "Core",
+      "infSub": "Methods",
+      "selevel": "",
+      "topics": [],
+      "tools": [],
+      "lab": [],
+      "learningObjectives": []
     },
     {
       "courseNumber": "CMPSC 529",
