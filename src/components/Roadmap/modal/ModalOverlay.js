@@ -42,7 +42,7 @@ const ModalOverlay = (props) => {
         </div>
       </CSSTransition>
     </React.Fragment>,
-    portalElement
+    portalElement,
   );
 };
 
