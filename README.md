@@ -7,6 +7,20 @@
   Gator Planner
 </h1>
 
-## 🚀 Quick start
+## 🚀 Using pre-commit
 
-This tool will provide Allegheny Computer science students an easy way to look at all the computer science related courses to plan their four years at Allegheny College.
+In order to run pre-commit on your local computer, please follow the steps below.
+
+### 1. Install pre-commit
+
+```
+pip install pre-commit
+```
+
+### 2. Install the git hooks in your repository's root
+
+```
+pre-commit install
+```
+
+## Now pre-commit hooks will run automatically with git commit!
