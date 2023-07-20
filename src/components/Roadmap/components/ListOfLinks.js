@@ -5,7 +5,6 @@ import classes from "./ListOfLinks.module.css";
 
 export const ListOfLinks = (props) => {
   const { tools, professionalTopics, technicalTopics } = props;
-  console.log(props);
   return (
     <div>
       <hr></hr>
