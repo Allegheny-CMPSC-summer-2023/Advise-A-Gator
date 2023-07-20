@@ -112,18 +112,11 @@
       ],
       "platform": ["https://github.com/CMPSC-102-Allegheny-College-Fall-2022"],
       "learningObjectives": [
+        "To be able to work effectively in Python environments",
         "To understand programming and mathematical constructs",
         "To master skills of technical communication",
         "To implement mathematical structure in programming",
-        "To use industry-standard tools such as GitHub to maintain code",
-        "To write clean and readable Python code that is convenient for others to understand."
-      ],
-      "learningOutcomes": [
-        "To test programs thoroughly before submission.",
-        "To demonstrate proficiency in python programming environments.",
-        "To create clear and meaningful technical documentation.",
-        "To be able to demonstrate mathematical concepts and translate meaning in language.",
-        "To be able to work effectively in Python environments"
+        "To be able to demonstrate mathematical concepts and translate meaning in language."
       ]
     },
     {
@@ -396,19 +389,9 @@
       "learningObjectives": [
         "To understand programming and statistical constructs",
         "To create own tools for particular applications of analysis",
-        "To master skills of technical communication",
+        "To be able to obtain results, critically reason them and form conclusions.",
         "To understand which data is necessary for specific applications of analysis",
         "To implement mathematical structure in programming",
-        "To use industry-standard tools such as GitHub to maintain code",
-        "To write clean and readable Python and R-programming code that is convenient for others to understand."
-      ],
-      "learningOutcomes": [
-        "To determine appropriate solutions and tool-types for task.",
-        "To be able to program tools for specific analysis",
-        "To demonstrate proficiency in python and R programming environments.",
-        "To create clear and meaningful technical documentation.",
-        "To be able to obtain results, critically reason them and form conclusions.",
-        "To be able to work effectively in Python environments"
       ]
     },
     {
