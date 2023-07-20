@@ -2794,9 +2794,9 @@
     },
     {
       "courseNumber": "COMM 331",
-      "courseName": "Disease and Disability",
-      "Major": [""],
-      "Minor": [""],
+      "courseName": "Disease, Disability, and Difference in Popular Culture",
+      "Major": ["Informatics Major"],
+      "Minor": ["Informatics Minor"],
       "distributionRequirements": ["PD", "SB"],
       "credits": "4",
       "prerequisites": {
@@ -2814,8 +2814,7 @@
       "topics": [],
       "tools": [],
       "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
+      "learningObjectives": []
     },
     {
       "courseNumber": "FILM 300",
