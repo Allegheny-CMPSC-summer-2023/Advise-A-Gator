@@ -327,6 +327,63 @@ module.exports = {
     learningObjectives: [],
     learningOutcomes: [],
   },
+  "CMPSC 350": {
+    title: "Computational Narrative",
+    description:
+      "A study of the craft and deployment of procedurally-generated digital narratives, placing an emphasis on using data sources and computational methods as storytelling media. Students focus on critical, close reading of professional and student works while completing a single long-form work of their own. Topics include natural language processing (NLP), procedural illustration, computational constraint, and the development of conceptual documentary works.",
+    distributionRequirements: ["HE", "ME"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 101"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "CMPSC 406": {
+    title: "Internet Of Things",
+    description:
+      "An introduction to small-scale, purpose-built physical computational objects which embed sensors, integrate with networks, and process environmental signals. Exploring various industrial architectures, students develop devices that respond to physical stimuli and transmit data across networks to motivate additional device behavior and interactivity while considering human interaction design (HID) and “people-centered” principles that drive device design. During weekly laboratory sessions, students complete projects which focus on industry standards of data transmission and privacy in addition to optimizing device performance for real-time, high-availability applications. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    distributionRequirements: ["SP", "SB"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: ["CMPSC 200"],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "COMM 376": {
+    title: "Ethnographic Methods in Media and Cultural Studies",
+    description:
+      "A hands-on introduction to ethnographic research in media and cultural studies. Students learn methods of interviewing, oral history, and participant observation while engaging in collaborative, community-based research. Students work together to explore the ways in which media technologies shape cultures and use digital storytelling tools (e.g., podcasting) to share their collective research with a broader public.",
+    distributionRequirements: ["CL", "HE"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["COMM 125", "COMM 145", "FSCOM 201"],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
   "PHIL 140": {
     title: "Ethics and Community",
     description:
@@ -631,6 +688,44 @@ module.exports = {
     learningObjectives: [],
     learningOutcomes: [],
   },
+  "ECON 241": {
+    title: "Behavioral Economics",
+    description:
+      "An introduction to behavioral economics, which uses insights from psychology, political science, anthropology, management and experimental data to improve understanding of traditional economic models of behavior. Behavioral economics considers the ways that people are more social, more impulsive, less adept at using information, and more susceptible to biases than the standard economic models assume. The course gives an overview of key insights from behavioral science and identifies ways in which these findings have been used to advance policies on education, health, energy, taxation, and more. A major goal is to understand how predictions of economic models change when phenomena such as altruism, loss aversion, and self-control problems are considered. Classroom games and experiments will be used to explain observed behaviors, in addition to standard and behavioral models.",
+    distributionRequirements: ["QR", "SB"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["ECON 100"],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
+  "PSYCH 307": {
+    title: "Intermediate Statistics",
+    description:
+      "A continuation of topics discussed in introductory statistics courses. Topics include, but are not limited to, simple effect tests for interactions, False Discovery Rate, linear and polynomial regression analyses, coding for multicategorical predictor variables, and mediation (simple, parallel, and serial) and moderation. In addition, we will compare and contrast Frequentist and Bayesian inference and learn how to conduct basic Bayesian analyses. The course emphasizes close readings of peer reviewed publications and analyzing and reporting data using the JASP statistical package. This course is recommended for students interested in going to graduate school for psychology/other research disciplines or for those who wish to go into careers doing data analytics or research. ",
+    distributionRequirements: ["QR", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: ["PSYCH 207", "ECON 202", "BIO 385", "MATH*345"],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
   "PSYCH 207": {
     title: "Statistical Methods in Psychology",
     description:
@@ -908,7 +1003,7 @@ module.exports = {
     learningOutcomes: [],
   },
   "CMPSC 302": {
-    title: "Web Design",
+    title: "Web Development",
     description:
       "An exploration of technologies and data relationships which power modern web applications. Participating in hands-on activities which require teamwork, students build web applications that incorporate the “full stack,” including databases, application programming interfaces (APIs), and public-facing web pages or mobile applications. Students develop a broad knowledge of different development approaches, languages, and design paradigms to learn advantages and disadvantages of technologies and frameworks. During weekly laboratory sessions, students participate in iterative design processes and report progress and technical details through written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
     distributionRequirements: ["IP", "SP"],
@@ -1143,44 +1238,6 @@ module.exports = {
     prerequisites: {
       anyof: [],
       allof: ["DS 600"],
-    },
-    unlocks: [],
-    topics: [],
-    technicalTopics: [],
-    professionalTopics: [],
-    tools: [],
-    lab: [],
-    learningObjectives: [],
-    learningOutcomes: [],
-  },
-  "PSYCH 307": {
-    title: "Intermediate Statistics",
-    description:
-      "A continuation of topics discussed in introductory statistics courses. Topics include, but are not limited to, simple effect tests for interactions, False Discovery Rate, linear and polynomial regression analyses, coding for multicategorical predictor variables, and mediation (simple, parallel, and serial) and moderation. In addition, we will compare and contrast Frequentist and Bayesian inference and learn how to conduct basic Bayesian analyses. The course emphasizes close readings of peer reviewed publications and analyzing and reporting data using the JASP statistical package. This course is recommended for students interested in going to graduate school for psychology/other research disciplines or for those who wish to go into careers doing data analytics or research. ",
-    distributionRequirements: ["QR", "SP"],
-    credits: "4",
-    prerequisites: {
-      anyof: ["PSYCH 207", "ECON 202", "BIO 385", "MATH*345"],
-      allof: [],
-    },
-    unlocks: [],
-    topics: [],
-    technicalTopics: [],
-    professionalTopics: [],
-    tools: [],
-    lab: [],
-    learningObjectives: [],
-    learningOutcomes: [],
-  },
-  "ECON 241": {
-    title: "Behavioral Economics",
-    description:
-      "An introduction to behavioral economics, which uses insights from psychology, political science, anthropology, management and experimental data to improve understanding of traditional economic models of behavior. Behavioral economics considers the ways that people are more social, more impulsive, less adept at using information, and more susceptible to biases than the standard economic models assume. The course gives an overview of key insights from behavioral science and identifies ways in which these findings have been used to advance policies on education, health, energy, taxation, and more. A major goal is to understand how predictions of economic models change when phenomena such as altruism, loss aversion, and self-control problems are considered. Classroom games and experiments will be used to explain observed behaviors, in addition to standard and behavioral models.",
-    distributionRequirements: ["QR", "SB"],
-    credits: "4",
-    prerequisites: {
-      anyof: ["ECON 100"],
-      allof: [],
     },
     unlocks: [],
     topics: [],
