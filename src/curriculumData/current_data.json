@@ -40,7 +40,6 @@
         "GitHub Flow",
         "Markdown"
       ],
-      "tools": ["Python", "VSCode", "Git", "GitHub"],
       "professionalTopics": [
         "Written and oral communiction and presentation",
         "Collaboration and teamwork",
@@ -48,6 +47,7 @@
         "Problem solving and trouble shooting",
         "Time management"
       ],
+      "tools": ["Python", "VSCode", "Git", "GitHub"],
       "platform": [],
       "learningObjectives": [
         "Apply Python programming language primitives to describe and develop computer programs that solve computational problems",
