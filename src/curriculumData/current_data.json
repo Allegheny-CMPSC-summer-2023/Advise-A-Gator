@@ -124,6 +124,13 @@
         "Digital circuits",
         "Low-level languages"
       ],
+      "professionalTopics": [
+        "Collaboration and teamwork",
+        "Analytical and critical thinking",
+        "Problem solving and troubleshooting",
+        "Research",
+        "Written and oral communication, and presentation"
+      ],
       "tools": ["Raspberry Pi Pico W", "C", "Assembly languages"],
       "platform": [],
       "learningObjectives": [
