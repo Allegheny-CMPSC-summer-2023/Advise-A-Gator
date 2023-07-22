@@ -116,9 +116,9 @@
       "infSub": "",
       "selevel": "",
       "topics": [
-        "Object-oriented programming",
         "Memory management",
-        "Declarative programming",
+        "Imperative programming",
+        "Procedural programming",
         "Instruction set architectures (ISA)",
         "Functional programming",
         "Digital circuits",
@@ -129,8 +129,8 @@
       "learningObjectives": [
         "Explain how programs written in high-level computer programming languages execute using lower-level computer circuitry",
         "Identify levels of the Memory Hierarchy and the implications of using the various levels to implement high-performance programs",
-        "Develop C and Assembly language programs which use the appropriate levels of the Memory Hierarchy and processor registers to create performant, executable programs and arithmetic logic units",
-        "Describe and use parallel processing techniques to increase a program’s performance and efficiency",
+        "Develop C and Assembly language programs which use the appropriate levels of the Memory Hierarchy and processor registers to create performant, executable programs and logic units",
+        "Describe and use threading to increase a program’s performance and efficiency",
         "Integrate third-party hardware and software components with original C language code to develop hardware-based, performant computational projects"
       ]
     },
