@@ -19,7 +19,7 @@ const MultiBox = (props) => {
         fill="rgb(255,255,255)"
         fillOpacity="1"
         strokeWidth="2"
-        stroke="#DEE2E6"
+        stroke="black"
         rx="16"
         ry="16"
       />
@@ -30,7 +30,7 @@ const MultiBox = (props) => {
         height={41}
         cornerRadius={0}
         fillColor={fillColor}
-        strokeColor="gray3"
+        strokeColor="black"
         text={text}
         isClickable={false}
         fillOpacity={0.3}
