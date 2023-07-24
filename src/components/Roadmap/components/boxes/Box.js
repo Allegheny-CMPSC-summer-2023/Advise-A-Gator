@@ -24,6 +24,7 @@ const colorPicker = {
   orange4: "#FFA94D",
   orange5: "#FF922B",
   gray3: "#DEE2E6",
+  black: "#000000",
 };
 
 const hoverColors = {
