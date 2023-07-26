@@ -44,4 +44,4 @@ initialInformaticsMajor["Application Modules"] = {
   learningOutcomes: [],
 };
 
-module.exports = initialInformaticsMajor;
+export default initialInformaticsMajor;

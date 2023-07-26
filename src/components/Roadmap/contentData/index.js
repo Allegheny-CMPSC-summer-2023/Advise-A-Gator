@@ -1,6 +1,7 @@
+/* eslint-disable import/no-anonymous-default-export */
 import infMajor from "./infMajor";
-import * as csMajor from "./csMajor";
-import * as dsMajor from "./dsMajor";
+import csMajor from "./csMajor";
+import dsMajor from "./dsMajor";
 import userInterface from "./userInterface";
 import communication from "./communication";
 

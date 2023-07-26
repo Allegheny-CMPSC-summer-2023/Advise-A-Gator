@@ -19,7 +19,7 @@ const MainContainer = () => {
       >
         <ComputerScienceMajorBlock boxData={boxesData["csMajor"]} />
         <DataScienceMajorBlock boxData={boxesData["dsMajor"]} />
-        <InformaticsMajorBlock boxData={boxesData["userExperience"]} />
+        <InformaticsMajorBlock boxData={boxesData["infMajor"]} />
         <UserInterfaceBlock boxData={boxesData["userInterface"]} />
         <CommunicationBlock boxData={boxesData["communication"]} />
         <Lines />

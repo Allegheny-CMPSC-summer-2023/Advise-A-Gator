@@ -25,4 +25,4 @@ initialComputerScienceMajor["CS Major"] = {
   learningOutcomes: [],
 };
 
-module.exports = initialComputerScienceMajor;
+export default initialComputerScienceMajor;

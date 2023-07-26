@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default {
   absoluteY: 89,
   absoluteX: 76,
@@ -12,8 +13,8 @@ export default {
     },
     {
       type: "multiBox",
-      x: 0,
-      y: 0,
+      x: 830,
+      y: 233,
       width: 243,
       height: 243,
       fillColor: "blue0",
@@ -21,7 +22,7 @@ export default {
     },
     {
       type: "multiBox",
-      x: 268,
+      x: 440,
       y: 233,
       width: 243,
       height: 198,
@@ -30,7 +31,7 @@ export default {
     },
     {
       type: "multiBox",
-      x: 616,
+      x: 50,
       y: 233,
       width: 243,
       height: 243,
@@ -39,8 +40,8 @@ export default {
     },
     {
       type: "multiBox",
-      x: 885,
-      y: 0,
+      x: 440,
+      y: 510,
       width: 243,
       height: 198,
       fillColor: "blue0",
@@ -48,8 +49,8 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 16,
-      y: 57,
+      x: 846,
+      y: 290,
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
@@ -59,8 +60,8 @@ export default {
 
     {
       type: "tertiaryBox",
-      x: 16,
-      y: 102,
+      x: 846,
+      y: 335,
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
@@ -69,8 +70,8 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 16,
-      y: 147,
+      x: 846,
+      y: 380,
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
@@ -79,8 +80,8 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 16,
-      y: 192,
+      x: 846,
+      y: 425,
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
@@ -109,7 +110,7 @@ export default {
     // },
     {
       type: "tertiaryBox",
-      x: 284,
+      x: 456,
       y: 335,
       width: 211,
       fillColor: "blue0",
@@ -119,7 +120,7 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 284,
+      x: 456,
       y: 290,
       width: 211,
       fillColor: "blue0",
@@ -129,7 +130,7 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 284,
+      x: 456,
       y: 380,
       width: 211,
       fillColor: "blue0",
@@ -139,7 +140,7 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 632,
+      x: 66,
       y: 290,
       width: 211,
       fillColor: "blue0",
@@ -149,7 +150,7 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 632,
+      x: 66,
       y: 335,
       width: 211,
       fillColor: "blue0",
@@ -159,7 +160,7 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 632,
+      x: 66,
       y: 380,
       width: 211,
       fillColor: "blue0",
@@ -169,7 +170,7 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 632,
+      x: 66,
       y: 425,
       width: 211,
       fillColor: "blue0",
@@ -179,8 +180,8 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 901,
-      y: 57,
+      x: 456,
+      y: 567,
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
@@ -189,8 +190,8 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 901,
-      y: 102,
+      x: 456,
+      y: 612,
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",
@@ -199,8 +200,8 @@ export default {
     },
     {
       type: "tertiaryBox",
-      x: 901,
-      y: 147,
+      x: 456,
+      y: 657,
       width: 211,
       fillColor: "blue0",
       strokeColor: "blue3",

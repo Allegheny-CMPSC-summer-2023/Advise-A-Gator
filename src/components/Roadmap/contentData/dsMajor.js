@@ -25,4 +25,4 @@ initialDataScienceMajor["Data Science Major"] = {
   learningOutcomes: [],
 };
 
-module.exports = initialDataScienceMajor;
+export default initialDataScienceMajor;
