@@ -2,7 +2,8 @@ import React from "react";
 import Box from "./Box";
 
 const TertiaryBox = (props) => {
-  const { x, y, width, fillColor, strokeColor, text, hoverColor } = props;
+  const { x, y, width, fillColor, strokeColor, text, hoverColor, hoverText } =
+    props;
   return (
     <Box
       x={x}
@@ -18,6 +19,7 @@ const TertiaryBox = (props) => {
       fontWeight={500}
       letterSpacing="-0.25"
       hoverColor={hoverColor}
+      hoverText={hoverText}
     ></Box>
   );
 };

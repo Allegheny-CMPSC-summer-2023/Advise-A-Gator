@@ -27,6 +27,7 @@ export default {
       fillColor: "violet0",
       strokeColor: "violet5",
       text: "CMPSC 100",
+      hoverText: "Computational Expression",
       hoverColor: "violet1",
     },
     {

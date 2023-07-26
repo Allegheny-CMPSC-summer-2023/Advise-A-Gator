@@ -39,6 +39,7 @@ const BoxSwitch = (props) => {
         fillColor={box.fillColor}
         text={box.text}
         hoverColor={box.hoverColor}
+        hoverText={box.hoverText}
       />
     );
   }

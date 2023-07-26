@@ -56,6 +56,7 @@ const Box = (props) => {
     fontWeight,
     letterSpacing,
     hoverColor,
+    hoverText,
     clipPathId,
   } = props;
 
@@ -82,10 +83,15 @@ const Box = (props) => {
 
   return (
     <g
-      className={isClickable ? `${classes.clickable} ${hoverColorClass}` : ""}
+      className={
+        isClickable
+          ? `${classes.clickable} ${hoverColorClass} ${classes.tooltip}`
+          : ""
+      }
       fill={boxFillColor}
       onClick={isClickable ? onClickHandler : null}
     >
+      <title>{hoverText}</title>
       <rect
         width={width}
         height={height}
