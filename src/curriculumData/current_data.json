@@ -48,7 +48,7 @@
         "Time management"
       ],
       "tools": ["Python", "VSCode", "Git", "GitHub"],
-      "platform": [],
+      "platform": [""],
       "learningObjectives": [
         "Apply Python programming language primitives to describe and develop computer programs that solve computational problems",
         "Use VSCode, git, and GitHub to develop, version, and release code consistent with industry-standard practices",
