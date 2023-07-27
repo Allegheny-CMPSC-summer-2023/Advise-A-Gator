@@ -336,84 +336,71 @@
       "learningObjectives": [],
       "learningOutcomes": []
     },
-      {
-        "courseNumber": "CMPSC 201",
-        "courseName": "Programming Languages",
-        "Major": [
-          "Software Engineering Major"
-        ],
-        "Minor": [
-          "Software Engineering Minor"
-        ],
-        "credits": "4",
-        "distributionRequirements": [
-          "QR",
-          "SP"
-        ],
-        "prerequisites": {
-          "anyof": [
-            "CMPSC 101",
-            "CMPSC 102"
-          ],
-          "allof": []
-        },
-        "unlocks": [
-          "CMPSC 400",
-          "CMPSC 403"
-        ],
-        "courseDescription": "A study of the fundamental concepts that arise in different programming language paradigms. Students learn how programming languages are designed and implemented, and how these factors affect the overall usability, performance, and effectiveness of computer software. Participating in hands-on activities that often require teamwork, students gain experience in leveraging the styles and features of programming languages to implement and evaluate correct and efficient computer software. During a weekly laboratory session, students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
-        "cslevel": "",
-        "dslevel": "",
-        "dsSub": "",
-        "inflevel": "",
-        "infSub": "",
-        "selevel": "Core",
-        "technicalTopics": [
-          "Language Design", 
-          "Compilation", 
-          "Interpretation", 
-          "Understanding Java", 
-          "Syntax", 
-          "Grammars", 
-          "Parsing", 
-          "Scoping", 
-          "Binding", 
-          "Storage Management", 
-          "Control Flow", 
-          "Functions", 
-          "Typing", 
-          "Language Paradigms", 
-          "Language Security"
-        ],
-        "professionalTopics": [
-          "teamwork", 
-          "code review", 
-          "communication",
-          "presentation",
-          "ethics"
-        ],
-        "tools": [
-          "C", 
-          "C++", 
-          "Docker", 
-          "Git", 
-          "GitHub",
-          "Go", 
-          "Haskell", 
-          "Java", 
-          "Java Bytecode", 
-          "JavaScript", 
-          "Python"
-        ],
-        "platform": ["https://github.com/CMPSC-201-Spring2023"],
-        "learningObjectives": [         
-          "Can proficiently program in languages such as Java", 
-          "Able to construct a simple grammar", 
-          "Able to implement a scanner and a parser", 
-          "Use language constructs effectively to design correct and elegant programs", 
-          "Can learn new programming languages with a minimum effort based on an understanding of general principles of language design and implementation"
-        ]
+    {
+      "courseNumber": "CMPSC 201",
+      "courseName": "Programming Languages",
+      "Major": ["Software Engineering Major"],
+      "Minor": ["Software Engineering Minor"],
+      "credits": "4",
+      "distributionRequirements": ["QR", "SP"],
+      "prerequisites": {
+        "anyof": ["CMPSC 101", "CMPSC 102"],
+        "allof": []
       },
+      "unlocks": ["CMPSC 400", "CMPSC 403"],
+      "courseDescription": "A study of the fundamental concepts that arise in different programming language paradigms. Students learn how programming languages are designed and implemented, and how these factors affect the overall usability, performance, and effectiveness of computer software. Participating in hands-on activities that often require teamwork, students gain experience in leveraging the styles and features of programming languages to implement and evaluate correct and efficient computer software. During a weekly laboratory session, students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+      "cslevel": "",
+      "dslevel": "",
+      "dsSub": "",
+      "inflevel": "",
+      "infSub": "",
+      "selevel": "Core",
+      "technicalTopics": [
+        "Language Design",
+        "Compilation",
+        "Interpretation",
+        "Understanding Java",
+        "Syntax",
+        "Grammars",
+        "Parsing",
+        "Scoping",
+        "Binding",
+        "Storage Management",
+        "Control Flow",
+        "Functions",
+        "Typing",
+        "Language Paradigms",
+        "Language Security"
+      ],
+      "professionalTopics": [
+        "teamwork",
+        "code review",
+        "communication",
+        "presentation",
+        "ethics"
+      ],
+      "tools": [
+        "C",
+        "C++",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Go",
+        "Haskell",
+        "Java",
+        "Java Bytecode",
+        "JavaScript",
+        "Python"
+      ],
+      "platform": ["https://github.com/CMPSC-201-Spring2023"],
+      "learningObjectives": [
+        "Can proficiently program in languages such as Java",
+        "Able to construct a simple grammar",
+        "Able to implement a scanner and a parser",
+        "Use language constructs effectively to design correct and elegant programs",
+        "Can learn new programming languages with a minimum effort based on an understanding of general principles of language design and implementation"
+      ]
+    },
     {
       "courseNumber": "CMPSC 301",
       "courseName": "Data Science",
