@@ -115,19 +115,32 @@
       "inflevel": "",
       "infSub": "",
       "selevel": "",
-      "topics": [
-        "Object-oriented programming",
+      "technicalTopics": [
         "Memory management",
-        "Declarative programming",
+        "Imperative programming",
+        "Procedural programming",
         "Instruction set architectures (ISA)",
         "Functional programming",
         "Digital circuits",
-        "Low-level languages"
+        "Low-level languages",
+        "Hardware design languages (HDL)"
       ],
-      "tools": ["Docker", "Verilog", "C++", "Assembly"],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
+      "professionalTopics": [
+        "Collaboration and teamwork",
+        "Analytical and critical thinking",
+        "Problem solving and troubleshooting",
+        "Research",
+        "Written and oral communication, and presentation"
+      ],
+      "tools": ["Raspberry Pi Pico W", "C", "Assembly languages", "Verilog"],
+      "platform": [],
+      "learningObjectives": [
+        "Explain how programs written in high-level computer programming languages execute using lower-level computer circuitry",
+        "Identify levels of the Memory Hierarchy and the implications of using the various levels to implement high-performance programs",
+        "Develop C and Assembly language programs which use the appropriate levels of the Memory Hierarchy and processor registers to create performant, executable programs and logic units",
+        "Describe and use threading to increase a program’s performance and efficiency",
+        "Design and test digital circuits using the Verilog hardware design language (HDL)"
+      ]
     },
     {
       "courseNumber": "CMPSC 104",
