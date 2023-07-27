@@ -197,76 +197,60 @@
       "learningObjectives": [],
       "learningOutcomes": []
     },
-      {
-        "courseNumber": "CMPSC 203",
-        "courseName": "Software Engineering",
-        "Major": [
-          "Software Engineering Major"
-        ],
-        "Minor": [
-          "Software Engineering Major"
-        ],
-        "distributionRequirements": [
-          "SB",
-          "SP"
-        ],
-        "credits": "4",
-        "prerequisites": {
-          "anyof": [],
-          "allof": ["CMPSC 101"]
-        },
-        "unlocks": [
-          "CMPSC 404"
-        ],
-        "courseDescription": "A human-centric study of the principles used during the engineering of high-quality software systems. In addition to examining the human behaviors and social processes undergirding software development methodologies, students participate in teams tasked with designing, developing, and delivering a significant software application for a customer. During a weekly laboratory session, students use state-of-the-art software engineering, management, and communication tools to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
-        "cslevel": "",
-        "dslevel": "",
-        "dsSub": "",
-        "inflevel": "",
-        "infSub": "",
-        "selevel": "core",
-        "technicalTopics": [
-          "Software Testing",
-          "Continuous Integration and Delivery",
-          "Requirements Engineering",
-          "Software Design",
-          "Software Complexity",
-          "Programming Styles",
-          "Debugging",
-          "Integration Testing",
-          "Fault Localization",
-          "Static Analysis",
-          "Performance Assessment",
-          "Coverage Testing",
-          "Dynamic Analysis",
-          "Mutation Testing",
-          "Scrum Methodology"
-        ],
-        "professionalTopics": [ 
-          "Project Management",
-          "Teamwork",
-          "Technical Writing",
-          "Code Review",
-          "Version Control Systems",
-          "Professional Communication"
-        ],
-        "tools": [
-          "Git",
-          "GitHub",
-          "Markdown",
-          "pytest",
-          "Python",
-          "linters"
-        ],
-        "platform": ["https://learncraftingsoftware.com"],
-        "learningObjectives": [
-          "Apply the phases of the software engineering lifecycle using various software engineering methodologies",
-          "Engage in software requirements elicitation, design, implementation, testing, documentation, maintenance, and deployment",
-          "Contribute to the implementation of a software product using an integrated development environment",  
-          "Effectively utilize software engineering tools like linters and debuggers",
-          "Work effectively in a team of diverse software developers using version control systems"
-        ],
+    {
+      "courseNumber": "CMPSC 203",
+      "courseName": "Software Engineering",
+      "Major": ["Software Engineering Major"],
+      "Minor": ["Software Engineering Major"],
+      "distributionRequirements": ["SB", "SP"],
+      "credits": "4",
+      "prerequisites": {
+        "anyof": [],
+        "allof": ["CMPSC 101"]
       },
+      "unlocks": ["CMPSC 404"],
+      "courseDescription": "A human-centric study of the principles used during the engineering of high-quality software systems. In addition to examining the human behaviors and social processes undergirding software development methodologies, students participate in teams tasked with designing, developing, and delivering a significant software application for a customer. During a weekly laboratory session, students use state-of-the-art software engineering, management, and communication tools to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+      "cslevel": "",
+      "dslevel": "",
+      "dsSub": "",
+      "inflevel": "",
+      "infSub": "",
+      "selevel": "core",
+      "technicalTopics": [
+        "Software Testing",
+        "Continuous Integration and Delivery",
+        "Requirements Engineering",
+        "Software Design",
+        "Software Complexity",
+        "Programming Styles",
+        "Debugging",
+        "Integration Testing",
+        "Fault Localization",
+        "Static Analysis",
+        "Performance Assessment",
+        "Coverage Testing",
+        "Dynamic Analysis",
+        "Mutation Testing",
+        "Scrum Methodology"
+      ],
+      "professionalTopics": [
+        "Project Management",
+        "Teamwork",
+        "Technical Writing",
+        "Code Review",
+        "Version Control Systems",
+        "Professional Communication"
+      ],
+      "tools": ["Git", "GitHub", "Markdown", "pytest", "Python", "linters"],
+      "platform": ["https://learncraftingsoftware.com"],
+      "learningObjectives": [
+        "Apply the phases of the software engineering lifecycle using various software engineering methodologies",
+        "Engage in software requirements elicitation, design, implementation, testing, documentation, maintenance, and deployment",
+        "Contribute to the implementation of a software product using an integrated development environment",
+        "Effectively utilize software engineering tools like linters and debuggers",
+        "Work effectively in a team of diverse software developers using version control systems"
+      ]
+    },
     {
       "courseNumber": "CMPSC 204",
       "courseName": "Theoretical Machines",
