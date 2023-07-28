@@ -1,0 +1,7 @@
+[build.environment]
+  command = "npm run build"
+
+# Deploy Preview context: all deploys generated from
+# a pull/merge request will inherit these settings.
+[context.deploy-preview]
+  publish = "build/"
