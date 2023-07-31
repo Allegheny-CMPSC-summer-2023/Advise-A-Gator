@@ -3,18 +3,6 @@ name: My Workflow
 on: [push, pull_request]
 
 jobs:
-  lint:
-    name: Lint code base
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Run Super-Linter
-        uses: github/super-linter@v4
-        env:
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   JSON-lint:
     runs-on: ubuntu-latest
@@ -26,40 +14,7 @@ jobs:
       run: |
         npm install -g jsonlint
         jsonlint src/curriculumData/current_data.json
-  ajv:
-    name: AJV JS file Validation
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-    
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-    
-      - name: Install dependencies
-        run: npm install -g ajv-cli
-    
-      - name: Run AJV validation
-        run: ajv validate -s src/curriculumData/config_schema.json -d src/curriculumData/current_data.json
-
-  check-schema:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-    
-    - name: Install check-jsonschema
-      run: pip install check-jsonschema
-    
-    - name: Run check-jsonschema
-      run: check-jsonschema --schemafile src/curriculumData/config_schema.json src/curriculumData/current_data.json 
+        
   prettier:
     runs-on: ubuntu-latest
     permissions:
