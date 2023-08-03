@@ -216,35 +216,40 @@
       "inflevel": "",
       "infSub": "",
       "selevel": "core",
-      "topics": [
-        "Project Management",
-        "Unit Testing",
+      "technicalTopics": [
+        "Software Testing",
+        "Continuous Integration and Delivery",
+        "Requirements Engineering",
+        "Software Design",
+        "Software Complexity",
+        "Programming Styles",
         "Debugging",
-        "Teamwork",
         "Integration Testing",
         "Fault Localization",
-        "Version Control Systems",
-        "Implementation",
-        "Linting",
-        "Technical Writing",
-        "Software Design",
         "Static Analysis",
         "Performance Assessment",
         "Coverage Testing",
         "Dynamic Analysis",
-        "Professional Communication",
-        "Open Source Software",
-        "User Studies",
-        "Flow of Control",
-        "Software Testing",
-        "Code Review",
-        "Requirements Gathering",
-        "Mutation Testing"
+        "Mutation Testing",
+        "Scrum Methodology"
       ],
-      "tools": ["Git", "GitHub", "Markdown", "pytest", "Python"],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
+      "professionalTopics": [
+        "Project Management",
+        "Teamwork",
+        "Technical Writing",
+        "Code Review",
+        "Version Control Systems",
+        "Professional Communication"
+      ],
+      "tools": ["Git", "GitHub", "Markdown", "pytest", "Python", "linters"],
+      "platform": ["https://learncraftingsoftware.com"],
+      "learningObjectives": [
+        "Apply the phases of the software engineering lifecycle using various software engineering methodologies",
+        "Engage in software requirements elicitation, design, implementation, testing, documentation, maintenance, and deployment",
+        "Contribute to the implementation of a software product using an integrated development environment",
+        "Effectively utilize software engineering tools like linters and debuggers",
+        "Work effectively in a team of diverse software developers using version control systems"
+      ]
     },
     {
       "courseNumber": "CMPSC 204",
@@ -372,12 +377,19 @@
         "Language Paradigms",
         "Language Security"
       ],
-      "professionalTopics": ["teamwork", "code review", "communication"],
+      "professionalTopics": [
+        "teamwork",
+        "code review",
+        "communication",
+        "presentation",
+        "ethics"
+      ],
       "tools": [
         "C",
         "C++",
         "Docker",
         "Git",
+        "GitHub",
         "Go",
         "Haskell",
         "Java",
@@ -387,18 +399,11 @@
       ],
       "platform": ["https://github.com/CMPSC-201-Spring2023"],
       "learningObjectives": [
-        "Understand fundamental concepts that underlie programming language syntax and semantics",
-        "Gain exposure to different languages and language paradigms",
-        "Learn how to use language constructs effectively to design correct and elegant programs",
-        "Continue developing team-working strategies",
-        "Enhance ability to write and present ideas about software in a clear, concise, and compelling fashion"
-      ],
-      "learningOutcomes": [
         "Can proficiently program in languages such as Java",
-        "Able to design and understand a simple grammar for a language",
-        "Able to implement a simple scanner",
-        "Able to create a simple parser",
-        "Be able to learn new programming languages with a minimum effort based on an understanding of general principles of language design and implementation"
+        "Able to construct a simple grammar",
+        "Able to implement a scanner and a parser",
+        "Use language constructs effectively to design correct and elegant programs",
+        "Can learn new programming languages with a minimum effort based on an understanding of general principles of language design and implementation"
       ]
     },
     {
