@@ -2480,17 +2480,21 @@
       "inflevel": "Core",
       "infSub": "",
       "selevel": "Core",
-      "topics": [
-        "Teamwork",
-        "Responsive Design",
-        "Iterative Design",
-        "Computer Graphics",
-        "Networking",
-        "User Studies",
-        "Version Control Systems",
-        "Professional Communication",
-        "UI/UX",
-        "Design Thinking"
+      "technicalTopics" : [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Markdown",
+        "Accessible design",
+        "Responsive design",
+        "UI/UX"
+      ],
+      "professionalTopics": [
+        "Collaboration and teamwork",
+        "Quality assurance and control",
+        "Project and task organization and planning",
+        "Visual communication and presentation",
+        "Ethical and intercultural perspectives"
       ],
       "tools": [
         "React",
@@ -2501,11 +2505,17 @@
         "Figma",
         "Netlify",
         "JavaScript",
+        "Node.js",
         "Markdown"
       ],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
+      "platform": [],
+      "learningObjectives": [
+        "Apply HTML, CSS, Markdown, and basic Javascript to develop well-structured, responsive W3C standards-compliant HTML",
+        "Evaluate and implement web accessibility measures consistent with the WCAG 2 specification",
+        "Design front-end user experiences using accepted web design patterns, methods, and information structures",
+        "Identify and use strategies of successful visual rhetoric for the web",
+        "Compare and select web technologies such as static site generators or frameworks as appropriate candidates for building web sites"
+      ]
     },
     {
       "courseNumber": "CMPSC 303",
