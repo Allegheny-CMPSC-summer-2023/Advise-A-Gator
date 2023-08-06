@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gator Planner
+  Gator Planner for Allegheny Students
 </h1>
 
 ## 🚀 Using pre-commit
