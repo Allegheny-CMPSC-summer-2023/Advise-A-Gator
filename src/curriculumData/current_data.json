@@ -2262,11 +2262,23 @@
       "inflevel": "",
       "infSub": "",
       "selevel": "Core",
-      "topics": ["APIs", "HTTP/S", "SSL", "Databases", "TCP/IP"],
+      "professionalTopics": [
+        "Multi-task prioritization and management",
+        "Collaboration and teamwork",
+        "Problem solving and trouble shooting",
+        "Quality assurance/control",
+        "Project and task organization and planning"
+      ],
+      "technicalTopics": ["APIs", "HTTP/S", "SSL", "Databases", "TCP/IP"],
       "tools": ["PHP", "React", "Javascript", "Nodejs", "HTML", "CSS"],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
+      "platform": [],
+      "learningObjectives": [
+        "Define the structure of the web application “stack” and describe the meaning and implications of implementing a “full stack” application",
+        "Illustrate the layers of the Transmission Control Protocol/Internet Protocol (TCP/IP) and describe their relationship to server-side and client-side web applications",
+        "Develop secure, reliable application programmer interfaces (APIs) using the Representational State Transfer (REST) or Simple Object Access Protocol (SOAP) specification(s)",
+        "Model industry standard server security practices such as, but not limited to, firewall, web server, and database configuration",
+        "Select solution-appropriate open source software to implement a “full stack” web application project using server-side or client-side rendering frameworks"
+      ],
     },
     {
       "courseNumber": "CMPSC 580",
