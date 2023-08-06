@@ -2278,7 +2278,7 @@
         "Develop secure, reliable application programmer interfaces (APIs) using the Representational State Transfer (REST) or Simple Object Access Protocol (SOAP) specification(s)",
         "Model industry standard server security practices such as, but not limited to, firewall, web server, and database configuration",
         "Select solution-appropriate open source software to implement a “full stack” web application project using server-side or client-side rendering frameworks"
-      ],
+      ]
     },
     {
       "courseNumber": "CMPSC 580",
