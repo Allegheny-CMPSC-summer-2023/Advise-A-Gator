@@ -13,7 +13,7 @@ import ComputerScienceMajorBlock from "../components/Roadmap/components/Computer
 const Lines = () => {
   return (
     <React.Fragment>
-      {/* <svg
+      <svg
         width="1280"
         height="3452"
         viewBox="0 0 1280 3452"
@@ -44,7 +44,7 @@ const Lines = () => {
           strokeWidth="2.5"
           strokeLinecap="round"
         />
-      </svg> */}
+      </svg>
     </React.Fragment>
   );
 };
@@ -53,12 +53,12 @@ const ComputerScienceMajorContainer = () => {
   return (
     <div className={classes["main-container"]}>
       <svg
-        viewBox="0 0 1280 800"
+        viewBox="0 0 1280 1200"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <ComputerScienceMajorBlock boxData={boxesData["csMajor"]} />
-        <Lines />
+        {/* <Lines /> */}
       </svg>
     </div>
   );

@@ -6,6 +6,7 @@ import DsMajor from "./pages/DsMajor";
 import InfMajor from "./pages/InfMajor";
 import Software from "./pages/Software";
 import Home from "./pages/Home";
+import Courses from "./pages/Courses";
 
 import App from "./App";
 
@@ -18,6 +19,7 @@ export default function MyRouter() {
         <Route path="datasciencemajor" element={<DsMajor />} />
         <Route path="softwaremajor" element={<Software />} />
         <Route path="informaticsmajor" element={<InfMajor />} />
+        <Route path="courses" element={<Courses />} />
       </Route>
     </Routes>
   );

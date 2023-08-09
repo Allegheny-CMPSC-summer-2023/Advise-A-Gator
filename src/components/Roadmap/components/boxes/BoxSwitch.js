@@ -6,7 +6,7 @@ import SecondaryBox from "./SecondaryBox";
 
 const BoxSwitch = (props) => {
   const { box, absoluteX, absoluteY } = props;
-  if (box.type == "primaryBox") {
+  if (box.type === "primaryBox") {
     return (
       <PrimaryBox
         x={box.x + absoluteX}
@@ -17,7 +17,7 @@ const BoxSwitch = (props) => {
       />
     );
   }
-  if (box.type == "multiBox") {
+  if (box.type === "multiBox") {
     return (
       <MultiBox
         x={box.x + absoluteX}
@@ -29,7 +29,7 @@ const BoxSwitch = (props) => {
       />
     );
   }
-  if (box.type == "tertiaryBox") {
+  if (box.type === "tertiaryBox") {
     return (
       <TertiaryBox
         x={box.x + absoluteX}
@@ -43,7 +43,7 @@ const BoxSwitch = (props) => {
       />
     );
   }
-  if (box.type == "secondaryBox") {
+  if (box.type === "secondaryBox") {
     return (
       <SecondaryBox
         x={box.x + absoluteX}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const cardContainer = {
   display: "flex",
@@ -212,4 +213,5 @@ export {
   MinorCard8,
   cardContainer,
   cardStyle,
+  pageContainer,
 };
