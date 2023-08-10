@@ -478,36 +478,20 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "ENGL 210",
-      "courseName": "Writing Creative Nonfiction",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["HE", "ME"],
-      "prerequisites": {
-        "anyof": ["One 100-level literature course"],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "A study of the craft of creative nonfiction through reading and writing of creative nonfiction and through critical examination of both professional and student work. Areas within creative nonfiction that may be considered include: the personal essay, environmental writing, travel writing, food writing, and memoir. Emphasis is on the creative process through the exploration of structure, language, narrative devices, and quality of observation.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Effective Communication",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "technicalTopics": [],
-      "professionalTopics": [],
-      "tools": [],
-      "platform": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "CMPSC 529",
       "courseName": "Internship",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
+      "Major": [
+        "Software Engineering Major",
+        "Computer Science Major",
+        "Data Science Major",
+        "Informatics Major"
+      ],
+      "Minor": [
+        "Software Engineering Minor",
+        "Computer Science Minor",
+        "Data Science Minor",
+        "Informatics Minor"
+      ],
       "credits": "1-4",
       "distributionRequirements": [],
       "prerequisites": {
@@ -1038,31 +1022,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "PHIL 130",
-      "courseName": "Values and Knowledge",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["CL", "SP"],
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to the connections between the values and the ways of knowing that are characteristic of modern western culture. The course focuses upon the pursuit and justification of knowledge and scientific understanding, and the ethical and political values that are implicit in those endeavors.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Ethics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "ENGL 115",
       "courseName": "Literature and Sexuality",
       "Major": ["Informatics Major"],
@@ -1255,31 +1214,6 @@
       "cslevel": "",
       "dslevel": "",
       "dsSub": "",
-      "inflevel": "Module",
-      "infSub": "Humanities Informatics",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "RELST 200",
-      "courseName": "Christian Ethics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["PD", "HE"],
-      "prerequisites": {
-        "anyof": [],
-        "allof": ["CMPSC 200"]
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to the study of Christian ethics considered within an ecumenical framework and across the broad span of the history of theology. Focusing on the primary issues that arise for any ethic that is identifiably Christian, this inquiry also involves learning to analyze and construct moral arguments. This course counts toward the VESA and Science, Health, and Society minors.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Ethics",
       "inflevel": "Module",
       "infSub": "Humanities Informatics",
       "selevel": "",
@@ -1610,7 +1544,7 @@
       "distributionRequirements": ["HE", "ME"],
       "prerequisites": {
         "anyof": [],
-        "allof": []
+        "allof": ["One 100-level literature course"]
       },
       "unlocks": [],
       "courseDescription": "A study of the craft of creative nonfiction through reading and writing of creative nonfiction and through critical examination of both professional and student work. Areas within creative nonfiction that may be considered include: the personal essay, environmental writing, travel writing, food writing, and memoir. Emphasis is on the creative process through the exploration of structure, language, narrative devices, and quality of observation.",
@@ -1652,31 +1586,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "PHIL 130",
-      "courseName": "Values and Knowledge",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["CL", "SP"],
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to the connections between the values and the ways of knowing that are characteristic of modern western culture. The course focuses upon the pursuit and justification of knowledge and scientific understanding and the ethical and political values that are implicit in those endeavors.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Ethics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "POLSC 140",
       "courseName": "Introduction to Political Theory",
       "Major": ["Data Science Major"],
@@ -1689,31 +1598,6 @@
       },
       "unlocks": [],
       "courseDescription": "An introduction to political theory with special emphasis on the problem of justice. As citizens, we must confront choices that affect not only our own lives, but the lives of others. How we approach these choices is therefore consequential. We must consider what we owe others and what others owe us in return. We must also consider how we can develop our ability to make choices wisely. In this course, we engage in these considerations by examining rival perspectives on human nature, citizenship, and the ethical uses of political power.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Ethics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "PSYCH 162",
-      "courseName": "Human Social Behavior",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["SB", "SP"],
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "Social psychology is the study of how the individual affects and is affected by social situations. This course surveys the major topics, theoretical models, and applications in this area of psychology. Included are attribution, attitudes, interpersonal attraction, social influence, groups, aggression and sex roles..",
       "cslevel": "",
       "dslevel": "Core",
       "dsSub": "Ethics",
@@ -1777,31 +1661,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "ECON 202",
-      "courseName": "Economic Statistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["QR"],
-      "prerequisites": {
-        "anyof": [],
-        "allof": ["ECON 100", "ECON 101"]
-      },
-      "unlocks": ["MATH 151", "MATH 140", "ECON 203"],
-      "courseDescription": "An introduction to the basic components of statistical analysis necessary for applied economic research. Basic concepts of probability, probability distributions, random sampling, point estimation, internal estimation and hypothesis testing are covered. Special attention is focused on the development of multiple regression analysis.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Statistics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "FILM 375",
       "courseName": "Documentary Traditions",
       "Major": ["Data Science Major"],
@@ -1827,31 +1686,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "ECON 202",
-      "courseName": "Economic Statistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["QR"],
-      "prerequisites": {
-        "anyof": ["MATH 141", "MATH 151"],
-        "allof": ["ECON 100", "ECON 102", "MATH 140"]
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to the basic components of statistical analysis necessary for applied economic research. Basic concepts of probability, probability distributions, random sampling, point estimation, internal estimation and hypothesis testing are covered. Special attention is focused on the development of multiple regression analysis.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Statistics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "ECON 203",
       "courseName": "Economic Statistics II",
       "Major": ["Data Science Major"],
@@ -1864,31 +1698,6 @@
       },
       "unlocks": [],
       "courseDescription": "Fundamental statistical measures and models from ECON 202 are reviewed and more fully developed, with applications to economic theory and data. Topics include confidence intervals, hypothesis testing, and the multiple regression model. The use of computers for statistical analysis is an integral part of the course. ",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Statistics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "POLSC 489",
-      "courseName": "Statistics and Data Analysis",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "credits": "4",
-      "distributionRequirements": ["QR"],
-      "prerequisites": {
-        "anyof": ["MATH 110"],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "Techniques of quantitative analysis of social and political data. Topics include measurement, scaling, description, sampling, inference, and research design. Emphasis is on measures appropriate to nominal and ordinal variables and non-parametric techniques. Students will use the Statistical Package for the Social Sciences for computer analysis of archival data.",
       "cslevel": "",
       "dslevel": "Core",
       "dsSub": "Statistics",
@@ -1983,31 +1792,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "MATH 320",
-      "courseName": "Linear Algebra",
-      "Major": ["Computer Science Major", "Data Science Major"],
-      "Minor": ["Computer Science Minor"],
-      "distributionRequirements": ["SP"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": ["MATH*205", " MATH 210", "MATH*211", "MATH 270", " MATH 280"],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "A study of vector spaces, linear transformations, matrices, determinants, systems of linear equations, similarity, and characteristic values and vectors. This course may be applied toward the mathematics requirement for a Computer Science major.",
-      "cslevel": "",
-      "dslevel": "Elective",
-      "dsSub": "",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "BIO 321",
       "courseName": "Epidemiology",
       "Major": ["Computer Science Major"],
@@ -2044,7 +1828,7 @@
         "allof": []
       },
       "unlocks": [],
-      "courseDescription": "People & Poisons: Foundations of Public Health Toxicology -- An interdisciplinary introduction to the science of toxicology and its application to the study of human health. This course traces the biologic processes involved in the absorption, distribution, biotransformation, and excretion of toxic substances within the human body. Toxicology is an essential component of a wide array of efforts to improve health, informing everything from environmental policy, to risk assessments for particular communities, to industry and legal guidelines for determining thresholds of exposure for hazardous substances--whether those substances are found in our food, water, construction materials, or even toys.",
+      "courseDescription": "An interdisciplinary introduction to the science of toxicology and its application to the study of human health. This course traces the biologic processes involved in the absorption, distribution, biotransformation, and excretion of toxic substances within the human body. Toxicology is an essential component of a wide array of efforts to improve health, informing everything from environmental policy, to risk assessments for particular communities, to industry and legal guidelines for determining thresholds of exposure for hazardous substances--whether those substances are found in our food, water, construction materials, or even toys.",
       "cslevel": "",
       "dslevel": "Elective",
       "dsSub": "",
@@ -2097,31 +1881,6 @@
       "courseDescription": "A continuation of topics discussed in introductory statistics courses. Topics include, but are not limited to, simple effect tests for interactions, False Discovery Rate, linear and polynomial regression analyses, coding for multicategorical predictor variables, and mediation (simple, parallel, and serial) and moderation. In addition, we will compare and contrast Frequentist and Bayesian inference and learn how to conduct basic Bayesian analyses. The course emphasizes close readings of peer reviewed publications and analyzing and reporting data using the JASP statistical package. This course is recommended for students interested in going to graduate school for psychology/other research disciplines or for those who wish to go into careers doing data analytics or research.",
       "cslevel": "",
       "dslevel": "Elective",
-      "dsSub": "",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "PSYCH 207",
-      "courseName": "Statistical Methods in Psychology",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to using electronic technologies/software and digital media as art-making tools. Emphasis on awareness of the elements of 2D design/composition and the vocabulary used to describe it. Coursework integrates effective oral and written communication to explore contemporary and historical practices within the medium and the role of electronic art in human experience. This course emphasizes the development of skills with a focus on technique, contemporary and historical issues, and conceptual development.",
-      "cslevel": "",
-      "dslevel": "",
       "dsSub": "",
       "inflevel": "",
       "infSub": "",
@@ -2618,56 +2377,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "PHIL 130",
-      "courseName": "Values and Knowledge ",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["SP", "CL"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to the connections between the values and the ways of knowing that are characteristic of modern western culture. The course focuses upon the pursuit and justification of knowledge and scientific understanding, and the ethical and political values that are implicit in those endeavors.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Ethics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "PHIL 130",
-      "courseName": "Values and Knowledge ",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["SP", "CL"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to the connections between the values and the ways of knowing that are characteristic of modern western culture. The course focuses upon the pursuit and justification of knowledge and scientific understanding, and the ethical and political values that are implicit in those endeavors.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Ethics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "POLSC 120",
       "courseName": "Comparative Gov/Politics",
       "Major": ["Informatics Major"],
@@ -2889,41 +2598,6 @@
       "tools": [],
       "lab": [],
       "learningObjectives": []
-    },
-    {
-      "courseNumber": "CMPSC 529",
-      "courseName": "Internship",
-      "Major": [
-        "Software Engineering Major",
-        "Computer Science Major",
-        "Data Science Major",
-        "Informatics Major"
-      ],
-      "Minor": [
-        "Software Engineering Minor",
-        "Computer Science Minor",
-        "Data Science Minor",
-        "Informatics Minor"
-      ],
-      "distributionRequirements": [],
-      "credits": "1-4",
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "Academic study completed in support of an internship experience with a partner institution. An Allegheny faculty member assigns and evaluates the academic work done by the student. May be repeated for credit. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
-      "cslevel": "",
-      "dslevel": "",
-      "dsSub": "",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
     },
     {
       "courseNumber": "CMPSC 580",
@@ -3247,31 +2921,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "ENGL 210",
-      "courseName": "Writing Creative Nonfiction",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["HE", "ME"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": [],
-        "allof": ["One 100-level literature course"]
-      },
-      "unlocks": [],
-      "courseDescription": "A study of the craft of creative nonfiction through reading and writing of creative nonfiction and through critical examination of both professional and student work. Areas within creative nonfiction that may be considered include: the personal essay, environmental writing, travel writing, food writing, and memoir. Emphasis is on the creative process through the exploration of structure, language, narrative devices, and quality of observation.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Effective Communication",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "ENGL 208",
       "courseName": "Professional Communication",
       "Major": ["Data Science Major"],
@@ -3322,31 +2971,6 @@
       "learningOutcomes": []
     },
     {
-      "courseNumber": "POLSC 140",
-      "courseName": "Introduction to Political Theory",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["CL", "SB"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to political theory with special emphasis on the problem of justice. As citizens, we must confront choices that affect not only our own lives, but the lives of others. How we approach these choices is therefore consequential. We must consider what we owe others and what others owe us in return. We must also consider how we can develop our ability to make choices wisely. In this course, we engage in these considerations by examining rival perspectives on human nature, citizenship, and the ethical uses of political power.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Ethics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
       "courseNumber": "PSYCH 162",
       "courseName": "Human Social Behavior",
       "Major": ["Data Science Major"],
@@ -3362,31 +2986,6 @@
       "cslevel": "",
       "dslevel": "Core",
       "dsSub": "Ethics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "BIO 385",
-      "courseName": "Biostatistics",
-      "Major": ["Data Science Major"],
-      "Minor": ["Data Science Minor"],
-      "distributionRequirements": ["QR", "SP"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": ["MATH 141", "MATH 151"],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "Introduction to quantitative methods with biological applications. Content includes descriptive statistics, probability distributions, tests of significance and curve fitting techniques.",
-      "cslevel": "",
-      "dslevel": "Core",
-      "dsSub": "Statistics",
       "inflevel": "",
       "infSub": "",
       "selevel": "",
@@ -3487,81 +3086,6 @@
       "cslevel": "",
       "dslevel": "Core",
       "dsSub": "Statistics",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "PSYCH 307",
-      "courseName": "Intermediate Statistics",
-      "Major": ["Data Science Major"],
-      "Minor": [],
-      "distributionRequirements": ["QR", "SP"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": ["PSYCH 207", "ECON 202", "BIO 385", "MATH*345"],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "A continuation of topics discussed in introductory statistics courses. Topics include, but are not limited to, simple effect tests for interactions, False Discovery Rate, linear and polynomial regression analyses, coding for multicategorical predictor variables, and mediation (simple, parallel, and serial) and moderation. In addition, we will compare and contrast Frequentist and Bayesian inference and learn how to conduct basic Bayesian analyses. The course emphasizes close readings of peer reviewed publications and analyzing and reporting data using the JASP statistical package. This course is recommended for students interested in going to graduate school for psychology/other research disciplines or for those who wish to go into careers doing data analytics or research. ",
-      "cslevel": "",
-      "dslevel": "Elective",
-      "dsSub": "",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "ECON 241",
-      "courseName": "Behavioral Economics",
-      "Major": ["Data Science Major"],
-      "Minor": [],
-      "distributionRequirements": ["QR", "SB"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": ["ECON 100"],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An introduction to behavioral economics, which uses insights from psychology, political science, anthropology, management and experimental data to improve understanding of traditional economic models of behavior. Behavioral economics considers the ways that people are more social, more impulsive, less adept at using information, and more susceptible to biases than the standard economic models assume. The course gives an overview of key insights from behavioral science and identifies ways in which these findings have been used to advance policies on education, health, energy, taxation, and more. A major goal is to understand how predictions of economic models change when phenomena such as altruism, loss aversion, and self-control problems are considered. Classroom games and experiments will be used to explain observed behaviors, in addition to standard and behavioral models.",
-      "cslevel": "",
-      "dslevel": "Elective",
-      "dsSub": "",
-      "inflevel": "",
-      "infSub": "",
-      "selevel": "",
-      "topics": [],
-      "tools": [],
-      "lab": [],
-      "learningObjectives": [],
-      "learningOutcomes": []
-    },
-    {
-      "courseNumber": "GHS 223",
-      "courseName": "People & Poisons: Foundations of Public Health Toxicology",
-      "Major": ["Data Science Major"],
-      "Minor": [],
-      "distributionRequirements": ["SP"],
-      "credits": "4",
-      "prerequisites": {
-        "anyof": [],
-        "allof": []
-      },
-      "unlocks": [],
-      "courseDescription": "An interdisciplinary introduction to the science of toxicology and its application to the study of human health. This course traces the biologic processes involved in the absorption, distribution, biotransformation, and excretion of toxic substances within the human body. Toxicology is an essential component of a wide array of efforts to improve health, informing everything from environmental policy, to risk assessments for particular communities, to industry and legal guidelines for determining thresholds of exposure for hazardous substances–whether those substances are found in our food, water, construction materials, or even toys.",
-      "cslevel": "",
-      "dslevel": "Elective",
-      "dsSub": "",
       "inflevel": "",
       "infSub": "",
       "selevel": "",
