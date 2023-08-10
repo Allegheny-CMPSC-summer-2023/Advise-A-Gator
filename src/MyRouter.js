@@ -1,12 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Layout from "./components/Layout";
 import CsMajor from "./pages/CsMajor";
 import DsMajor from "./pages/DsMajor";
 import InfMajor from "./pages/InfMajor";
 import Software from "./pages/Software";
 import Home from "./pages/Home";
-import Courses from "./pages/Courses";
+import BoardCS from "./pages/dashboard/BoardCS";
+import BoardDS from "./pages/dashboard/BoardDS";
+import BoardINF from "./pages/dashboard/BoardINF";
+import BoardSE from "./pages/dashboard/BoardSE";
 
 import App from "./App";
 
@@ -19,7 +21,10 @@ export default function MyRouter() {
         <Route path="datasciencemajor" element={<DsMajor />} />
         <Route path="softwaremajor" element={<Software />} />
         <Route path="informaticsmajor" element={<InfMajor />} />
-        <Route path="courses" element={<Courses />} />
+        <Route path="dashboard/computersciencemajor" element={<BoardCS />} />
+        <Route path="dashboard/datasciencemajor" element={<BoardDS />} />
+        <Route path="dashboard/informaticsmajor" element={<BoardINF />} />
+        <Route path="dashboard/softwaremajor" element={<BoardSE />} />
       </Route>
     </Routes>
   );

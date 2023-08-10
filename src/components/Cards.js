@@ -27,7 +27,7 @@ const cardStyle = {
 
 function CourseCard(props) {
   return (
-    <div class="card card-3">
+    <div class={"card card-" + props.cardNumber["cardNumber"].toString()}>
       <div class="card__icon">
         <i class="fas fa-bolt"></i>
       </div>
