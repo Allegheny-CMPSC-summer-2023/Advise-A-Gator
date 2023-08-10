@@ -8,6 +8,7 @@ const DScourseCards = (cardNumber) => {
       <div style={Card.pageContainer}>
         <h1 style={{ justifyContent: "center" }}>DATA SCIENCE MAJOR COURSES</h1>
         <div style={Card.cardContainer}>
+          {console.log(dsMajorCourses)}
           {dsMajorCourses.map((course, index) => (
             <Card.CourseCard
               cardNumber={cardNumber}

@@ -5,13 +5,21 @@ function filterbyMajor(data, field) {
     return course.Major.includes(field);
   });
 
+  const uniqueCourses = [...new Set(filteredCourses)];
+
+  return uniqueCourses;
+}
+
+function filterbycategories(data, field, method) {
+  const filteredCourses = data.courses.filter((course) => {
+    return course.Major.includes(field);
+  });
+
   const listOfCourses = [];
-  listOfCourses.push(filterbyMajor);
+  listOfCourses.push(filterbycategories);
 
   return filteredCourses;
 }
-
-function sortData(data) {}
 
 const csMajorCourses = filterbyMajor(data, "Computer Science Major");
 const dsMajorCourses = filterbyMajor(data, "Data Science Major");

@@ -2,7 +2,7 @@ import React from "react";
 import * as Card from "../../components/Cards";
 import { csMajorCourses } from "./logic";
 
-const CScourseCards = () => {
+const CScourseCards = (cardNumber) => {
   return (
     <main>
       <div style={Card.pageContainer}>
@@ -12,6 +12,7 @@ const CScourseCards = () => {
         <div style={Card.cardContainer}>
           {csMajorCourses.map((sdagici, index) => (
             <Card.CourseCard
+              cardNumber={cardNumber}
               courseNumber={csMajorCourses[index].courseNumber}
               courseName={csMajorCourses[index].courseName}
               distros={csMajorCourses[index].distributionRequirements}
@@ -41,7 +42,7 @@ const CSDashboardPage = () => {
   return (
     <main>
       <div style={Card.cardContainer}>
-        <CScourseCards />
+        <CScourseCards cardNumber={2} />
       </div>
     </main>
   );
