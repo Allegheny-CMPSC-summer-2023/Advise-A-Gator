@@ -5,8 +5,14 @@ import Button from "react-bootstrap/Button";
 const cardContainer = {
   display: "flex",
   flexWrap: "wrap",
-  justifyContent: "center",
   boxSize: "border-box",
+};
+
+const HomePageCardContainer = {
+  display: "flex",
+  flexWrap: "wrap",
+  boxSize: "border-box",
+  justifyContent: "center",
 };
 
 const pageContainer = {
@@ -212,6 +218,7 @@ export {
   MinorCard7,
   MinorCard8,
   cardContainer,
+  HomePageCardContainer,
   cardStyle,
   pageContainer,
 };
