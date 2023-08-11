@@ -1,11 +1,18 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const cardContainer = {
   display: "flex",
   flexWrap: "wrap",
-  justifyContent: "center",
   boxSize: "border-box",
+};
+
+const HomePageCardContainer = {
+  display: "flex",
+  flexWrap: "wrap",
+  boxSize: "border-box",
+  justifyContent: "center",
 };
 
 const pageContainer = {
@@ -26,7 +33,7 @@ const cardStyle = {
 
 function CourseCard(props) {
   return (
-    <div class="card card-3">
+    <div class={"card card-" + props.cardNumber["cardNumber"].toString()}>
       <div class="card__icon">
         <i class="fas fa-bolt"></i>
       </div>
@@ -211,5 +218,7 @@ export {
   MinorCard7,
   MinorCard8,
   cardContainer,
+  HomePageCardContainer,
   cardStyle,
+  pageContainer,
 };

@@ -1,6 +1,6 @@
 module.exports = {
   "CMPSC 100": {
-    title: "Computational Expression",
+    title: "Computational Expression hahhahahahahahaa",
     description:
       "An introduction to the principles of computer science with an emphasis on creative expression through the medium of a programming language. Participating in hands-on activities that often require teamwork, students learn the computational structures needed to solve problems and produce computational artifacts which address these problems in real-world contexts. Students also learn how to organize and document a program's source code so that it effectively communicates with the intended users and maintainers. Additionally, the introduction includes an overview of the discipline of computer science and computational thinking. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
     distributionRequirements: ["ME", "SP"],
@@ -384,6 +384,25 @@ module.exports = {
     learningObjectives: [],
     learningOutcomes: [],
   },
+  "PHIL 130": {
+    title: "Values and Knowledge",
+    description:
+      "An introduction to the connections between the values and the ways of knowing that are characteristic of modern western culture. The course focuses upon the pursuit and justification of knowledge and scientific understanding and the ethical and political values that are implicit in those endeavors.",
+    distributionRequirements: ["CL", "SP"],
+    credits: "4",
+    prerequisites: {
+      anyof: [],
+      allof: [],
+    },
+    unlocks: [],
+    topics: [],
+    technicalTopics: [],
+    professionalTopics: [],
+    tools: [],
+    lab: [],
+    learningObjectives: [],
+    learningOutcomes: [],
+  },
   "PHIL 140": {
     title: "Ethics and Community",
     description:
@@ -446,25 +465,6 @@ module.exports = {
     description:
       "A study of practical communication in professional settings. Students will produce individual and collaborative texts, analyze the conventions of several genres of professional communication, consider the principles of document design, and reflect upon the ethical implications of a text’s content, design, and mode of delivery.",
     distributionRequirements: ["HE", "ME"],
-    credits: "4",
-    prerequisites: {
-      anyof: [],
-      allof: [],
-    },
-    unlocks: [],
-    topics: [],
-    technicalTopics: [],
-    professionalTopics: [],
-    tools: [],
-    lab: [],
-    learningObjectives: [],
-    learningOutcomes: [],
-  },
-  "PHIL 130": {
-    title: "Values and Knowledge",
-    description:
-      "An introduction to the connections between the values and the ways of knowing that are characteristic of modern western culture. The course focuses upon the pursuit and justification of knowledge and scientific understanding and the ethical and political values that are implicit in those endeavors.",
-    distributionRequirements: ["CL", "SP"],
     credits: "4",
     prerequisites: {
       anyof: [],

@@ -4,11 +4,20 @@
   "version": "1.0.0",
   "private": false,
   "dependencies": {
+<<<<<<< HEAD
     "@popperjs/core": "^2.11.8",
+=======
+    "bootstrap": "^5.3.1",
+>>>>>>> bdea8bfa8237591a0becd4acd87b27922dc54aba
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-popper": "^2.3.0",
     "react-popper-tooltip": "^4.4.2",
+=======
+    "react-helmet": "^6.1.0",
+>>>>>>> bdea8bfa8237591a0becd4acd87b27922dc54aba
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.2"
   },
