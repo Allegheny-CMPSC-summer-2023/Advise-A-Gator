@@ -2,7 +2,7 @@ import React from "react";
 import * as Card from "../../components/Cards";
 import { dsMajorCourses } from "./logic";
 
-const DScourseCards = (cardNumber) => {
+const DScourseCards = (cardNumber, iconClass) => {
   return (
     <main>
       <div style={Card.pageContainer}>
@@ -12,6 +12,7 @@ const DScourseCards = (cardNumber) => {
           {dsMajorCourses.map((course, index) => (
             <Card.CourseCard
               cardNumber={cardNumber}
+              iconClass={iconClass}
               courseNumber={dsMajorCourses[index].courseNumber}
               courseName={dsMajorCourses[index].courseName}
               distros={dsMajorCourses[index].distributionRequirements}
@@ -40,8 +41,16 @@ const DScourseCards = (cardNumber) => {
 const DSDashboardPage = () => {
   return (
     <main>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      ;
       <div style={Card.cardContainer}>
-        <DScourseCards cardNumber={4} />
+        <DScourseCards cardNumber={4} iconClass={"fa-solid fa-database"} />
       </div>
     </main>
   );

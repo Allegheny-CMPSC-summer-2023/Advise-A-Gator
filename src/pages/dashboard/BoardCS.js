@@ -8,15 +8,23 @@ import {
   csMajorProject,
 } from "./logic";
 
-const FoundationCards = (cardNumber) => {
+const FoundationCards = (cardNumber, iconClass) => {
   return (
     <main>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
       <div style={Card.pageContainer}>
         <h2 style={{ justifyContent: "center" }}>FOUNDATION COURSES</h2>
         <div style={Card.cardContainer}>
           {csMajorFoundation.map((sdagici, index) => (
             <Card.CourseCard
               cardNumber={cardNumber}
+              iconClass={iconClass}
               courseNumber={csMajorFoundation[index].courseNumber}
               courseName={csMajorFoundation[index].courseName}
               distros={csMajorFoundation[index].distributionRequirements}
@@ -42,7 +50,7 @@ const FoundationCards = (cardNumber) => {
   );
 };
 
-const CoreCards = (cardNumber) => {
+const CoreCards = (cardNumber, iconClass) => {
   return (
     <main>
       <div style={Card.pageContainer}>
@@ -50,6 +58,7 @@ const CoreCards = (cardNumber) => {
         <div style={Card.cardContainer}>
           {csMajorCore.map((sdagici, index) => (
             <Card.CourseCard
+              iconClass={iconClass}
               cardNumber={cardNumber}
               courseNumber={csMajorCore[index].courseNumber}
               courseName={csMajorCore[index].courseName}
@@ -76,7 +85,7 @@ const CoreCards = (cardNumber) => {
   );
 };
 
-const ElectiveCards = (cardNumber) => {
+const ElectiveCards = (cardNumber, iconClass) => {
   return (
     <main>
       <div style={Card.pageContainer}>
@@ -84,6 +93,7 @@ const ElectiveCards = (cardNumber) => {
         <div style={Card.cardContainer}>
           {csMajorElective.map((sdagici, index) => (
             <Card.CourseCard
+              iconClass={iconClass}
               cardNumber={cardNumber}
               courseNumber={csMajorElective[index].courseNumber}
               courseName={csMajorElective[index].courseName}
@@ -110,14 +120,16 @@ const ElectiveCards = (cardNumber) => {
   );
 };
 
-const ProjectCards = (cardNumber) => {
+const ProjectCards = (cardNumber, iconClass) => {
   return (
     <main>
       <div style={Card.pageContainer}>
         <h2 style={{ justifyContent: "center" }}>Project</h2>
+
         <div style={Card.cardContainer}>
           {csMajorProject.map((sdagici, index) => (
             <Card.CourseCard
+              iconClass={iconClass}
               cardNumber={cardNumber}
               courseNumber={csMajorProject[index].courseNumber}
               courseName={csMajorProject[index].courseName}
@@ -146,21 +158,21 @@ const ProjectCards = (cardNumber) => {
 
 const CSDashboardPage = () => {
   return (
-    <main>
+    <main style={{ backgroundColor: "aqua" }}>
       <h1 style={{ justifyContent: "center" }}>
         COMPUTER SCIENCE MAJOR COURSES
       </h1>
       <div style={Card.cardContainer}>
-        <FoundationCards cardNumber={2} />
+        <FoundationCards cardNumber={2} iconClass={"fa-solid fa-code"} />
       </div>
       <div style={Card.cardContainer}>
-        <CoreCards cardNumber={3} />
+        <CoreCards cardNumber={3} iconClass={"fa-solid fa-code"} />
       </div>
       <div style={Card.cardContainer}>
-        <ElectiveCards cardNumber={4} />
+        <ElectiveCards cardNumber={4} iconClass={"fa-solid fa-code"} />
       </div>
       <div style={Card.cardContainer}>
-        <ProjectCards cardNumber={5} />
+        <ProjectCards cardNumber={5} iconClass={"fa-solid fa-code"} />
       </div>
     </main>
   );
