@@ -24,7 +24,10 @@ export default function MyRouter() {
         <Route path="dashboard/computersciencemajor" element={<BoardCS />} />
         <Route path="dashboard/datasciencemajor" element={<BoardDS />} />
         <Route path="dashboard/informaticsmajor" element={<BoardINF />} />
-        <Route path="dashboard/softwareengineeringmajor" element={<BoardSE />} />
+        <Route
+          path="dashboard/softwareengineeringmajor"
+          element={<BoardSE />}
+        />
       </Route>
     </Routes>
   );
