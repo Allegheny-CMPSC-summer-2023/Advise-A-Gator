@@ -25,7 +25,7 @@
 
 /* CARDS */
 
-.cards {
+/* .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -35,12 +35,56 @@
   margin: 10px;
   padding: 20px;
   width: 250px;
-  min-height: 200px;
+  min-height: 150px;
   display: grid;
   grid-template-rows: 20px 50px 1fr 50px;
   border-radius: 10px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.2s;
+} */
+
+.secondContainer {
+  width: 60vw;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards within the container */
+  max-width: 1040px; /* This is the total width including margins for 4 cards */
+  margin: 1rem auto; /* Top/bottom margin is 1rem, left/right auto centers the container */
+  padding: 1rem;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 1.25rem;
+  width: 15rem; /* Set to your desired square size */
+  display: grid;
+  grid-template-rows: 1.25rem 3.125rem 1fr 3.125rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: calc(50% - 1rem); /* Show two cards side by side on mobile screens */
+    height: auto; /* Allow the height to adjust based on content on mobile screens */
+  }
+}
+
+.fancy {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 
 .card:hover {
@@ -114,6 +158,98 @@
   background: radial-gradient(#f588d8, #c0a3e5);
 }
 
+.card-11 {
+  background: radial-gradient(#5ebaf7, #2f7db3);
+}
+
+.card-12 {
+  background: radial-gradient(#ffb6b9, #ff708d);
+}
+
+.card-13 {
+  background: radial-gradient(#6f85ff, #4853b6);
+}
+
+.card-14 {
+  background: radial-gradient(#32e0c4, #118a7e);
+}
+
+.card-15 {
+  background: radial-gradient(#ff9dd6, #ff4db5);
+}
+
+.card-16 {
+  background: radial-gradient(#ffcc66, #ff9933);
+}
+
+.card-17 {
+  background: radial-gradient(#a6c1ee, #7986cb);
+}
+
+.card-18 {
+  background: radial-gradient(#ffd28a, #ffa859);
+}
+
+.card-19 {
+  background: radial-gradient(#a3e7dc, #56c8be);
+}
+
+.card-20 {
+  background: radial-gradient(#ffabab, #ff5656);
+}
+
+.card-21 {
+  background: radial-gradient(#c2c8ff, #7f80d4);
+}
+
+.card-22 {
+  background: radial-gradient(#ffd5e5, #ff8ab4);
+}
+
+.card-23 {
+  background: radial-gradient(#a6f1e1, #3ddad7);
+}
+
+.card-24 {
+  background: radial-gradient(#b2a1e4, #7e57c2);
+}
+
+.card-25 {
+  background: radial-gradient(#ffc3a0, #ff8a65);
+}
+
+.card-26 {
+  background: radial-gradient(#007bff, #0056b3);
+}
+
+.card-27 {
+  background: radial-gradient(#ff5733, #c70039);
+}
+
+.card-28 {
+  background: radial-gradient(#33d9b2, #00916e);
+}
+
+.card-111 {
+  background: radial-gradient(#00e6ff, #00b2ff);
+}
+
+.card-222 {
+  background: radial-gradient(#ffc1e0, #ff70a3);
+}
+
+.card-333 {
+  background: radial-gradient(#8ecbff, #c881ff);
+}
+
+.card-40 {
+  background: radial-gradient(#6fffe0, #5bdfca);
+}
+
+.card-50 {
+  background: radial-gradient(#ff8bf0, #d46dfc);
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 1600px) {
@@ -125,7 +261,9 @@
 
 .container {
   margin: 1rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav {
@@ -174,6 +312,7 @@
   font-family: "Montserrat";
   color: white;
 }
+
 html, body {
   min-height: 100%;
 }

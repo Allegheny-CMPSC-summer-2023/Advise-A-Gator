@@ -2,7 +2,6 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const bolt = <FontAwesomeIcon icon="fas fa-bolt" />;
 
 const cardContainer = {
   display: "flex",

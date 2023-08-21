@@ -8,6 +8,8 @@ import {
   csMajorProject,
 } from "./logic";
 
+import "./style.css";
+
 const FoundationCards = (cardNumber, iconClass) => {
   return (
     <main>
@@ -19,7 +21,6 @@ const FoundationCards = (cardNumber, iconClass) => {
         referrerpolicy="no-referrer"
       />
       <div style={Card.pageContainer}>
-        <h2 style={{ justifyContent: "center" }}>FOUNDATION COURSES</h2>
         <div style={Card.cardContainer}>
           {csMajorFoundation.map((sdagici, index) => (
             <Card.CourseCard
@@ -54,7 +55,6 @@ const CoreCards = (cardNumber, iconClass) => {
   return (
     <main>
       <div style={Card.pageContainer}>
-        <h2 style={{ justifyContent: "center" }}>Core COURSES</h2>
         <div style={Card.cardContainer}>
           {csMajorCore.map((sdagici, index) => (
             <Card.CourseCard
@@ -89,7 +89,6 @@ const ElectiveCards = (cardNumber, iconClass) => {
   return (
     <main>
       <div style={Card.pageContainer}>
-        <h2 style={{ justifyContent: "center" }}>Elective COURSES</h2>
         <div style={Card.cardContainer}>
           {csMajorElective.map((sdagici, index) => (
             <Card.CourseCard
@@ -124,8 +123,6 @@ const ProjectCards = (cardNumber, iconClass) => {
   return (
     <main>
       <div style={Card.pageContainer}>
-        <h2 style={{ justifyContent: "center" }}>Project</h2>
-
         <div style={Card.cardContainer}>
           {csMajorProject.map((sdagici, index) => (
             <Card.CourseCard
@@ -158,24 +155,34 @@ const ProjectCards = (cardNumber, iconClass) => {
 
 const CSDashboardPage = () => {
   return (
-    <main style={{ backgroundColor: "aqua" }}>
-      <h1 style={{ justifyContent: "center" }}>
-        COMPUTER SCIENCE MAJOR COURSES
-      </h1>
-      <div style={Card.cardContainer}>
-        <FoundationCards cardNumber={2} iconClass={"fa-solid fa-code"} />
-      </div>
-      <div style={Card.cardContainer}>
-        <CoreCards cardNumber={3} iconClass={"fa-solid fa-code"} />
-      </div>
-      <div style={Card.cardContainer}>
-        <ElectiveCards cardNumber={4} iconClass={"fa-solid fa-code"} />
-      </div>
-      <div style={Card.cardContainer}>
-        <ProjectCards cardNumber={5} iconClass={"fa-solid fa-code"} />
+    <main class="container">
+      <div class="secondContainer">
+        <h1 class="fancy" style={{ textAlign: "center" }}>
+          COMPUTER SCIENCE MAJOR COURSES
+        </h1>
+        <button class="btn-hover color-9 centeredButton">Foundation</button>
+        <div style={Card.cardContainer}>
+          <FoundationCards cardNumber={1} iconClass={"fa-solid fa-code"} />
+        </div>
+        <button class="btn-hover color-10 centeredButton">Core</button>
+        <div style={Card.cardContainer}>
+          <CoreCards cardNumber={222} iconClass={"fa-solid fa-code"} />
+        </div>
+        <button class="btn-hover color-1 centeredButton">Elective</button>
+
+        <div style={Card.cardContainer}>
+          <ElectiveCards cardNumber={28} iconClass={"fa-solid fa-code"} />
+        </div>
+        <button class="btn-hover color-3 centeredButton">Project</button>
+
+        <div style={Card.cardContainer}>
+          <ProjectCards cardNumber={333} iconClass={"fa-solid fa-code"} />
+        </div>
       </div>
     </main>
   );
 };
 
 export default CSDashboardPage;
+
+// 16  24 purp  27 red  28 green

@@ -6,6 +6,7 @@ import CartContext from "./components/Roadmap/modal/modalContext";
 import contentData from "./components/Roadmap/contentData";
 import Loader from "./components/Roadmap/layout/Loader";
 import Footer from "./components/Roadmap/layout/Footer";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   const { currentTopicTitle } = useContext(CartContext);
