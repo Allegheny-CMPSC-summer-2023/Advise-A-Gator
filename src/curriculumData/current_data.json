@@ -609,7 +609,7 @@
     {
       "courseNumber": "CMPSC 304",
       "courseName": "Robotic Agents",
-      "Major": ["Informatics Major", "Computer Science Major"],
+      "Major": ["Informatics Major"],
       "Minor": ["Informatics Minor"],
       "credits": "4",
       "distributionRequirements": ["CL", "QR"],
@@ -641,7 +641,8 @@
         "community engagement",
         "teamwork",
         "code review",
-        "communication"
+        "ethics",
+        "demonstration"
       ],
       "tools": [
         "Python",
@@ -656,19 +657,12 @@
         "GitHub"
       ],
       "platform": ["https://learnroboticagents.com"],
-      "learningObjectives": [
-        "Understand the field of agent-based and robotic systems",
-        "Gain exposure to multiple different robot platforms",
-        "Design and develop several robot applications",
-        "Learn about and reflect on public problems that involve robotic technology",
-        "Participate in civic engagement activities"
-      ],
       "learningOutcomes": [
-        "Able to design, implement, and test application for a wheeled robot",
-        "Able to design, implement, and test application for a drone",
-        "Able to design, implement, and test application for a robotic arm",
-        "Can develop a simple application using ROS",
-        "Can put together engaging demonstrations using robots for public events"
+        "Design, implement, and test application for a wheeled robot",
+        "Design, implement, and test application for a drone",
+        "Design, implement, and test application for a robotic arm",
+        "Develop a simple application using ROS",
+        "Present engaging demonstrations using robots for public events"
       ]
     },
     {
@@ -2512,36 +2506,42 @@
       "courseName": "Artificial Intelligence",
       "Major": ["Data Science Major", "Software Engineering Major"],
       "Minor": ["Software Engineering Minor"],
+
       "credits": "4",
       "distributionRequirements": ["QR", "SP"],
-      "prerequisites": {
-        "anyof": ["CMPSC 101", "CMPSC 102"],
-        "allof": []
-      },
+      "prerequisites": { "anyof": ["CMPSC 101", "CMPSC 102"], "allof": [] },
+
       "unlocks": [],
       "courseDescription": "A study of the design and implementation of intelligent computer systems that can learn, plan, and solve problems autonomously. In addition to examining techniques for designing intelligent software agents, students investigate the social, political, and ethical implications of intelligent systems. Through hands-on activities that often require team-work, students explore the application of artificial intelligence methods in areas such as computer vision, natural language processing, and video game development. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+
       "cslevel": "",
       "dslevel": "Electives",
       "dsSub": "",
       "inflevel": "",
       "infSub": "",
       "selevel": "Electives",
+
       "technicalTopics": [
-        "Agents",
+        "Intelligent Agents",
         "Search Algorithms in AI",
-        "Learning Overview",
-        "Supervised Learning",
-        "Computer Vision",
-        "Natural Language Processing",
+        "Knowledge and reasoning",
+        "Planning",
+        "Probabilistic reasoning",
         "Bayes Theory",
-        "Neural Networks",
-        "Attention Mechanisms",
-        "Transformers",
-        "Prompt Engineering"
+        "Decision Making",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks"
       ],
-      "professionalTopics": ["teamwork", "code review", "communication"],
+      "professionalTopics": [
+        "teamwork",
+        "code review",
+        "communication",
+        "demonstration",
+        "ethics"
+      ],
       "tools": [
-        "Arduino",
+        "Git",
         "GitHub",
         "Tensoflow",
         "Keras",
@@ -2552,20 +2552,14 @@
         "OpenCV",
         "NLTK"
       ],
+
       "platform": ["https://github.com/CMPSC-310-AI-Spring2023"],
-      "learningObjectives": [
-        "Understand foundational principles that drive the field of artificial intelligence",
-        "Practice implementing intelligent applications",
-        "Investigate social problems around AI including ethical concerns and environmental challenges",
-        "Learn how to determine when an AI approach is appropriate for a given situation, be able to select and implement an AI method for it",
-        "Learn to evaluate the developed AI systems while considering their social, political and ethical implications"
-      ],
       "learningOutcomes": [
-        "Can create a simple agent using Arduino board and sensors",
-        "Able to apply search algorithm to solve an agent-based problem",
-        "Can design, implement and assess an intelligent system for a computer vision application using supervised learning",
-        "Can design, implement and assess an intelligent system for a natural language processing application using deep neural networks",
-        "Can effectively reflect on ethical, political and social issues surrounding AI"
+        "Implement a simple intelligent agent and identify its properties",
+        "Apply search algorithm to solve an agent-based problem",
+        "Design, implement and assess an intelligent system for an AI application using supervised learning",
+        "Design, implement and assess an intelligent system for an AI application using neural networks",
+        "Evaluate the developed AI systems while considering their social, political and ethical implications"
       ]
     },
     {
