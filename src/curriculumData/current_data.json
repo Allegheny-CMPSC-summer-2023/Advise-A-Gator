@@ -606,71 +606,70 @@
       "learningObjectives": [],
       "learningOutcomes": []
     },
-    {
-      "courseNumber": "CMPSC 304",
-      "courseName": "Robotic Agents",
-      "Major": ["Informatics Major", "Computer Science Major"],
-      "Minor": ["Informatics Minor"],
-      "credits": "4",
-      "distributionRequirements": ["CL", "QR"],
-      "prerequisites": {
-        "anyof": [],
-        "allof": ["CMPSC 101", "CMPSC 102"]
+      {
+        "courseNumber": "CMPSC 304",
+        "courseName": "Robotic Agents",
+        "Major": [
+          "Informatics Major"
+        ],
+        "Minor": [
+          "Informatics Minor"
+        ],
+        "credits": "4",
+        "distributionRequirements": [
+          "CL",
+          "QR"
+        ],
+        "prerequisites": {
+          "anyof": [],
+          "allof": [
+            "CMPSC 101",
+            "CMPSC 102"
+          ]
+        },
+        "unlocks": [],
+        "courseDescription": "A study of the design and implementation of autonomous software agents and robotic systems that cooperatively complete complex tasks. In addition to examining techniques for large-scale coordination and group-based decision-making, students learn how to apply the field's technologies to address the challenges facing local and global communities. Participating in hands-on activities that often require teamwork, students develop and evaluate several multi-agent or multi-robot systems, while also reflecting on the civic issues surrounding the use of these systems. During a weekly laboratory session students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+        "cslevel": "Elective",
+        "dslevel": "",
+        "dsSub": "",
+        "inflevel": "Module",
+        "infSub": "",
+        "selevel": "",
+        "technicalTopics": [
+          "Ethical Robots", 
+          "Actuating", 
+          "Sensing", 
+          "Locomotion", 
+          "Modularity", 
+          "Navigation", 
+          "Robot Operating System", 
+          "Manipulation", 
+          "Mapping", 
+          "Learning in robotics"
+        ],
+        "professionalTopics": [
+          "community engagement", 
+          "teamwork", 
+          "code review", 
+          "ethics",
+          "demonstration"
+        ],
+        "tools": [
+          "Python",
+          "ROS",
+          "Arduino",
+          "Raspberri Pi",
+          "Sensors",
+          "Drones",
+          "GoPiGo",
+          "Turtlebot",
+          "Git",
+          "GitHub"
+        ],
+        "platform": ["https://learnroboticagents.com"],
+        "learningOutcomes": ["Design, implement, and test application for a wheeled robot", "Design, implement, and test application for a drone", 
+          "Design, implement, and test application for a robotic arm", "Develop a simple application using ROS", "Present engaging demonstrations using robots for public events"]
       },
-      "unlocks": [],
-      "courseDescription": "A study of the design and implementation of autonomous software agents and robotic systems that cooperatively complete complex tasks. In addition to examining techniques for large-scale coordination and group-based decision-making, students learn how to apply the field's technologies to address the challenges facing local and global communities. Participating in hands-on activities that often require teamwork, students develop and evaluate several multi-agent or multi-robot systems, while also reflecting on the civic issues surrounding the use of these systems. During a weekly laboratory session students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
-      "cslevel": "Elective",
-      "dslevel": "",
-      "dsSub": "",
-      "inflevel": "Module",
-      "infSub": "",
-      "selevel": "",
-      "technicalTopics": [
-        "Ethical Robots",
-        "Actuating",
-        "Sensing",
-        "Locomotion",
-        "Modularity",
-        "Navigation",
-        "Robot Operating System",
-        "Manipulation",
-        "Mapping",
-        "Learning in robotics"
-      ],
-      "professionalTopics": [
-        "community engagement",
-        "teamwork",
-        "code review",
-        "communication"
-      ],
-      "tools": [
-        "Python",
-        "ROS",
-        "Arduino",
-        "Raspberri Pi",
-        "Sensors",
-        "Drones",
-        "GoPiGo",
-        "Turtlebot",
-        "Git",
-        "GitHub"
-      ],
-      "platform": ["https://learnroboticagents.com"],
-      "learningObjectives": [
-        "Understand the field of agent-based and robotic systems",
-        "Gain exposure to multiple different robot platforms",
-        "Design and develop several robot applications",
-        "Learn about and reflect on public problems that involve robotic technology",
-        "Participate in civic engagement activities"
-      ],
-      "learningOutcomes": [
-        "Able to design, implement, and test application for a wheeled robot",
-        "Able to design, implement, and test application for a drone",
-        "Able to design, implement, and test application for a robotic arm",
-        "Can develop a simple application using ROS",
-        "Can put together engaging demonstrations using robots for public events"
-      ]
-    },
     {
       "courseNumber": "CMPSC 350",
       "courseName": "Computational Narrative",
