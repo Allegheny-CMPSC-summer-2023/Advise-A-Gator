@@ -8,6 +8,12 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+/* Import Google Fonts directly in your CSS */
+
+/* Apply the font to a custom class */
+.font-custom {
+  font-family: "Roboto", sans-serif;
+}
 
 body {
   margin: 0;

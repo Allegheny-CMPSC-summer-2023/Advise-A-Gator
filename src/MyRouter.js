@@ -19,12 +19,15 @@ export default function MyRouter() {
         <Route index element={<Home />} />
         <Route path="computersciencemajor" element={<CsMajor />} />
         <Route path="datasciencemajor" element={<DsMajor />} />
-        <Route path="softwaremajor" element={<Software />} />
+        <Route path="softwareengineeringmajor" element={<Software />} />
         <Route path="informaticsmajor" element={<InfMajor />} />
         <Route path="dashboard/computersciencemajor" element={<BoardCS />} />
         <Route path="dashboard/datasciencemajor" element={<BoardDS />} />
         <Route path="dashboard/informaticsmajor" element={<BoardINF />} />
-        <Route path="dashboard/softwaremajor" element={<BoardSE />} />
+        <Route
+          path="dashboard/softwareengineeringmajor"
+          element={<BoardSE />}
+        />
       </Route>
     </Routes>
   );

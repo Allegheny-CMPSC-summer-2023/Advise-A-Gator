@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const cardContainer = {
   display: "flex",
@@ -31,21 +32,41 @@ const cardStyle = {
   maxWidth: 500,
 };
 
+// cards for the computer science DASHBOARD
+function CSCourseCard(props) {
+  return (
+    <div class={"card card-" + props.cardNumber["cardNumber"].toString()}>
+      <div class="card__icon">
+        <i class={props.cardNumber["iconClass"]}></i>
+      </div>
+      <h2 class="card__title">
+        {props.courseNumber}: {props.courseName}
+        {console.log(props.cardNumber)}
+        {console.log(props.iconClass)}
+      </h2>
+      <p class="card__apply">
+        <a class="card__link" href="#">
+          See More <i class="fas fa-arrow-right"></i>
+        </a>
+      </p>
+    </div>
+  );
+}
+
 function CourseCard(props) {
   return (
     <div class={"card card-" + props.cardNumber["cardNumber"].toString()}>
       <div class="card__icon">
-        <i class="fas fa-bolt"></i>
+        <i class={props.cardNumber["iconClass"]}></i>
       </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
       <h2 class="card__title">
         {props.courseNumber}: {props.courseName}
+        {console.log(props.cardNumber)}
+        {console.log(props.iconClass)}
       </h2>
       <p class="card__apply">
         <a class="card__link" href="#">
-          See More<i class="fas fa-arrow-right"></i>
+          See More <i class="fas fa-arrow-right"></i>
         </a>
       </p>
     </div>
@@ -54,154 +75,17 @@ function CourseCard(props) {
 
 function FieldCard1(props) {
   return (
-    <div class="card card-1">
+    <div class={"card card-" + props.cardNumber.toString()}>
+      {" "}
       <div class="card__icon">
-        <i class="fas fa-bolt"></i>
+        <i class={props.iconClass}></i>
       </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Computer Science Major</h2>
+      <h2 class="card__title">{props.name}</h2>
       <p class="card__apply">
-        <Link to="/computersciencemajor" class="card__link">
+        <Link to={props.link} class="card__link">
           {" "}
           See Courses <i class="fas fa-arrow-right"></i>
         </Link>
-      </p>
-    </div>
-  );
-}
-
-function FieldCard2(props) {
-  return (
-    <div class="card card-2">
-      <div class="card__icon">
-        <i class="fas fa-bolt"></i>
-      </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Data Science Major</h2>
-      <p class="card__apply">
-        <Link to="/datasciencemajor" class="card__link">
-          {" "}
-          See Courses <i class="fas fa-arrow-right"></i>
-        </Link>
-      </p>
-    </div>
-  );
-}
-
-function FieldCard3(props) {
-  return (
-    <div class="card card-3">
-      <div class="card__icon">
-        <i class="fas fa-bolt"></i>
-      </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Informatics Major</h2>
-      <p class="card__apply">
-        <Link to="/informaticsmajor" class="card__link">
-          {" "}
-          See Courses <i class="fas fa-arrow-right"></i>
-        </Link>
-      </p>
-    </div>
-  );
-}
-
-function FieldCard4(props) {
-  return (
-    <div class="card card-4">
-      <div class="card__icon">
-        <i class="fas fa-bolt"></i>
-      </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Software Engineering Major</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">
-          See Courses <i class="fas fa-arrow-right"></i>
-        </a>
-      </p>
-    </div>
-  );
-}
-
-function MinorCard5(props) {
-  return (
-    <div class="card card-5">
-      <div class="card__icon">
-        <i class="fas fa-bolt"></i>
-      </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Computer Science Minor</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">
-          See Courses <i class="fas fa-arrow-right"></i>
-        </a>
-      </p>
-    </div>
-  );
-}
-
-function MinorCard6(props) {
-  return (
-    <div class="card card-3">
-      <div class="card__icon">
-        <i class="fas fa-bolt"></i>
-      </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Data Science Minor</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">
-          See Courses <i class="fas fa-arrow-right"></i>
-        </a>
-      </p>
-    </div>
-  );
-}
-
-function MinorCard7(props) {
-  return (
-    <div class="card card-2">
-      <div class="card__icon">
-        <i class="fas fa-bolt"></i>
-      </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Informatics Minor</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">
-          See Courses <i class="fas fa-arrow-right"></i>
-        </a>
-      </p>
-    </div>
-  );
-}
-
-function MinorCard8(props) {
-  return (
-    <div class="card card-1">
-      <div class="card__icon">
-        <i class="fas fa-bolt"></i>
-      </div>
-      <p class="card__exit">
-        <i class="fas fa-times"></i>
-      </p>
-      <h2 class="card__title">Software Engineering Minor</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">
-          See Courses <i class="fas fa-arrow-right"></i>
-        </a>
       </p>
     </div>
   );
@@ -209,14 +93,7 @@ function MinorCard8(props) {
 
 export {
   FieldCard1,
-  FieldCard2,
-  FieldCard3,
-  FieldCard4,
   CourseCard,
-  MinorCard5,
-  MinorCard6,
-  MinorCard7,
-  MinorCard8,
   cardContainer,
   HomePageCardContainer,
   cardStyle,

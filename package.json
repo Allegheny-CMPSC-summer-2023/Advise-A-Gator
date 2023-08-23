@@ -5,10 +5,19 @@
   "private": false,
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@popperjs/core": "^2.11.8",
 =======
     "bootstrap": "^5.3.1",
 >>>>>>> bdea8bfa8237591a0becd4acd87b27922dc54aba
+=======
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.3.1",
+    "mdb-react-ui-kit": "^6.2.0",
+>>>>>>> 26f3fce2d95d302e4d9b20366859c48730105aaf
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
