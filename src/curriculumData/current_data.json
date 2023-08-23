@@ -2507,66 +2507,66 @@
       "learningObjectives": [],
       "learningOutcomes": []
     },
-        {
-            "courseNumber": "CMPSC 303",
-            "courseName": "Artificial Intelligence",
-            "Major": ["Data Science Major", "Software Engineering Major"],
-            "Minor": ["Software Engineering Minor"],
-  
-            "credits": "4",
-            "distributionRequirements": ["QR","SP"],
-            "prerequisites": { "anyof": ["CMPSC 101","CMPSC 102"], "allof": [] },
-  
-            "unlocks": [],
-            "courseDescription": "A study of the design and implementation of intelligent computer systems that can learn, plan, and solve problems autonomously. In addition to examining techniques for designing intelligent software agents, students investigate the social, political, and ethical implications of intelligent systems. Through hands-on activities that often require team-work, students explore the application of artificial intelligence methods in areas such as computer vision, natural language processing, and video game development. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+    {
+      "courseNumber": "CMPSC 303",
+      "courseName": "Artificial Intelligence",
+      "Major": ["Data Science Major", "Software Engineering Major"],
+      "Minor": ["Software Engineering Minor"],
 
-            "cslevel": "",
-            "dslevel": "Electives",
-            "dsSub": "",
-            "inflevel": "",
-            "infSub": "",
-            "selevel": "Electives",
-  
-            "technicalTopics": [
-              "Intelligent Agents", 
-              "Search Algorithms in AI", 
-              "Knowledge and reasoning",
-              "Planning",
-              "Probabilistic reasoning",
-              "Bayes Theory", 
-              "Decision Making", 
-              "Supervised Learning", 
-              "Unsupervised Learning", 
-              "Neural Networks"
-            ],
-            "professionalTopics": [
-              "teamwork", 
-              "code review", 
-              "communication",
-              "demonstration",
-              "ethics"
-            ],
-            "tools": [
-              "Git", 
-              "GitHub", 
-              "Tensoflow", 
-              "Keras", 
-              "Python", 
-              "Google Colab", 
-              "GPT", 
-              "Docker", 
-              "OpenCV", 
-              "NLTK"
-            ],
-  
-            "platform": ["https://github.com/CMPSC-310-AI-Spring2023"],
-            "learningOutcomes": [
-              "Implement a simple intelligent agent and identify its properties", 
-              "Apply search algorithm to solve an agent-based problem", 
-              "Design, implement and assess an intelligent system for an AI application using supervised learning", 
-              "Design, implement and assess an intelligent system for an AI application using neural networks", 
-              "Evaluate the developed AI systems while considering their social, political and ethical implications"
-            ]
+      "credits": "4",
+      "distributionRequirements": ["QR", "SP"],
+      "prerequisites": { "anyof": ["CMPSC 101", "CMPSC 102"], "allof": [] },
+
+      "unlocks": [],
+      "courseDescription": "A study of the design and implementation of intelligent computer systems that can learn, plan, and solve problems autonomously. In addition to examining techniques for designing intelligent software agents, students investigate the social, political, and ethical implications of intelligent systems. Through hands-on activities that often require team-work, students explore the application of artificial intelligence methods in areas such as computer vision, natural language processing, and video game development. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions.",
+
+      "cslevel": "",
+      "dslevel": "Electives",
+      "dsSub": "",
+      "inflevel": "",
+      "infSub": "",
+      "selevel": "Electives",
+
+      "technicalTopics": [
+        "Intelligent Agents",
+        "Search Algorithms in AI",
+        "Knowledge and reasoning",
+        "Planning",
+        "Probabilistic reasoning",
+        "Bayes Theory",
+        "Decision Making",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks"
+      ],
+      "professionalTopics": [
+        "teamwork",
+        "code review",
+        "communication",
+        "demonstration",
+        "ethics"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "Tensoflow",
+        "Keras",
+        "Python",
+        "Google Colab",
+        "GPT",
+        "Docker",
+        "OpenCV",
+        "NLTK"
+      ],
+
+      "platform": ["https://github.com/CMPSC-310-AI-Spring2023"],
+      "learningOutcomes": [
+        "Implement a simple intelligent agent and identify its properties",
+        "Apply search algorithm to solve an agent-based problem",
+        "Design, implement and assess an intelligent system for an AI application using supervised learning",
+        "Design, implement and assess an intelligent system for an AI application using neural networks",
+        "Evaluate the developed AI systems while considering their social, political and ethical implications"
+      ]
     },
     {
       "courseNumber": "COMM 256",
