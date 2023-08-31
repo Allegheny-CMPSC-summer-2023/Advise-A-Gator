@@ -23,4 +23,6 @@ pip install pre-commit
 pre-commit install
 ```
 
-## Now pre-commit hooks will run automatically with git commit!
+## HOW TO RUN and see DEMO!
+
+Clone the repository and go to the root of the project and type `npm start`
