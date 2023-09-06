@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-Advise-A-Gator 🐊
+GatorAdvisor 🐊
 </h1>
 
 
