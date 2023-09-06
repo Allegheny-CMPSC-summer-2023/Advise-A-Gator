@@ -1,5 +1,6 @@
 ## Directory Structure
 
+```
 src/
 │
 ├── components/ - UI components used throughout the application
@@ -37,5 +38,6 @@ src/
 ├── App.js - Main application component
 ├── MyRouter.js - Router setup for the application
 └── index.js - Entry point for the application
+```
 
 ### Goodluck Allegheny Gator Developers! - Tugi
