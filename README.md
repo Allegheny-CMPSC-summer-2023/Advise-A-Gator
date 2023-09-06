@@ -4,11 +4,9 @@
   </a>
 </p>
 <h1 align="center">
-  Gator Planner
+Advise-A-Gator 🐊
 </h1>
 
-
-# Advise-A-Gator 🐊
 
 ## Overview
 
